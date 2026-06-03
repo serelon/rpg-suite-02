@@ -50,6 +50,10 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0023-event-bus-orchestrator]] | pattern | aegis-tools | Thin core emits time events; self-registering modules subscribe — decoupled, pluggable. |
+| [[0022-reference-vs-state-data-driven-types]] | pattern | aegis-tools | Rulebook (reference) vs savegame (state); types are runtime-editable data, lore grows in play. |
+| [[0021-data-required-as-prompt]] | pattern | aegis-tools | Missing data halts and prompts the GM to author it (exit 2), never crashes or fabricates. |
+| [[0020-observed-vs-actual]] | pattern | aegis-tools | Model fog-of-war as data: parallel observed (known) vs actual (true) field sets. |
 | [[0019-companion-rationale-as-anti-regression]] | pattern | claude-desktop | Ship a "why" doc with each artifact so future edits don't re-poison it back toward the norm. |
 | [[0018-layered-skill-architecture]] | pattern | claude-desktop | Split craft skill ⟂ mechanics module ⟂ tools ⟂ bundle data; each owns one concern. |
 | [[0017-recap-as-verification]] | pattern | claude-desktop | Reframe resume-recap as a checkpoint that verifies state survived compaction; gaps aim tuning. |
