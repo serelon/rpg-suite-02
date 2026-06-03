@@ -50,6 +50,13 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0019-companion-rationale-as-anti-regression]] | pattern | claude-desktop | Ship a "why" doc with each artifact so future edits don't re-poison it back toward the norm. |
+| [[0018-layered-skill-architecture]] | pattern | claude-desktop | Split craft skill ⟂ mechanics module ⟂ tools ⟂ bundle data; each owns one concern. |
+| [[0017-recap-as-verification]] | pattern | claude-desktop | Reframe resume-recap as a checkpoint that verifies state survived compaction; gaps aim tuning. |
+| [[0016-thinking-as-enforcement]] | pattern | claude-desktop | A skill only fires if a pre-commit thinking check interrupts the trained reflex; heavy but genuine. |
+| [[0015-compounding-loops]] | pattern | claude-desktop | Failure family: small misread reinforces itself turn-over-turn; cure = target tempo, not gradient. |
+| [[0014-scope-stripping]] | pattern | claude-desktop | Failure family: narrow-true things go global (always/never flattening; temporary→permanent). |
+| [[0013-counter-training-name-the-default]] | pattern | claude-desktop | Author counter-default rules as default-pull + correction + why, so intent survives context load. |
 | [[0012-intelligence-in-scaffolding]] | idea | sillytavern | Compile craft into scaffolding so small/local models only need fluent in-voice continuation. |
 | [[0011-identity-pinned-state-evicted]] | pattern | sillytavern | Pin always-true identity in context; push time-bound state to an updatable/evictable layer. |
 | [[0010-docs-as-code-context-compiler]] | idea | sillytavern | Compile context per-beat from tagged frontmatter (build target), not fuzzy RAG over a pile. |
@@ -75,6 +82,7 @@ that link back. See `docs/README.md` → "Design-notes".
 | Doc | Atomized into | One-line |
 |-----|---------------|----------|
 | [[sample-book]] | notes 0005–0012 | Steer voice by demonstration via a (scene-type × register) exemplar grid; the voice-layer of a docs-as-code context architecture. |
+| [[gm-skill]] (+ [[gm-skill-SKILL]], [[gm-skill-RATIONALE]]) | notes 0013–0019 (meta layer) | Working Claude Desktop GM skill + its anti-regression rationale doc. Craft layer preserved, not yet atomized. |
 
 ## Themes (synthesis — grows later)
 
