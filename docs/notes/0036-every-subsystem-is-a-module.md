@@ -7,7 +7,7 @@ tags:
   - theme/knowledge-layer
   - theme/single-source-of-truth
   - maturity/seed
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -51,3 +51,5 @@ live *inside/through* modules rather than forking them — campaigns *extend*, d
 Does the legitimate split (schema vs extraction-philosophy) just mean *two docs inside the one
 memory module*, not two repos? Migration: how to detangle the current copies. Strong
 `kind/decision` candidate — possibly the spine.
+
+**Verdict.** `adopt` — core principle. Carry the module-itis caution: a module must earn its ceremony (dice=thin, memories=suite). *(appraised 2026-06-03)*

@@ -6,7 +6,7 @@ tags:
   - theme/self-evolution
   - theme/exceptions
   - maturity/seed
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -44,3 +44,5 @@ migration eager or lazy (on next touch)? How does migration **preserve intention
 against other campaigns? Relationship between a campaign's spec-version and the versions of the
 *modules* it uses. Could the same machinery migrate *modules* and *workflows*, not just
 campaigns?
+
+**Verdict.** `adopt` — necessary consequence of 0041 at fleet scale; never force lockstep migration. *(appraised 2026-06-03)*

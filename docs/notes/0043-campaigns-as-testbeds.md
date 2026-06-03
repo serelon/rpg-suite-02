@@ -7,7 +7,7 @@ tags:
   - theme/experimentation
   - theme/extensions
   - maturity/growing
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -49,3 +49,5 @@ findability, [[0031-beware-transient-constraint-architecture]] durable-vs-transi
 promotion mean *becomes spec default* (`0041`), *becomes a module* (`0036`), or *becomes an
 optional extension* (`0024`)? Who curates — human, or agent-proposed behind
 [[0028-checkpointed-human-gates]]?
+
+**Verdict.** `adopt` — closes the self-evolution loop; the graduation mechanism is still owed. *(appraised 2026-06-03)*

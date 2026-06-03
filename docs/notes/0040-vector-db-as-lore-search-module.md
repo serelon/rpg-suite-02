@@ -8,7 +8,7 @@ tags:
   - theme/memory-architecture
   - theme/context-economy
   - maturity/seed
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -45,3 +45,5 @@ lore-search a **layer over the memory module** or its own module — and where's
 entity-registry/disambiguation patterns (still unmined) likely belong to this module. Re-test
 against [[0031-beware-transient-constraint-architecture]]: with 1M context, is full-history
 *search* still needed, or does more just fit? (Likely yes — total history ≫ any window.)
+
+**Verdict.** `adopt` (user: "likely-adopt") — resurrection intended for the lore-search role; scope, sync path, and campaign-isolation specifics still open. *(appraised 2026-06-03)*

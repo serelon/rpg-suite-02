@@ -7,7 +7,7 @@ tags:
   - theme/extensions
   - theme/rules-engine
   - maturity/seed
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -41,3 +41,5 @@ a module to bind to (events? state? the context build? the turn loop)? Can a mod
 "the always-present zero-module baseline"? Granularity: one big module (aegis) vs. many small
 ones (a wounds module, a faction-clock module) composed together? Strong candidate to become a
 `kind/decision` once the contract is sketched.
+
+**Verdict.** `adopt` — subsumed by [[0036-every-subsystem-is-a-module]] as the engine-scale case; kept as the slot's proof-of-need. *(appraised 2026-06-03)*

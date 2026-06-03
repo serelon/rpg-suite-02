@@ -6,7 +6,7 @@ tags:
   - theme/extensions
   - theme/packaging
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/undecided
 created: 2026-06-03
 ---
 
@@ -41,3 +41,5 @@ open thread) and the layering ([[0018-layered-skill-architecture]]).
 `calendars` module…)? Do instruments and subsystems even live in the *same* module system, or
 two tiers? Does read-anywhere/write-canonical ([[0002-read-anywhere-write-canonical]], which
 *is* `discovery`+`persistence`) become a platform guarantee rather than a per-module behavior?
+
+**Verdict.** `undecided` — genuinely unresolved fork (foundation module / vendored / host-owned); decide together with the module contract. *(appraised 2026-06-03)*

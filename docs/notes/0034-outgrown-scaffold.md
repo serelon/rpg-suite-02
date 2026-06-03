@@ -7,7 +7,7 @@ tags:
   - theme/scaffold
   - theme/workflow
   - maturity/growing
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -65,3 +65,5 @@ declarative spine and losing the legibility of "just read this file"? Strong
 `kind/decision` candidate. Also: re-test against [[0031-beware-transient-constraint-architecture]]
 — is any of the bloat actually a context-era workaround, or is it genuine composition debt?
 (Mostly the latter.)
+
+**Verdict.** `adopt` — confirmed diagnosis (the memory-guide fork is the smoking gun); the problem statement the architecture must solve. *(appraised 2026-06-03)*

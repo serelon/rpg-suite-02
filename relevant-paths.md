@@ -55,7 +55,8 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
-| [[0044-scenario-compiler]] | idea | new | The refer-back mechanism: a universal build process — modules as sources, spec as target, scenarios compiled. |
+| [[0045-runtime-composition-briefing-py]] | idea | new | Runtime composition: executable `briefing.py` with inline tool calls instead of static briefing.md. |
+| [[0044-scenario-compiler]] | idea | new | The refer-back mechanism: a universal build process — modules as sources, spec as target, scenarios compiled. ✅adopt |
 | [[0043-campaigns-as-testbeds]] | idea | new | Every campaign is an architectural experiment; proven experiments graduate into the spec — the upward arm of self-evolution. |
 | [[0042-async-fleet-migration]] | idea | new | Campaigns upgrade to the current spec independently, not lockstep; separates intentional exceptions from stale drift. |
 | [[0041-self-evolving-versioned-spec]] | idea | new | **North-star (4th):** self-evolving system governed by a single versioned canonical spec — kills "go look at campaign A" folklore. |

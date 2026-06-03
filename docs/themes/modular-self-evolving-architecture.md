@@ -6,8 +6,9 @@ tags:
   - theme/self-evolution
   - theme/architecture
   - maturity/growing
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
+appraised: 2026-06-03
 synthesizes:
   - "[[0034-outgrown-scaffold]]"
   - "[[0036-every-subsystem-is-a-module]]"
@@ -26,9 +27,9 @@ synthesizes:
 
 # Modularity, Single Source of Truth, and the Self-Evolution Loop
 
-> **First synthesis doc.** Gathers the densest cluster in the vault into one stated thesis.
-> The underlying notes are still `verdict/unevaluated` — this is *what the research is
-> pointing at*, not a ratified decision. It exists to be pressure-tested in appraisal.
+> **First synthesis doc — appraised 2026-06-03, verdict: adopt.** The thesis was ratified by
+> the user ("yes, that holds"); cluster notes carry individual verdicts (0038 stays
+> `undecided`). See the Appraisal record at the bottom for the pushback exchanged.
 
 ## The thesis (what we believe so far)
 
@@ -116,3 +117,23 @@ surface, subsystem, extension, and convention respectively.
   ([[0028-checkpointed-human-gates]]) and anti-regression ([[0019-companion-rationale-as-anti-regression]]).
 - **The transient-constraint test** ([[0031-beware-transient-constraint-architecture]]) — re-run
   on every claim here before enshrining it.
+
+## Appraisal record (2026-06-03)
+
+**User's read:** thesis holds. The refer-back mechanism is a **scenario compiler**
+([[0044-scenario-compiler]]) — "like the bundler, but bigger; a compiler, except we compile
+RPG scenarios" — with a possible **runtime mode**: executable `briefing.py` with inline tool
+calls instead of static `briefing.md` ([[0045-runtime-composition-briefing-py]]).
+
+**Assistant's pushback (accepted into the record):**
+1. The compiler is the next monolith waiting to happen — modules declare, compiler only resolves.
+2. **Version skew** (campaign@spec-v3 × module@v5 × skill@v4) is the unowned hard problem.
+3. The thesis is all skeleton, no flesh — voice/craft/runtime context-economy are a second
+   pillar; `context-economy` should be the next theme promotion.
+4. Module-itis: per-module ceremony × N is real cost; modules must earn their ceremony.
+5. (Withdrawn after counter-pushback) "evolve bundle.py" — user: bundle.py is wonky-ish; the
+   build-path decision **waits for a bundle.py flaw audit**.
+
+**Verdicts recorded:** adopt — 0024, 0034, 0036, 0039, 0040 ("likely-adopt"), 0041, 0042,
+0043, 0044 (as direction). Undecided — 0038 (shared infra). New work owed: bundle.py audit,
+version-skew note, graduation mechanism, module contract.

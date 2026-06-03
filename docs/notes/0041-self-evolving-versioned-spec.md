@@ -6,7 +6,7 @@ tags:
   - theme/self-evolution
   - theme/single-source-of-truth
   - maturity/seed
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -46,3 +46,5 @@ behind review gates? How is the spec expressed — a template, a schema, a "camp
 reference, a module? How is it versioned, and how does a self-evolving spec avoid regression
 ([[0031-beware-transient-constraint-architecture]] is one guardrail: distinguish durable from
 transient before enshrining it)? Strong `kind/decision` candidate.
+
+**Verdict.** `adopt` — with the drift-risk caveat: self-evolution leans on review gates (0028) and anti-regression rationale docs (0019). *(appraised 2026-06-03)*

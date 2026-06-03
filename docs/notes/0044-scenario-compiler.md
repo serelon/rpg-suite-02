@@ -6,7 +6,7 @@ tags:
   - theme/architecture
   - theme/single-source-of-truth
   - maturity/seed
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -38,7 +38,14 @@ needs; modules declare what they provide; the compiler binds them
   control: modules carry declarative manifests; the compiler only resolves.
 - **Version skew is the hard problem.** Campaign on spec v3, memory module v5, bound skill
   pinned to v4 — what does the compiler do? Nobody owns this yet.
-- **Incremental path:** evolve `bundle.py` into it (it already half-exists) vs. greenfield —
-  [[0031-beware-transient-constraint-architecture]] argues for the former.
+- **Build path: deliberately undecided.** I argued `0031` favors evolving `bundle.py`; the
+  user pushed back: bundle.py is "wonky-ish — works, works well, but has flaws," and the
+  evolve-vs-greenfield call should wait for a **detailed analysis of those flaws**. Owed: a
+  bundle.py audit note before this decision.
 - **What's the compilation unit** — a session bundle? a beat ([[0009-jit-context-and-eviction]])?
   a briefing? Possibly all three (build targets).
+- **Two delivery modes:** compile-time (static bundle) *and* runtime — an executable
+  `briefing.py` with inline tool calls ([[0045-runtime-composition-briefing-py]]). The
+  precompiled-vs-JIT split, again ([[sample-book]] §1).
+
+**Verdict.** `adopt` (as direction) — right shape for refer-back. Contract + version-skew unsolved; build-path (evolve bundle.py vs greenfield) deliberately undecided pending a bundle.py flaw audit. *(appraised 2026-06-03)*
