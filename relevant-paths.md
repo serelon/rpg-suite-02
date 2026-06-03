@@ -27,6 +27,18 @@ Update this whenever a new source surfaces or a new note is written.
 - **`../solorpg/campaigns/*/memories/`** — the campaign-memory JSON corpus (the data the
   memory tooling operates on). Data, not patterns — mine for *schema/workflow*, not lore.
 
+### Frontends / external systems (targets, not core — also minable for patterns)
+
+These are *surfaces the core might bind to*, per the frontend-agnostic aim
+([[0004-frontend-agnostic-core]]) — not part of the core, but relevant.
+
+| System | Relevance |
+|--------|-----------|
+| **Claude Desktop** | Primary target frontend; the `.skill` bundle workflow already targets it. |
+| **Claude Code** | Want to be able to play here too (where we are now). |
+| **reverse-mcp-rpg** | The user's own live-UI frontend (also a source above). |
+| **SillyTavern** | A completely separate, isolated suite (character-card / chat frontend). Radical idea: bind the core to it too. Different paradigm — stress-tests how far agnosticism stretches. |
+
 > More sources will surface over time (the user expects undiscovered folders). Add a row when they do.
 > **Note:** data and tools are often split across folders (e.g. `E:\rpg` ↔ `E:\campaigns`). When a tool repo appears, look for its separate data-store.
 
@@ -38,6 +50,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0004-frontend-agnostic-core]] | idea | new/cross | North-star: a frontend-agnostic core that factors into Claude Desktop, Claude Code, reverse-mcp, SillyTavern… |
 | [[0003-scope-memories-to-context]] | pattern | solorpg | Scope every memory to campaign/branch/character or it degrades into soup at scale. |
 | [[0002-read-anywhere-write-canonical]] | pattern | rpg-tools | Tools read merged data from many locations, write only to a canonical path. |
 | [[0001-tiered-progressive-loading]] | pattern | rpg-tools | Load minimal profiles by default; deepen on demand to protect context budget. |
