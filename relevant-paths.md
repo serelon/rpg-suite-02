@@ -65,6 +65,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0052-evolution-vs-drift]] | idea | solorpg | Curation gates are canon *defense*: gated changes = evolution, uncurated divergence = drift, retconned back. Drift can eat whole settings. |
 | [[0051-live-context-delta]] | idea | new | Bundles get patched *mid-session*; the running session must ingest just the delta, never a reload. Inter-session diffs already solved via git/PRs. |
 | [[0050-built-never-used-inventory]] | question | rpg-tools | campaign.py built & never used; sweep rpg-tools for other shipped-but-dormant patterns before trusting their docs. |
 | [[0049-disposable-bootstrap-primer]] | pattern | rpg-tools | Session-01-primer is scaffolding with declared expiry — consumed into data files after play. |
