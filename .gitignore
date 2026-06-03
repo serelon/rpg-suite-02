@@ -1,0 +1,16 @@
+# Obsidian — keep config/plugins, drop per-machine workspace + cache
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python (for when tooling lands)
+__pycache__/
+*.pyc
+.venv/
+venv/
