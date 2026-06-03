@@ -6,8 +6,7 @@
 > batch (0046–0050 — captured, parked at user's request), bundle.py flaw audit (gates the
 > compiler build-path), version-skew note, graduation mechanism, module contract (resolves 0038),
 > re-read 0034 to settle the dropped 0049 linkage.
-> Unmined veins: **rpg-tools built-never-used sweep (0050 lead)**, **style palette + lingo
-> files (0053/0054 leads — location unknown)**, **postprocess verbatim-rewrite audit (0054)**,
+> Unmined veins: **rpg-tools built-never-used sweep (0050 lead)**, **postprocess verbatim-rewrite audit (0054)**,
 > E:\rpg entity-registry → lore-search (0040), gm-skill craft layer, Tarot Tales,
 > solorpg workshop handoff seam, guide-drift mapping.
 
@@ -66,6 +65,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0055-register-anchor-banks]] | pattern | solorpg | Texture bank (harvested) + living dictionary (workshopped) anchor the *world's voice*; sample-book grid living in production. |
 | [[0054-verbatim-capture-lost-intent]] | pattern | solorpg | Postprocessor rewrites scenes meant to be verbatim copies — workflow drifted from its own spec; suspected style-drift source. |
 | [[0053-anchor-hierarchy-voice-keystone]] | pattern | tarot-tales/solorpg | Drift anchors learned one at a time: description failed, voice samples worked. Characters first; world after. |
 | [[0052-evolution-vs-drift]] | idea | solorpg | Curation gates are canon *defense*: gated changes = evolution, uncurated divergence = drift, retconned back. Drift can eat whole settings. |
