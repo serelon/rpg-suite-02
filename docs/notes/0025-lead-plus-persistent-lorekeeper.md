@@ -5,12 +5,20 @@ tags:
   - theme/agent-architecture
   - theme/workflow
   - theme/context-economy
-  - maturity/proven
+  - maturity/obsolete
   - verdict/unevaluated
 created: 2026-06-03
 ---
 
 # Lead + persistent Lorekeeper — separate the source-holder from the orchestrator
+
+> **⚠️ OBSOLETE (per user).** This whole multi-agent split existed *only* to fit session
+> data into a **165k** context window. Once the window grew to **1M**, fitting all the
+> session data in a single context became trivial, and both v1 (subagent) and v2 (team) were
+> obsoleted. Kept as a case study, not a recommendation — it's the worked example behind
+> [[0031-beware-transient-constraint-architecture]]. The *residual* question (does the
+> source-holder ⟂ orchestrator role-split have value *independent* of the context limit?) is
+> the only live part — see Open threads.
 
 **What it is.** The v2 postprocess workflow splits roles across two agents: a **Lorekeeper**
 that reads *all* raw session chunks into context and **stays alive**, and a **Lead** that
@@ -31,7 +39,8 @@ with the `gm-skill` Lead/tools split ([[0018-layered-skill-architecture]]) and t
 reader/drafter division of labor. Persistence-for-reuse is a context-economy win
 ([[0009-jit-context-and-eviction]]: load once, serve many).
 
-**Open threads.** Long sessions exceed one Lorekeeper's context → it splits into Early/Late
-Lorekeepers (sharding the source). Who owns the routing? Cost of keeping agents alive vs.
-reload. Does this generalize to play (a live Lorekeeper during a session, not just
-postprocess)?
+**Open threads (the only live ones).** Strip away the context-fitting motive: does the
+**source-holder ⟂ orchestrator** separation still earn its keep — for *parallelism*, for a
+*clean role/permission boundary*, or for *persistence-for-reuse* across prep — even when all
+the data fits in one window? Or is single-context now strictly simpler and better? That's the
+verdict-time question. (The Early/Late sharding and routing concerns are dead with 1M.)
