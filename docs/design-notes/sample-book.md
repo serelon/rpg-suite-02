@@ -1,3 +1,31 @@
+---
+tags:
+  - kind/design-note
+  - source/new
+  - source/sillytavern
+  - theme/voice-register
+  - theme/context-architecture
+  - theme/docs-as-code
+  - theme/small-models
+  - maturity/growing
+  - verdict/unevaluated
+created: 2026-06-03
+origin: inbox/sample-book-design-notes.md
+atomized-into:
+  - "[[0005-exemplars-over-instructions]]"
+  - "[[0006-sample-book-grid]]"
+  - "[[0007-harvest-vs-workshop]]"
+  - "[[0008-form-is-the-lesson]]"
+  - "[[0009-jit-context-and-eviction]]"
+  - "[[0010-docs-as-code-context-compiler]]"
+  - "[[0011-identity-pinned-state-evicted]]"
+  - "[[0012-intelligence-in-scaffolding]]"
+---
+
+> **Preserved design-note (verbatim).** This is a primary source — the user's own design
+> thinking. Its distinct ideas are extracted as atomic notes (see `atomized-into` above);
+> this file keeps the full argument and voice intact. Appraise the atomic notes; cite this.
+
 # Design Notes — The Sample Book (Style-Library Feature)
 
 *Captured June 2026, from the SillyTavern / "Gleaners" session. These are the transferable principles for the next-gen RPG framework — not the campaign-specific build. The Gleaners work (card `mes_example`, the worldbook register-directive, the PTSD-doc-as-violence-key story) was effectively a hand-built prototype of the feature described here.*

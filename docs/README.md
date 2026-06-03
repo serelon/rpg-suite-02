@@ -13,10 +13,30 @@ expensive to reorganize. Re-slicing happens by retagging and querying, not by mo
 relevant-paths.md   # living index (repo root): source repos + every note
 docs/
   notes/            # atomic captures — ONE idea/pattern/workflow/question per file
+  design-notes/     # rich multi-idea docs, preserved verbatim (see below)
   themes/           # synthesis docs — written later, when a tag earns its keep
   README.md         # this file
+inbox/              # drag-and-drop queue for unprocessed material (repo root)
 ROADMAP.md          # placeholder; populated when notes mature (repo root)
 ```
+
+## Design-notes (rich multi-idea docs)
+
+Some inputs are already-polished, multi-idea documents — the user's own design thinking, or
+a **companion "why" doc** that explains the rationale behind a built artifact (a skill, a
+tool). Don't shred these into the void: they're *primary sources* with voice and argument
+worth keeping whole.
+
+**Hybrid handling:**
+1. Preserve the doc **verbatim** in `docs/design-notes/<slug>.md`, adding tag frontmatter
+   plus `origin:` (where it came from) and `atomized-into:` (the notes extracted from it).
+2. Extract its distinct transferable ideas as atomic `notes/`, each linking back with
+   `[[<design-note>]]`. Appraise the *atomic notes*; the design-note is the citation.
+3. Tag design-notes `kind/design-note`. They still carry one `verdict/` for the doc overall.
+
+**Companion docs are a first-class artifact.** When a built thing (skill/tool/prototype)
+ships with a doc explaining *why* it's designed that way, that doc is high-value research
+input — capture it here. (The idea of *writing* such companion docs is itself worth a note.)
 
 ## Notes
 
@@ -31,7 +51,7 @@ ROADMAP.md          # placeholder; populated when notes mature (repo root)
 
 Tags are **hierarchical** (Obsidian nests them under `/` in the tag pane). Use these axes:
 
-- `kind/` — `pattern` · `idea` · `workflow` · `question` · `decision`
+- `kind/` — `pattern` · `idea` · `workflow` · `question` · `decision` · `design-note`
 - `source/` — `rpg-tools` · `solorpg` · `aegis-tools` · `old-erpg` · `tarot-tales` · `new` · `cross`
 - `theme/` — free-growing (`theme/context-economy`, `theme/bundling`, …). Coin new ones freely.
 - `maturity/` — how proven **in its source**: `seed` · `growing` · `proven` · `obsolete`

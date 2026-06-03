@@ -50,6 +50,14 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0012-intelligence-in-scaffolding]] | idea | sillytavern | Compile craft into scaffolding so small/local models only need fluent in-voice continuation. |
+| [[0011-identity-pinned-state-evicted]] | pattern | sillytavern | Pin always-true identity in context; push time-bound state to an updatable/evictable layer. |
+| [[0010-docs-as-code-context-compiler]] | idea | sillytavern | Compile context per-beat from tagged frontmatter (build target), not fuzzy RAG over a pile. |
+| [[0009-jit-context-and-eviction]] | idea | sillytavern | Eviction (not retrieval) is the underbuilt half; beats are eviction boundaries; pacing=context. |
+| [[0008-form-is-the-lesson]] | pattern | sillytavern | An example teaches its method, not subject; plainness can only be keyed by plain text. |
+| [[0007-harvest-vs-workshop]] | pattern | sillytavern | Grow easy cells from clipped play, hand-seed hard ones (bootstrapping deadlock); findability first. |
+| [[0006-sample-book-grid]] | idea | sillytavern | A (scene-type × register) grid of worked voice exemplars; precompiled or JIT. |
+| [[0005-exemplars-over-instructions]] | pattern | sillytavern | Register is tacit; steer voice by demonstration, not specification — "like this" > rules. |
 | [[0004-frontend-agnostic-core]] | idea | new/cross | North-star: a frontend-agnostic core that factors into Claude Desktop, Claude Code, reverse-mcp, SillyTavern… |
 | [[0003-scope-memories-to-context]] | pattern | solorpg | Scope every memory to campaign/branch/character or it degrades into soup at scale. |
 | [[0002-read-anywhere-write-canonical]] | pattern | rpg-tools | Tools read merged data from many locations, write only to a canonical path. |
@@ -57,6 +65,16 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0000-note-template]] | — | — | Copy this to start a new note. |
 
 ---
+
+## Design-notes (preserved long-form sources)
+
+Rich, multi-idea docs (the user's own design thinking, companion/"why" docs) are kept
+**verbatim** in `docs/design-notes/`, with their distinct ideas extracted as atomic notes
+that link back. See `docs/README.md` → "Design-notes".
+
+| Doc | Atomized into | One-line |
+|-----|---------------|----------|
+| [[sample-book]] | notes 0005–0012 | Steer voice by demonstration via a (scene-type × register) exemplar grid; the voice-layer of a docs-as-code context architecture. |
 
 ## Themes (synthesis — grows later)
 
