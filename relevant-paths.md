@@ -109,7 +109,11 @@ that link back. See `docs/README.md` → "Design-notes".
 | [[gm-skill]] (+ [[gm-skill-SKILL]], [[gm-skill-RATIONALE]]) | notes 0013–0019 (meta layer) | Working Claude Desktop GM skill + its anti-regression rationale doc. Craft layer preserved, not yet atomized. |
 | [[session-postprocess]] (+ [[session-postprocess-SKILL]]) | notes 0033–0035 (+0028/0030/0032) | The flagship live workflow. Headline lesson: outgrown scaffold / knowledge-composition bottleneck. |
 
-## Themes (synthesis — grows later)
+## Themes (synthesis)
 
 Themes start life as `theme/*` tags on notes. When a tag earns enough mass, it
-graduates into a synthesis doc in `docs/themes/`. None promoted yet.
+graduates into a synthesis doc in `docs/themes/`.
+
+| Theme doc | Synthesizes | Thesis |
+|-----------|-------------|--------|
+| [[modular-self-evolving-architecture]] | 0034·0036·0024·0037·0038·0039·0040·0041·0042·0043 (+0010·0033·0026) | One home per concern; refer back & compose, don't fork; evolve by graduating campaign experiments into a versioned spec. |
