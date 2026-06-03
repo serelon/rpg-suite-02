@@ -55,7 +55,8 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
-| [[0031-beware-transient-constraint-architecture]] | pattern | solorpg/new | Don't architect around transient model limits; the multi-agent postprocess died when 165k→1M. |
+| [[0032-preprocessing-token-hygiene]] | pattern | solorpg | Strip junk tokens before reading (durable); chunking-to-fit-read-limit is the transient shell. |
+| [[0031-beware-transient-constraint-architecture]] | pattern | solorpg/new | Don't architect around transient model limits; the v2 team split died when 165k→1M (v1 lives on). |
 | [[0025-lead-plus-persistent-lorekeeper]] | pattern ⚠️obsolete | solorpg | Persistent source-holder + thin orchestrator. **Obsolete:** existed only to fit 165k; 1M killed it. |
 | [[0024-pluggable-extension-modules]] | idea | new/aegis-tools | **North-star:** freeform core that can slot in a whole rules-engine module (aegis-scale) when wanted. |
 | [[0023-event-bus-orchestrator]] | pattern | aegis-tools | Thin core emits time events; self-registering modules subscribe — decoupled, pluggable. |

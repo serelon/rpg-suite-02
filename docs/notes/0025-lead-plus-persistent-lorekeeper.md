@@ -14,8 +14,10 @@ created: 2026-06-03
 
 > **⚠️ OBSOLETE (per user).** This whole multi-agent split existed *only* to fit session
 > data into a **165k** context window. Once the window grew to **1M**, fitting all the
-> session data in a single context became trivial, and both v1 (subagent) and v2 (team) were
-> obsoleted. Kept as a case study, not a recommendation — it's the worked example behind
+> session data in a single context became trivial, and **the v2 team split was obsoleted**.
+> (The single-agent **session-postprocess (v1)** skill remains the constantly-used workhorse —
+> it was *this multi-agent topology*, not postprocessing itself, that died.) Kept as a case
+> study, not a recommendation — it's the worked example behind
 > [[0031-beware-transient-constraint-architecture]]. The *residual* question (does the
 > source-holder ⟂ orchestrator role-split have value *independent* of the context limit?) is
 > the only live part — see Open threads.
