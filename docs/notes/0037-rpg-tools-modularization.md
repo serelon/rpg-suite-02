@@ -39,7 +39,9 @@ Three findings:
   `allowedTools`-scoped extraction skill bound to the character subsystem) and
   `skills/next-scene.md` (a workflow skill) exist *inside* rpg-tools. And `next-scene`
   literally says **"use the dice skill if available"** — a live, embryonic example of the
-  `0036` **refer-back contract** (one module referencing another, not copying it).
+  `0036` **refer-back contract** (one module referencing another, not copying it). *(Caveat
+  per user: next-scene is a small, as-yet-untested trick — illustrative of the contract, not
+  proof of a mature pattern.)*
 
 **Why it matters for next-gen.** This is **`0036` made concrete on the toolbox** — the first
 real migration target and proving ground for the module principle. The "memory module" of
