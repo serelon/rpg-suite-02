@@ -51,7 +51,7 @@ input — capture it here. (The idea of *writing* such companion docs is itself 
 
 Tags are **hierarchical** (Obsidian nests them under `/` in the tag pane). Use these axes:
 
-- `kind/` — `pattern` · `idea` · `workflow` · `question` · `decision` · `design-note`
+- `kind/` — `pattern` · `idea` · `workflow` · `question` · `decision` · `design-note` · `reference` (a catalogue/taxonomy note)
 - `source/` — `rpg-tools` · `solorpg` · `aegis-tools` · `old-erpg` · `tarot-tales` · `reverse-mcp` · `claude-desktop` · `sillytavern` · `new` · `cross` (`new` = the user's own fresh design thinking; frontend names tag patterns observed in / aimed at that surface)
 - `theme/` — free-growing (`theme/context-economy`, `theme/bundling`, …). Coin new ones freely.
 - `maturity/` — how proven **in its source**: `seed` · `growing` · `proven` · `obsolete`

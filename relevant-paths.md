@@ -50,6 +50,12 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0030-summary-as-compression]] | pattern | solorpg | Summaries = forward-looking state, "will it matter in 10 sessions?"; texture evicted to memories. |
+| [[0029-information-boundary-enforcement]] | question | solorpg | Unmet need: secrets must not leak across POVs/saves; currently prose-only, no checkpoint. |
+| [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
+| [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
+| [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0025-lead-plus-persistent-lorekeeper]] | pattern | solorpg | Persistent source-holder agent + thin orchestrator; query raw source, never a lossy report. |
 | [[0024-pluggable-extension-modules]] | idea | new/aegis-tools | **North-star:** freeform core that can slot in a whole rules-engine module (aegis-scale) when wanted. |
 | [[0023-event-bus-orchestrator]] | pattern | aegis-tools | Thin core emits time events; self-registering modules subscribe — decoupled, pluggable. |
 | [[0022-reference-vs-state-data-driven-types]] | pattern | aegis-tools | Rulebook (reference) vs savegame (state); types are runtime-editable data, lore grows in play. |
