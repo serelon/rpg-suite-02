@@ -1,5 +1,13 @@
 # Relevant Paths & Index
 
+> **Status (2026-06-03):** 45 notes (9 adopted, 1 undecided, 1 obsolete, rest unevaluated),
+> 5 preserved design-notes, first theme promoted **and appraised** ([[modular-self-evolving-architecture]]).
+> Four north-stars: 0004 · 0024 · 0036 · 0041. **Work owed:** bundle.py flaw audit (gates the
+> compiler build-path), version-skew note, graduation mechanism, module contract (resolves 0038).
+> **Next session: back to mining** (user's call — light gathering, not heavy synthesis).
+> Unmined veins: E:\rpg entity-registry → lore-search (0040), gm-skill craft layer, Tarot Tales,
+> solorpg campaign-setup/workshop skills, guide-drift mapping.
+
 Living index for the research/speculation phase. Two jobs: (1) catalogue the **source
 repos** we mine for patterns, (2) index every **note** we capture in `docs/notes/`.
 
