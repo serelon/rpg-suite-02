@@ -1,12 +1,14 @@
 # Relevant Paths & Index
 
-> **Status (2026-06-03):** 45 notes (9 adopted, 1 undecided, 1 obsolete, rest unevaluated),
+> **Status (2026-06-03b):** 50 notes (9 adopted, 1 undecided, 1 obsolete, rest unevaluated),
 > 5 preserved design-notes, first theme promoted **and appraised** ([[modular-self-evolving-architecture]]).
-> Four north-stars: 0004 · 0024 · 0036 · 0041. **Work owed:** bundle.py flaw audit (gates the
-> compiler build-path), version-skew note, graduation mechanism, module contract (resolves 0038).
-> **Next session: back to mining** (user's call — light gathering, not heavy synthesis).
-> Unmined veins: E:\rpg entity-registry → lore-search (0040), gm-skill craft layer, Tarot Tales,
-> solorpg campaign-setup/workshop skills, guide-drift mapping.
+> Four north-stars: 0004 · 0024 · 0036 · 0041. **Work owed:** appraise the campaign-setup
+> batch (0046–0050 — captured, parked at user's request), bundle.py flaw audit (gates the
+> compiler build-path), version-skew note, graduation mechanism, module contract (resolves 0038),
+> re-read 0034 to settle the dropped 0049 linkage.
+> Unmined veins: **rpg-tools built-never-used sweep (0050 lead)**, E:\rpg entity-registry →
+> lore-search (0040), gm-skill craft layer, Tarot Tales, solorpg workshop handoff seam,
+> guide-drift mapping.
 
 Living index for the research/speculation phase. Two jobs: (1) catalogue the **source
 repos** we mine for patterns, (2) index every **note** we capture in `docs/notes/`.
@@ -63,6 +65,11 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0050-built-never-used-inventory]] | question | rpg-tools | campaign.py built & never used; sweep rpg-tools for other shipped-but-dormant patterns before trusting their docs. |
+| [[0049-disposable-bootstrap-primer]] | pattern | rpg-tools | Session-01-primer is scaffolding with declared expiry — consumed into data files after play. |
+| [[0048-canon-precedence-and-naming-is-permission]] | pattern | solorpg | Naming a campaign = permission to load; primers are design intent, not canon, once play exists. |
+| [[0047-multi-axis-data-management]] | idea | solorpg | Campaign/branch/subsetting are *axes*, not a fixed tree; per-era/per-character plausible next; The Silence is the proven exemplar. |
+| [[0046-campaign-lifecycle-geological-strata]] | pattern | rpg-tools/solorpg | Campaign setup has 4 homes from 4 eras, no canonical source; entry is asynchronous & seed-heterogeneous, not a pipeline. |
 | [[0045-runtime-composition-briefing-py]] | idea | new | Runtime composition: executable `briefing.py` with inline tool calls instead of static briefing.md. |
 | [[0044-scenario-compiler]] | idea | new | The refer-back mechanism: a universal build process — modules as sources, spec as target, scenarios compiled. ✅adopt |
 | [[0043-campaigns-as-testbeds]] | idea | new | Every campaign is an architectural experiment; proven experiments graduate into the spec — the upward arm of self-evolution. |
