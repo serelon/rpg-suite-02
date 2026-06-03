@@ -55,6 +55,8 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0042-async-fleet-migration]] | idea | new | Campaigns upgrade to the current spec independently, not lockstep; separates intentional exceptions from stale drift. |
+| [[0041-self-evolving-versioned-spec]] | idea | new | **North-star (4th):** self-evolving system governed by a single versioned canonical spec — kills "go look at campaign A" folklore. |
 | [[0040-vector-db-as-lore-search-module]] | idea | old-erpg/new | E:\rpg's Qdrant store reframed as the lore-search module; centralization *is* a module — dissolves modules-vs-central tension. |
 | [[0039-bundle-template-composition]] | pattern | solorpg | Declarative session composition: inheritance + multi-chain merge + glob includes + auto reference-following. The assembly layer for modules. |
 | [[0038-shared-infra-vs-modules]] | idea | rpg-tools | Instruments are standalone, but 8 data tools share `lib/`; horizontal infra vs vertical modules is the modularization crux. |
