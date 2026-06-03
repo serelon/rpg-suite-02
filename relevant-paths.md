@@ -16,7 +16,16 @@ Update this whenever a new source surfaces or a new note is written.
 | `../aegis-tools/` | A modular rules/tool engine — an RPG *system* as CLI layers (`tactical` / `strategic` / `threads` / `intel` / `gm`) over `lib/` + `modules/`. | Rules engine in modular shape. |
 | `E:\rpg` | Old, obsolete infra repo: Qdrant + Wiki.js + MCP, a 5-agent session pipeline (parse → entity → timeline → wiki → briefing). | Obsolete, but holds patterns never transferred over. Mine, don't run. |
 | `E:\campaigns` | **Data-store** for `E:\rpg` (campaigns kept separate from tools, per that repo's design). Holds `the-great-awakening`, `the-long-watch`, `docker-data`. | Confirmed data-store; tools and data are deliberately split there. |
+| `C:\Users\serel\Code\reverse-mcp-rpg` | **"GM Assistant"** — a *reverse-MCP* experiment: Claude Code drives a live web GM dashboard in real time (Claude → MCP/stdio → bridge → WebSocket → FastAPI → browser). SQLite persistence + ChromaDB RAG; links to `solorpg` campaign folders. Python/`uv` + web frontend. | User's "most ridiculous entry — but the ideas are rich." A different *axis*: live UI + inverted MCP flow. |
 | `G:\My Drive\Projects\Tarot Tales` | An **earlier-generation system** (~gen 2–3): the "Tarot Tales RPG System" rulebook + worldbook + theme-flow rules, with settings (Celestial Empire, Moonlit Heritage, Throne of Stars, Whispers of the Old Gods, **The Great Awakening**, **Threads of Berlin**). Files are Google Docs (`.gdoc`) — content lives in Drive, not local. | Gen 2/3. Lineage: settings here resurface as `solorpg` campaigns. |
+
+### Known sub-veins worth dedicated mining
+
+- **`../solorpg/.claude/`** — rich and under-mined: `skills/` (campaign-setup,
+  session-postprocess-v2, session-prep, workshop, cheatsheet), `agents/`, `plans/`, and the
+  Claude-memory store `projects/*/memory/` (hard-won feedback like [[0003-scope-memories-to-context]]).
+- **`../solorpg/campaigns/*/memories/`** — the campaign-memory JSON corpus (the data the
+  memory tooling operates on). Data, not patterns — mine for *schema/workflow*, not lore.
 
 > More sources will surface over time (the user expects undiscovered folders). Add a row when they do.
 > **Note:** data and tools are often split across folders (e.g. `E:\rpg` ↔ `E:\campaigns`). When a tool repo appears, look for its separate data-store.
@@ -29,6 +38,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0003-scope-memories-to-context]] | pattern | solorpg | Scope every memory to campaign/branch/character or it degrades into soup at scale. |
 | [[0002-read-anywhere-write-canonical]] | pattern | rpg-tools | Tools read merged data from many locations, write only to a canonical path. |
 | [[0001-tiered-progressive-loading]] | pattern | rpg-tools | Load minimal profiles by default; deepen on demand to protect context budget. |
 | [[0000-note-template]] | — | — | Copy this to start a new note. |

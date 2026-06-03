@@ -61,9 +61,13 @@ to pile up.
    one source-area at a time). Descriptive only; tag `verdict/unevaluated`. Big sweeps get
    rubber-stamped — keep batches small so review keeps pace.
 2. **Report** — surface the fresh batch back for review (the index makes this easy).
-3. **Appraise** — the protected step. Go through each note *together* and assign a
-   `verdict/` with a one-line *why*. `undecided` is a legitimate verdict; `unevaluated` is
-   not a resting state. Capture disagreements as `kind/question` notes.
+3. **Appraise** — the protected step. **Interview-first:** let the user think out loud and
+   surface their read *before* any verdict is proposed — we won't always be in sync, and
+   anchoring them early hides that. Only once they've processed does the assistant give its
+   own verdict **plus honest pushback / constructive criticism** (this matters more as the
+   system grows). Then assign each note a `verdict/` with a one-line *why*. `undecided` is a
+   legitimate verdict; `unevaluated` is not a resting state. Capture disagreements as
+   `kind/question` notes.
 4. **Commit** — git-commit the batch once verdicts are recorded.
 
 ## Lifecycle: note → theme → roadmap
