@@ -55,6 +55,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0036-every-subsystem-is-a-module]] | idea | new | **North-star (3rd):** every subsystem is a self-owning module; consumers refer back, never copy. Cure for the scaffold problem. |
 | [[0035-surgical-git-staging]] | pattern | solorpg | Branch-per-run, never `git add -A`; stage only what this run wrote. Agent-in-shared-repo safety. |
 | [[0034-outgrown-scaffold]] | idea | solorpg | **Key lesson:** the system outgrew its scaffold; knowledge composition (hand-wired paths, drifting duplicate guides) is the bottleneck. |
 | [[0033-workflow-defers-to-canonical-guides]] | pattern | solorpg | Lean workflow spine reads canonical guides JIT at point-of-use instead of embedding them. |

@@ -19,15 +19,21 @@ in data/knowledge from guides in `rpg-tools` and elsewhere — and it does so **
 because the system has outgrown the scaffold.** The deferral pattern
 ([[0033-workflow-defers-to-canonical-guides]]) is right; its *mechanism* is what's strained:
 
-- **Scattered sources, no registry — with confirmed drift.** Guides live across ≥3 homes
-  (`rpg-tools/guides/`, `solorpg/prompts/`, `solorpg/templates/`) with inconsistent
-  conventions. **Smoking gun:** memory guidance exists as `rpg-tools/references/memories-guide.md`
-  (263 lines, the *portable canonical* one) **and** as solorpg-local
-  `prompts/memory-extraction-guide.md` (201) + `templates/memory-template.md` (206) — and the
-  flagship workflow points at the **local copies, ignoring the rpg-tools one**. Yet for
-  *characters and locations* the same workflow sources correctly from `rpg-tools/guides/`. So
-  the same class of knowledge has two homes and the "canonical" source is ambiguous and almost
-  certainly diverged. This asymmetry *is* the scaffold problem in miniature.
+- **Scattered sources, no registry — divergence CONFIRMED.** Guides live across ≥3 homes
+  (`rpg-tools/guides/`, `solorpg/prompts/`, `solorpg/templates/`). **Smoking gun:** memory
+  guidance exists as `rpg-tools/references/memories-guide.md` (the *portable canonical* one)
+  **and** as solorpg-local `prompts/memory-extraction-guide.md` + `templates/memory-template.md`
+  — and the flagship workflow uses the **local copies, ignoring the rpg-tools one** (while
+  sourcing characters/locations *correctly* from `rpg-tools/guides/`). A direct read confirms
+  they've diverged into **incompatible schemas**: different `type` enums (only 2 of 6 overlap —
+  toolbox has quiet-moment/revelation/turning-point/world-building; vault has
+  event-summary/character-memory/sensory/observation), **disjoint `intensity` vocabularies**
+  (`low/medium/high` vs `vivid/clear/faded/recurring`), and a `format` field in one but not
+  the other. Worse: the **portable "canonical" copy is the *staler* one** — the tuned version
+  is the vault-local copy. So single-source-of-truth isn't just ambiguous, it's *inverted*.
+  Cause (user): the guide was copied, then the memory module was tuned, and the copies drifted
+  apart with no authority to reconcile them. This asymmetry *is* the scaffold problem in
+  miniature — and the cure is [[0036-every-subsystem-is-a-module]].
 - **Hand-wired paths.** Every "read this guide" is a literal path baked into the prose. The
   workflow must *know about* each guide; adding/moving one means editing the skill. A
   manually-maintained "Existing Guides" table is the only index, and it drifts.
