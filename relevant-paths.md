@@ -55,6 +55,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0038-shared-infra-vs-modules]] | idea | rpg-tools | Instruments are standalone, but 8 data tools share `lib/`; horizontal infra vs vertical modules is the modularization crux. |
 | [[0037-rpg-tools-modularization]] | idea | new/rpg-tools | Split rpg-tools' one monolithic desktop skill into one skill per tool/workflow — `0036` made concrete; first migration target. |
 | [[0036-every-subsystem-is-a-module]] | idea | new | **North-star (3rd):** every subsystem is a self-owning module; consumers refer back, never copy. Cure for the scaffold problem. |
 | [[0035-surgical-git-staging]] | pattern | solorpg | Branch-per-run, never `git add -A`; stage only what this run wrote. Agent-in-shared-repo safety. |
