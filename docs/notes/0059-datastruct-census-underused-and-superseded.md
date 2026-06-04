@@ -14,9 +14,10 @@ created: 2026-06-04
 **What it is.** Two census facts about the data types, from the user (2026-06-04):
 - **Locations** is "a datastruct we're barely utilizing" — it exists, tools support it,
   some campaigns have files, but it never became load-bearing the way characters did.
-- **The story tool** is used by **exactly one campaign**, and is "more-or-less a different
-  variant of memory — although it did come first." A predecessor that memories effectively
-  superseded, still alive in its one niche.
+- **The story tool** is used by **exactly one campaign** (**The Eternal Witness**), and is
+  "more-or-less a different variant of memory — although it did come first." A predecessor
+  that memories effectively superseded, still alive in its one niche. (Distinct from session
+  summaries, which all campaigns use.)
 
 Together with [[0050-built-never-used-inventory]] this sketches a maturity spectrum the
 next-gen census needs: *built-never-used* (campaign.py) → *built-barely-used* (locations) →
