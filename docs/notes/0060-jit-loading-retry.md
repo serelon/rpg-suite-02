@@ -32,10 +32,20 @@ half-wired datastructs like locations get their "pulls" as JIT hooks rather than
 inclusions. Worth an explicit *experiment* rather than a belief — a campaign testbed
 ([[0043-campaigns-as-testbeds]]) comparing infodump vs JIT on the same scenario.
 
-**Open threads.** What broke historically — models not reaching for tools mid-scene, or
-reaching wrong? (Determines whether better agency actually fixes it.) Failure mode if JIT
-misses mid-scene: fiction stalls or model fabricates ([[0021-data-required-as-prompt]]'s
-halt-don't-fabricate applies). Hybrid floor: identity pinned, texture JIT
-([[0011-identity-pinned-state-evicted]]).
+**Historical failure modes (user, 2026-06-04)** — all three were *judgment*, not findability:
+1. **Not reaching** for the data at all;
+2. **Premature confidence** — deciding "I know everything I need to know now!" (it didn't);
+3. **Waiting too long** to do reads.
+
+Notably, **mid-prose reads would have been acceptable** — the design never needed invisible
+JIT, only *timely* JIT. That's the strongest case for the retry: judgment failures are
+precisely the class newer agentic models improve on (a findability failure wouldn't be).
+Premature confidence is also the known enemy with a known counter —
+[[0016-thinking-as-enforcement]]-style checks ("before opening a scene: did you read the
+location?") could backstop the model's own judgment.
+
+**Open threads.** Failure mode if JIT still misses mid-scene: fiction stalls or model
+fabricates ([[0021-data-required-as-prompt]]'s halt-don't-fabricate applies). Hybrid floor:
+identity pinned, texture JIT ([[0011-identity-pinned-state-evicted]]).
 
 **Verdict.** _(unevaluated.)_
