@@ -31,8 +31,16 @@ sessions, ~mid-2026). Not a designed workflow — it emerged at the table, twice
 - It's drift prevention at the event level ([[0052-evolution-vs-drift]]): a transcript
   pins what was actually said, so recollection can't quietly rewrite it.
 
-**Open threads.** Selection problem: which conversations earn transcription (all? flagged
-at debrief?) — relates to tag-at-build ([[0058-flag-lifecycle-set-at-build-select-at-prep]]).
+**Selection problem, dissolved (user, 2026-06-04).** The need was realized **mid-session**,
+and extraction was retroactive: "go read all chunks of session X, gimme a transcript of
+scene Y." This works because the **raw session chunks persist** in imports/ — so verbatim
+doesn't need prediction at capture time at all. Keep the raw substrate; extract on demand.
+The imports archive is not an inbox, it's the permanent harvest substrate
+([[0007-harvest-vs-workshop]]). The real design requirement is *cheap, addressable
+re-extraction* (find scene Y in session X fast), not foresight.
+
+**Open threads.** Does on-demand extraction scale, or do hot conversations earn promotion
+to a cached artifact after first extraction (extract-once, keep-thereafter)?
 Where do they live — a new artifact type, or memories with a verbatim mode restored (0054's
 fix)? Context cost: transcripts are heavy; JIT-load per scene
 ([[0060-jit-loading-retry]]) rather than infodump? Extraction tooling: currently manual —
