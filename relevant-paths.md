@@ -65,6 +65,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0064-unharvested-archive]] | question | solorpg/claude-desktop | ~58 exports in repo vs ~500 RP sessions in Desktop; substrate mostly missing — bulk dump-and-triage is an agent-scale job. |
 | [[0063-portable-bundles-constraint]] | pattern | solorpg | Away-from-repo play (phone/Desktop/web) is first-class: the bundle is the whole world → compiler needs thin (at-home/JIT) and fat (away/self-contained) target profiles. |
 | [[0062-conversation-transcripts-as-gm-context]] | pattern | solorpg | Verbatim dialogue as GM context — "keeps the story from mutating." Third independent reinvention of verbatim capture. |
 | [[0061-continuity-artifacts-under-suspicion]] | question | solorpg | Summaries (format doubt) and savefiles (structure + "wrong kind of datadrift") — used everywhere, trusted nowhere. Redesign candidates. |
