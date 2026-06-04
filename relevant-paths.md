@@ -65,6 +65,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0066-mandatory-presence-not-length]] | pattern | claude-desktop | Thinking-block enforcement fails by attention starvation, not deletion; fix = mandatory checks + lean tail ("short, fixed, genuine"). |
 | [[0065-oneshots-as-spawning-pool]] | pattern | solorpg/claude-desktop | Oneshots mostly fizzle but graduate 3 ways (→campaign, →branch, →canon arc); need cheap home, graduation paths, dignified fizzle. |
 | [[0064-unharvested-archive]] | question | solorpg/claude-desktop | ~58 exports in repo vs ~500 RP sessions in Desktop; substrate mostly missing — bulk dump-and-triage is an agent-scale job. |
 | [[0063-portable-bundles-constraint]] | pattern | solorpg | Away-from-repo play (phone/Desktop/web) is first-class: the bundle is the whole world → compiler needs thin (at-home/JIT) and fat (away/self-contained) target profiles. |
@@ -139,6 +140,7 @@ that link back. See `docs/README.md` → "Design-notes".
 |-----|---------------|----------|
 | [[sample-book]] | notes 0005–0012 | Steer voice by demonstration via a (scene-type × register) exemplar grid; the voice-layer of a docs-as-code context architecture. |
 | [[gm-skill]] (+ [[gm-skill-SKILL]], [[gm-skill-RATIONALE]]) | notes 0013–0019 (meta layer) | Working Claude Desktop GM skill + its anti-regression rationale doc. Craft layer preserved, not yet atomized. |
+| [[gm-skill-thinking-tuning]] | note 0066 | Field incident (Lumina City s04): thinking-block enforcement starved by a "stop overthinking" instruction; fix = mandatory checks, not length. First inbox report. |
 | [[session-postprocess]] (+ [[session-postprocess-SKILL]]) | notes 0033–0035 (+0028/0030/0032) | The flagship live workflow. Headline lesson: outgrown scaffold / knowledge-composition bottleneck. |
 
 ## Themes (synthesis)
