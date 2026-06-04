@@ -32,6 +32,14 @@ the shape of the old E:\rpg 5-agent pipeline, reborn ([[0040-vector-db-as-lore-s
 would also want this corpus). Tarot Tales-era lineage ([[0053-anchor-hierarchy-voice-keystone]])
 lives in there too.
 
+**Composition (user, 2026-06-04):** the archive holds *both* unharvested sessions of
+existing campaigns *and* whole lost campaigns that never got folders — **plus a lot of
+oneshots**. Oneshots are notable: the campaign-folder model has no home for them at all
+(no folder, no savefile chain, no postprocess target), yet they're a large share of actual
+play. Next-gen data model question: is a oneshot a degenerate campaign, or its own artifact
+type? (Cf. [[0026-exceptions-are-features]] — a structural class the current system
+doesn't even *try* to absorb.)
+
 **Open threads.** Is a Desktop data dump even exportable in bulk today, and in what format?
 Triage criteria: route by campaign how — title matching, content classification? Is this a
 next-gen *workflow to design* (bulk-ingest module) rather than a one-off chore? Storage:
