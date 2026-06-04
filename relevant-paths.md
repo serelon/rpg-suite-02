@@ -65,6 +65,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0056-files-as-build-products]] | idea | new | Compilation drops below the bundle: individual files (e.g. texture bank) compiled from campaign+character sources via tags/flags. |
 | [[0055-register-anchor-banks]] | pattern | solorpg | Texture bank (harvested) + living dictionary (workshopped) anchor the *world's voice*; sample-book grid living in production. |
 | [[0054-verbatim-capture-lost-intent]] | pattern | solorpg | Postprocessor rewrites scenes meant to be verbatim copies — workflow drifted from its own spec; suspected style-drift source. |
 | [[0053-anchor-hierarchy-voice-keystone]] | pattern | tarot-tales/solorpg | Drift anchors learned one at a time: description failed, voice samples worked. Characters first; world after. |
