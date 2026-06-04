@@ -65,6 +65,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
+| [[0060-jit-loading-retry]] | idea | solorpg | Pre-session infodump = architecture around old models' weak agency (0031 live); retry JIT with 4.7/4.8 as a testbed experiment. |
 | [[0059-datastruct-census-underused-and-superseded]] | question | solorpg/rpg-tools | Locations barely used; story tool = one-campaign memory-predecessor. Port datastructs by load, not existence. |
 | [[0058-flag-lifecycle-set-at-build-select-at-prep]] | idea | new | Tag at content-build (workshop/postprocess), select at session prep; both actors. Tag quality at write time is the crux. |
 | [[0057-compiled-context-needs-audit-tooling]] | idea | new | Compiled files are hard to debug; need review/audit tooling (build manifest first, GUI later — reverse-mcp-rpg is the existence proof). |
