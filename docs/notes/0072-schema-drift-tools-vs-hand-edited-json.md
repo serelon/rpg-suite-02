@@ -23,10 +23,13 @@ data was human-edited beyond the code.**
 
 **Key data point (user, same day): the drift was unconscious.** "honestly..havent actually
 noticed that until now. huh" — the tools tolerated the divergence silently, so it was
-invisible *even to the person doing it*, for the system's whole lifetime, until a research
-sweep happened to diff code against data. Silent tolerance doesn't just permit drift, it
-**hides** it. This hardens the case for validate-loudly: the cost of a warning is small;
-the cost of years of invisible divergence is that nobody can trust the schema docs at all.
+invisible *even to the person doing it*, for the system's whole lifetime — which was only
+**a few weeks to a month, mostly coding sessions rather than play** — until a research
+sweep happened to diff code against data. That short a window makes it *worse*, not
+better: the data diverged from the code almost immediately, while the system was being
+actively built. Silent tolerance doesn't just permit drift, it **hides** it. Hardens the
+case for validate-loudly: a warning is cheap; invisible divergence means nobody can trust
+the schema docs at all.
 
 **Why it matters for next-gen.** A genuine design tension to settle, because the repo
 holds both poles:
