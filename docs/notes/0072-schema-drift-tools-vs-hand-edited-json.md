@@ -21,6 +21,13 @@ data was human-edited beyond the code.**
 **Where it comes from.** Diff between `lib/io.py` default schemas and live
 `solorpg/campaigns/aegis/{data,intel}/*.json` (Explore sweep 2026-06-05).
 
+**Key data point (user, same day): the drift was unconscious.** "honestly..havent actually
+noticed that until now. huh" — the tools tolerated the divergence silently, so it was
+invisible *even to the person doing it*, for the system's whole lifetime, until a research
+sweep happened to diff code against data. Silent tolerance doesn't just permit drift, it
+**hides** it. This hardens the case for validate-loudly: the cost of a warning is small;
+the cost of years of invisible divergence is that nobody can trust the schema docs at all.
+
 **Why it matters for next-gen.** A genuine design tension to settle, because the repo
 holds both poles:
 - aegis's *philosophy* is rules-as-code, validation-at-write
