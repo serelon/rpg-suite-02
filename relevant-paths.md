@@ -6,7 +6,8 @@
 > Four north-stars: 0004 · 0024 · 0036 · 0041. **Work owed:** appraise the bounce batch
 > (0051–0066, all unevaluated), bundle.py flaw audit (gates the compiler build-path),
 > version-skew note, graduation mechanism, module contract (resolves 0038),
-> re-read 0034 to settle the dropped 0049 linkage. Candidate second theme:
+> re-read 0034 to settle the dropped 0049 linkage, circle back to the parked 0067
+> questions (post-process as vault librarian? cherrypick contract?). Candidate second theme:
 > **verbatim-anchors / voice-and-register** (0005–0008, 0030, 0053–0055, 0062).
 > Unmined veins: **rpg-tools built-never-used sweep (0050 lead)**, **postprocess
 > verbatim-rewrite audit (0054)**, three-primer drift check (0048 lead),
@@ -71,6 +72,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
 | [[0066-mandatory-presence-not-length]] | pattern | claude-desktop | Thinking-block enforcement fails by attention starvation, not deletion; fix = mandatory checks + lean tail ("short, fixed, genuine"). |
 | [[0067-campaign-data-as-linked-vault]] | idea | e-rpg | Resurrect the (never-built) wiki idea as an Obsidian-style vault: flat files are all-or-nothing reads; links make relations walkable — for humans and for JIT/compiler loading. |
+| [[0068-multi-lens-data]] | pattern | solorpg | Same entity at several fidelities (full spec / GM brief / faction / character / location — Eisrand walkers in 5+ places, zero drift, by manual discipline). Killer app for vault+compiler: lenses as renders. |
 | [[0065-oneshots-as-spawning-pool]] | pattern | solorpg/claude-desktop | Oneshots mostly fizzle but graduate 3 ways (→campaign, →branch, →canon arc); need cheap home, graduation paths, dignified fizzle. |
 | [[0064-unharvested-archive]] | question | solorpg/claude-desktop | ~58 exports in repo vs ~500 RP sessions in Desktop; substrate mostly missing — bulk dump-and-triage is an agent-scale job. |
 | [[0063-portable-bundles-constraint]] | pattern | solorpg | Away-from-repo play (phone/Desktop/web) is first-class: the bundle is the whole world → compiler needs thin (at-home/JIT) and fat (away/self-contained) target profiles. |
