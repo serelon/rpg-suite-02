@@ -70,6 +70,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0027-recurring-exception-taxonomy]] | reference | solorpg | Catalogue of per-campaign workflow-exception classes (non-linear, multi-branch, custom outputs…). |
 | [[0026-exceptions-are-features]] | idea | solorpg | Well-defined workflow must absorb per-campaign deviation by design; move from prose patches to declared exception-profiles. |
 | [[0066-mandatory-presence-not-length]] | pattern | claude-desktop | Thinking-block enforcement fails by attention starvation, not deletion; fix = mandatory checks + lean tail ("short, fixed, genuine"). |
+| [[0067-campaign-data-as-linked-vault]] | idea | e-rpg | Resurrect the (never-built) wiki idea as an Obsidian-style vault: flat files are all-or-nothing reads; links make relations walkable — for humans and for JIT/compiler loading. |
 | [[0065-oneshots-as-spawning-pool]] | pattern | solorpg/claude-desktop | Oneshots mostly fizzle but graduate 3 ways (→campaign, →branch, →canon arc); need cheap home, graduation paths, dignified fizzle. |
 | [[0064-unharvested-archive]] | question | solorpg/claude-desktop | ~58 exports in repo vs ~500 RP sessions in Desktop; substrate mostly missing — bulk dump-and-triage is an agent-scale job. |
 | [[0063-portable-bundles-constraint]] | pattern | solorpg | Away-from-repo play (phone/Desktop/web) is first-class: the bundle is the whole world → compiler needs thin (at-home/JIT) and fat (away/self-contained) target profiles. |
