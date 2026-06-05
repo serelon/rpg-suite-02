@@ -62,12 +62,21 @@ primer build, JIT mid-session read) pulls at its own depth. This answers 0067's 
 contract: the structured-md sections are zoom tiers. It is also rpg-tools' tiered/progressive
 loading philosophy relocated *inside* the document.
 
-**Open threads.** Are the tiers authored independently (each zoom hand-written, co-located so
-drift is at least visible and adjacent) or derived (deeper tier is source, shallower tiers
-rendered)? The Lodestone brief has lens-specific content (loadout percentages the full ref
-barely surfaces), suggesting authored-but-co-located is the realistic start. What's the block
-vocabulary — fixed tier names across all entity types, or per-type? And how do JSON-lens
-embeds (character/location relationships to the entity) reference a *block* rather than the
-whole page?
+**Revised shape (same session): two trunks, one tree.** The one-file-many-blocks idea was
+walked back — "a good wikidesign has the data dispersed, not monoliths, and i just pushed
+for megamonoliths." Resolution: **play data lives in one trunk of the tree, design data in
+a different trunk — same tree, separate, linked.** Entity pages stay small and dispersed
+(existence line + play-relevant facts + links doing the heavy lifting); the full
+everything-doc is demoted to a linked **design artifact** in its own trunk, reachable from
+the page but never loaded by accident. Zooms thus become mostly **link hops** rather than
+blocks-in-a-file: shallow read = the entity page, deep read = follow the design-doc link.
+Context-economy win: a JIT "what's a Schreiter" read never touches a 1008-line file.
+
+**Open threads.** Where exactly is the play/design cut for a given entity — does the GM-brief
+zoom live on the entity page or as a third artifact? Are shallower tiers authored or derived
+(the Lodestone brief has content the full doc barely surfaces — loadout percentages —
+suggesting authored)? How do JSON-lens embeds (character/location relationships to an
+entity) reference the page vs the design doc? And does the design trunk get its own
+lifecycle rules ([[0049-disposable-bootstrap-primer]]-style lifespan metadata)?
 
 **Verdict.** _(unevaluated.)_
