@@ -39,12 +39,32 @@ modules over a stable data contract. It also future-proofs against
 And it resolves where E:\rpg went wrong: it welded the data to one heavyweight delivery
 mechanism (Qdrant+wiki+MCP); here delivery is deliberately disposable.
 
+**Retrieval layering (settled direction, 2026-06-05).** Vector search is the *fallback*,
+not the front door:
+1. **Exact match** — entity names, aliases, page titles: already in the KB for free, never
+   send these through embeddings (vectors smear precision into vibes; grep wins on names).
+2. **Link-graph walking** — "related things" via the edges the vault already has;
+   capitalize on the graph before reaching for similarity.
+3. **Vector search** — fuzzy/thematic recall only ("a scene like this happened before").
+   Known costs to respect: similar ≠ relevant (no built-in "nothing is near enough");
+   chunking granularity is the real design problem (E:\rpg's multi-granularity chunking was
+   about exactly this); the index is a derived artifact that lies when stale — another
+   build product for [[0057-compiled-context-needs-audit-tooling]] manifests.
+
+**Trigger-keyword criterion (defuses [[0058-flag-lifecycle-set-at-build-select-at-prep]]'s
+hallucinated-tag problem for this case).** Keywords are written by the agent writing the
+entry, but with a *testable* validity rule: a trigger is only valid if it's **a string
+likely to literally appear in play prose** — surface words ("walker collar", "the Drift"),
+never concepts ("redemption-arc"). And it's empirically checkable: run candidate keywords
+against the session-transcript archive ([[0064-unharvested-archive]]) — a trigger that
+never fires in the historical corpus is noise; delete it. **The archive becomes a
+validation set.**
+
 **Open threads.** What exactly is the KB's contract surface — files+links only, or also a
-query/index layer the consumers share (the RAG path needs *some* search primitive; does the
-compiler reuse it)? Does keyword-injection need authored trigger-keywords on entity pages
-(another set-at-build flag, [[0058-flag-lifecycle-set-at-build-select-at-prep]])? Which
-consumer fits which platform — Desktop/web/mobile likely get bundles or RAG, Claude Code
-gets agentic? And the initiative-prompting problem (0060) is now a named blocker for
-consumer #2.
+query/index layer the consumers share (does the compiler reuse the RAG search primitive)?
+Which consumer fits which platform — Desktop/web/mobile likely get bundles or RAG, Claude
+Code gets agentic? The initiative-prompting problem (0060) is a named blocker for consumer
+#2. And does corpus-validation of triggers generalize to *all* set-at-build tags (0058's
+is-tags), or only to keyword-shaped ones?
 
 **Verdict.** _(unevaluated.)_
