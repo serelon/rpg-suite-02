@@ -1,12 +1,16 @@
 # Relevant Paths & Index
 
-> **Status (2026-06-03b):** 50 notes (9 adopted, 1 undecided, 1 obsolete, rest unevaluated),
-> 5 preserved design-notes, first theme promoted **and appraised** ([[modular-self-evolving-architecture]]).
-> Four north-stars: 0004 · 0024 · 0036 · 0041. **Work owed:** appraise the campaign-setup
-> batch (0046–0050 — captured, parked at user's request), bundle.py flaw audit (gates the
-> compiler build-path), version-skew note, graduation mechanism, module contract (resolves 0038),
-> re-read 0034 to settle the dropped 0049 linkage.
-> Unmined veins: **rpg-tools built-never-used sweep (0050 lead)**, **postprocess verbatim-rewrite audit (0054)**,
+> **Status (2026-06-05):** 66 notes — campaign-setup batch 0046–0050 now **appraised**
+> (4 adopt, 1 adapt; 0050 = adopt-lesson / reject-campaign.py) — 6 preserved design-notes,
+> first theme promoted **and appraised** ([[modular-self-evolving-architecture]]).
+> Four north-stars: 0004 · 0024 · 0036 · 0041. **Work owed:** appraise the bounce batch
+> (0051–0066, all unevaluated), bundle.py flaw audit (gates the compiler build-path),
+> version-skew note, graduation mechanism, module contract (resolves 0038),
+> re-read 0034 to settle the dropped 0049 linkage. Candidate second theme:
+> **verbatim-anchors / voice-and-register** (0005–0008, 0030, 0053–0055, 0062).
+> Unmined veins: **rpg-tools built-never-used sweep (0050 lead)**, **postprocess
+> verbatim-rewrite audit (0054)**, three-primer drift check (0048 lead),
+> hallucinated-tag corpus (0058), early-vs-late savefile diffs (0061),
 > E:\rpg entity-registry → lore-search (0040), gm-skill craft layer, Tarot Tales,
 > solorpg workshop handoff seam, guide-drift mapping.
 

@@ -6,7 +6,7 @@ tags:
   - theme/architecture
   - theme/single-source-of-truth
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -41,4 +41,11 @@ stay a separate mode that *hands off*, or does the lifecycle module absorb a fre
 Compare [[0026-exceptions-are-features]]. See [[0050-built-never-used-inventory]] for the
 untested stratum.
 
-**Verdict.** _(unevaluated — appraisal owed, parked 2026-06-03 at user's request.)_
+**Verdict.** **Adopt** (appraised 2026-06-05). Lifecycle is one concern, many doors — and the
+user's design call: **one entrypoint per platform** (Claude Code, Claude Desktop, future
+frontends), each sharing the *same checkboxes, secondary skills, and end format*, all
+importing cleanly into the database. The core lesson — imperative for next-gen — is that
+those shared parts must be **one spec artifact the entrypoints reference**, never parallel
+copies built from "shared intent": independent copies is exactly how the four strata formed.
+Entrypoint flavors: workshop = "vague vibe" door; session-0-guide = "barest minimum to play"
+door. Streamlining both into the shared spec is the design task.

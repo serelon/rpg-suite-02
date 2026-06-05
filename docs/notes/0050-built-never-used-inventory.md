@@ -4,7 +4,7 @@ tags:
   - source/rpg-tools
   - theme/architecture
   - maturity/speculative
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -25,10 +25,20 @@ by the two-branch-models question. `rpg-tools/scripts/campaign.py`, `log.py`,
 play-hours. Adopting an untested pattern on the strength of its documentation would repeat
 the original mistake at higher stakes.
 
+**The why, answered (2026-06-05).** The user drifted away from campaign.py's underlying
+approach right after building it: it was (probably) made for the brief era when
+autocompaction in Claude Desktop made "track a whole multi-session campaign in one Desktop
+thread" look viable — which "turned out to work soso anyway (it keeps *everything* in
+memory... you run out of ram long before this pays off)". So campaign.py is a **textbook
+[[0031-beware-transient-constraint-architecture]] specimen**: architecture built around a
+model-era constraint that evaporated. User: "not even sure what it does anymore."
+
 **Open threads.** **Mining lead:** sweep rpg-tools for other built-never-used features
 (candidates: log.py event system? changelog tiers? convergence points?) and mark each
-note's maturity honestly. Also: *why* did campaign.py go unused — wrong abstraction, wrong
-era, or just never needed? The answer is itself a design datum. Related:
-[[0047-multi-axis-data-management]], [[0043-campaigns-as-testbeds]].
+note's maturity honestly. Related: [[0047-multi-axis-data-management]],
+[[0043-campaigns-as-testbeds]].
 
-**Verdict.** _(unevaluated — appraisal owed, parked 2026-06-03 at user's request.)_
+**Verdict.** **Adopt the lesson, reject campaign.py itself** (appraised 2026-06-05).
+Maturity tags must distinguish shipped-and-used from shipped-and-dormant — stands. The
+artifact is doubly damned: never play-tested *and* built for a vanished constraint. Its
+convergence-points idea earns no seat unless it resurfaces somewhere proven.

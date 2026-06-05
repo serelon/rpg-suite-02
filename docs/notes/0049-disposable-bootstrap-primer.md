@@ -4,7 +4,7 @@ tags:
   - source/rpg-tools
   - theme/architecture
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/adapt
 created: 2026-06-03
 ---
 
@@ -27,4 +27,8 @@ from source to design-intent after play).
 the user flagged that as a misreading of 0034; linkage dropped pending a re-read. Is
 lifespan-tiering worth making explicit metadata on artifacts in the next-gen spec?
 
-**Verdict.** _(unevaluated — appraisal owed, parked 2026-06-03 at user's request.)_
+**Verdict.** **Adapt** (appraised 2026-06-05). Lifespan-tiering is right, but expiry is not
+a hard date: session-0 primers legitimately survive past session 01 when an **origin story
+takes multiple sessions**. So next-gen should declare lifespan as a *condition* ("dies when
+the origin arc closes"), not an event count. Lifespan-as-metadata on artifacts: yes, carry
+forward.

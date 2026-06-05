@@ -4,7 +4,7 @@ tags:
   - source/solorpg
   - theme/context-economy
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -30,4 +30,10 @@ answer to "what is true now?". Naming-is-permission is a UX principle for any en
 memories > summaries > primer)? Related: [[0030-summary-as-compression]],
 [[0017-recap-as-verification]], [[0046-campaign-lifecycle-geological-strata]].
 
-**Verdict.** _(unevaluated — appraisal owed, parked 2026-06-03 at user's request.)_
+**Verdict.** **Adopt** as a spec-level rule (appraised 2026-06-05). Enrichments from the
+interview: it's really a **three-primer pattern** — setting primer / campaign primer /
+session-0 primer — and only the session-0 one obsoletes. And when "savefile outranks primer"
+bites, that's the rule *working*: "thats called drift :) and, we want to parry that when it
+happens" — precedence is how drift gets caught and retconned back into primer canon.
+**Mining lead:** the user suspects the three-primer pattern itself "has drifted apart" —
+check how many live campaigns actually still carry all three.

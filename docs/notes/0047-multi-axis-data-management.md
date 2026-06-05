@@ -5,7 +5,7 @@ tags:
   - theme/composition
   - theme/architecture
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
 ---
 
@@ -45,4 +45,9 @@ optional levels (subsetting layer collapses when unused), not a fixed tree. New 
 (proven) vs `campaign.py`'s flat array with convergence points (**built, never used** —
 see [[0050-built-never-used-inventory]]). Convergence is paper-only; does it earn a place?
 
-**Verdict.** _(unevaluated — appraisal owed, parked 2026-06-03 at user's request.)_
+**Verdict.** **Adopt** (appraised 2026-06-05). All axes available from the start — the user
+already sets up branches from day one. Design task added: **generalize the extra-axis
+pattern** — write down once what an axis *is* (roughly: a folder convention + a
+bundle-extends rule + a precedence position), so new axes like per-era come free instead of
+being bespoke. Convergence points (campaign.py's model) do **not** earn a seat — see
+[[0050-built-never-used-inventory]]: built for an evaporated constraint, zero play-proof.
