@@ -48,11 +48,26 @@ Also feeds [[0063-portable-bundles-constraint]] (thin bundle takes the brief len
 bundle maybe both) and [[0056-files-as-build-products]] (lenses are the cleanest example
 yet of files-as-renders).
 
-**Open threads.** Can a brief actually be *generated* from a full spec, or does a good
-brief contain editorial judgment (what matters at the table) that must be authored — i.e.
-is the lens a render or a curated view with its own source-of-truth slice? The Lodestone
-brief has loadout percentages the full ref barely surfaces — lens-specific *content*, not
-just compression. Maybe: canonical page holds all facts, each lens declares which facts +
-what framing it takes (selection authored once, rendering automatic).
+**The user's framing (2026-06-05): "same document, different zooms."** The three variants
+have distinct jobs: full doc = *everything* designed, "for revisiting the design in the
+future" (archive zoom); brief = what play needs (table zoom); primer line = "you just want
+to know the thing exists" (existence zoom). Not summaries of each other — the same document
+at three magnifications.
+
+**Next-gen direction (user):** for the vault ([[0067-campaign-data-as-linked-vault]]),
+collapse the variants into **one file with multiple blocks, pulled selectively by whatever
+wants the data**. Zoom tiers as *structure within the canonical page* — e.g. an
+existence-line block, a table/GM block, a full-design block — and each consumer (compiler,
+primer build, JIT mid-session read) pulls at its own depth. This answers 0067's cherrypick
+contract: the structured-md sections are zoom tiers. It is also rpg-tools' tiered/progressive
+loading philosophy relocated *inside* the document.
+
+**Open threads.** Are the tiers authored independently (each zoom hand-written, co-located so
+drift is at least visible and adjacent) or derived (deeper tier is source, shallower tiers
+rendered)? The Lodestone brief has lens-specific content (loadout percentages the full ref
+barely surfaces), suggesting authored-but-co-located is the realistic start. What's the block
+vocabulary — fixed tier names across all entity types, or per-type? And how do JSON-lens
+embeds (character/location relationships to the entity) reference a *block* rather than the
+whole page?
 
 **Verdict.** _(unevaluated.)_
