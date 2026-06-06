@@ -60,6 +60,7 @@
 | Branch/session memories | JSON | `branches/*/memories/`, `memories/session-NN-memories.json` | 4+/2+ | same as root | branch-scoped |
 | Cheatsheet | HTML | `branches/*/player/cheatsheet.html` (and elsewhere — "abit all over the place") | many branches (user correction; census undercounted at 1) | yes — dedicated `cheatsheet` skill generates them | player-facing generated views; proven render pattern |
 | Conversation transcript | MD | `transcripts/*-transcript.md` | 1 (lumina-city, 2 files) | emergent format (header + source-chunk citations + dialogue-only body) | **missed by original census**; undocumented type, see [[0062-conversation-transcripts-as-gm-context]] |
+| Sealed secrets file | MD | `secrets/*.md`, `branches/*/secrets/*.md` | 3 campaigns (4 files: vekris ×2, radiance, solace) | consistent pattern: "DO NOT READ until [condition]" + trigger mirrored in CLAUDE.md | **missed by original census**; hidden from the GM model, see [[0089-sealed-secrets-files]]. Distinct from character-JSON `sections.secrets` (character-keeps-from-characters, 4 instances). |
 
 ## Shape variance analysis (the census's key finding)
 
