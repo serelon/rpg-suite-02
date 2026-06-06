@@ -49,9 +49,20 @@ hops, metadata = selection layer. characters.py is not a tool consuming tool-dat
 a *presentation consumer* ([[0069-one-knowledge-base-many-presentation-layers]]) pulling
 zoom tiers. The two-kind cut survives clean: knowledge entries zoom; tool data computes.
 
+**Zoom tiers settled (user, same day): per-type, with standard ones + extensibility.**
+And a new *smallest* standard tier: the **index-line** — e.g.
+`[Marcus Chen] - Captain of [Generic Ship]` — one line, identity + hook, **with links
+embedded** (the brackets are wikilinks: the index-line carries graph edges). The tier
+ladder so far: **index-line → bulk/minimal → spotlight/full → on-demand sections**.
+Index-lines are also the obvious building block for the index-pages that replace rosters —
+an index-page is just a curated/generated list of index-lines, which means the
+roster-replacement may be a *render* (custodian/build output), not an authored doc.
+
 **Open threads.** Is "treated a certain way" a closed flag vocabulary or extensible per
-module? Rosters dissolve into folders + tags + index-pages (user) — are index-pages
-generated (custodian output) or authored? Does the knowledge-entry base shape standardize
-the zoom-tier names (bulk/spotlight/on-demand) across all entry types, or per-type?
+module? Index-pages: generated (custodian output) or authored — or authored-order over
+generated-content? Is the index-line *derived* from page frontmatter (name + role + key
+links) or hand-written — and if hand-written, it's the one tier where
+[[0079-relational-anchoring-antipattern]] is *allowed* (relational hooks are the point of
+an index-line).
 
 **Verdict.** _(unevaluated.)_
