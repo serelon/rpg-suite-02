@@ -5,7 +5,7 @@ tags:
   - theme/architecture
   - theme/single-source-of-truth
   - maturity/speculative
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-06
 ---
 
@@ -62,4 +62,8 @@ vs end-of-session hindsight (early scenes look different once the session's end 
 Review gate: solorpg post-processing earned PRs — what's the review step for a stream of
 small mutations ([[0052-evolution-vs-drift]] gates)?
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** **Adopt the core** (appraised 2026-06-06): post-processing is the vault's
+write path, mutations not regenerations, propose-never-commit human gate. Explicitly
+*open*, not decided: the custodian split (job list captured, shape undecided) and
+streamed-vs-batch (scene-boundary detection unsolved; [[0082-live-hook-pipeline]] is the
+leading mechanism candidate).

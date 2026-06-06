@@ -6,7 +6,7 @@ tags:
   - theme/context-economy
   - theme/composition
   - maturity/speculative
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-05
 ---
 
@@ -67,4 +67,7 @@ Code gets agentic? The initiative-prompting problem (0060) is a named blocker fo
 #2. And does corpus-validation of triggers generalize to *all* set-at-build tags (0058's
 is-tags), or only to keyword-shaped ones?
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** **Adopt** (appraised 2026-06-06). Shape-invariant KB, presentation as
+swappable consumers, layered retrieval (exact → graph → vector), corpus-validated trigger
+keywords. The initiative-prompting blocker (consumer #2) and the KB contract surface stay
+open as design work.

@@ -6,7 +6,7 @@ tags:
   - theme/context-economy
   - theme/single-source-of-truth
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-05
 ---
 
@@ -79,4 +79,7 @@ suggesting authored)? How do JSON-lens embeds (character/location relationships 
 entity) reference the page vs the design doc? And does the design trunk get its own
 lifecycle rules ([[0049-disposable-bootstrap-primer]]-style lifespan metadata)?
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** **Adopt** (appraised 2026-06-06). The pattern is proven (zero drift across
+5+ hand-maintained lenses), and the next-gen shape is settled: two trunks, one tree —
+play pages small and dispersed, design docs linked but never auto-loaded, zooms as link
+hops. Open: where the GM-brief zoom lives, authored-vs-derived tiers.

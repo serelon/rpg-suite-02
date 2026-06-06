@@ -5,7 +5,7 @@ tags:
   - theme/architecture
   - theme/context-economy
   - maturity/speculative
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-05
 ---
 
@@ -54,4 +54,6 @@ question as [[0058-flag-lifecycle-set-at-build-select-at-prep]])? Per-campaign v
 campaign isolation is a core principle? And migration: today's canonical JSONs (characters,
 savefiles, memories) would become *build products* — what's the path from here to there?
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** **Adopt** (appraised 2026-06-06). Canonical vault, build arrow inverted
+(jsons/build-products compiled *from* the vault), structured-md cherrypick contract.
+Open threads stand as listed — they're design work, not doubts.

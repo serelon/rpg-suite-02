@@ -1,19 +1,22 @@
 # Relevant Paths & Index
 
-> **Status (2026-06-05):** 66 notes — campaign-setup batch 0046–0050 now **appraised**
-> (4 adopt, 1 adapt; 0050 = adopt-lesson / reject-campaign.py) — 6 preserved design-notes,
-> first theme promoted **and appraised** ([[modular-self-evolving-architecture]]).
-> Four north-stars: 0004 · 0024 · 0036 · 0041. **Work owed:** appraise the bounce batch
-> (0051–0066, all unevaluated), bundle.py flaw audit (gates the compiler build-path),
-> version-skew note, graduation mechanism, module contract (resolves 0038),
-> re-read 0034 to settle the dropped 0049 linkage, circle back to the parked 0067
-> questions (post-process as vault librarian? cherrypick contract?). Candidate second theme:
-> **verbatim-anchors / voice-and-register** (0005–0008, 0030, 0053–0055, 0062).
-> Unmined veins: **rpg-tools built-never-used sweep (0050 lead)**, **postprocess
-> verbatim-rewrite audit (0054)**, three-primer drift check (0048 lead),
-> hallucinated-tag corpus (0058), early-vs-late savefile diffs (0061),
-> E:\rpg entity-registry → lore-search (0040), gm-skill craft layer, Tarot Tales,
-> solorpg workshop handoff seam, guide-drift mapping.
+> **Status (2026-06-06):** 82 notes. Appraised: 0046–0050 (4 adopt, 1 adapt) and the
+> **KB cluster** 0067–0069 + 0073 + 0075–0077 (adopts; 0077 adapt; 0072 undecided —
+> cause unknown). 6 preserved design-notes, first theme promoted **and appraised**
+> ([[modular-self-evolving-architecture]]). Four north-stars: 0004 · 0024 · 0036 · 0041.
+> **Process agreed:** appraise (themed batches) → promote themes → feature specs (claims
+> cite notes; open questions first-class) → roadmap; never spec ahead of appraisal.
+> **Work owed:** appraise remaining backlog (0051–0066, 0070–0071, 0074, 0078–0082),
+> promote KB/vault theme; bundle.py flaw audit, version-skew note, graduation mechanism,
+> module contract (resolves 0038), re-read 0034. Candidate themes: **knowledge-base/vault**
+> (0067–0069, 0072–0073, 0075–0077, 0082), **verbatim-anchors / voice-and-register**
+> (0005–0008, 0030, 0053–0055, 0062), **engineer-and-gardener doctrine** (0078–0082).
+> Unmined veins: rpg-tools built-never-used sweep (0050), postprocess verbatim-rewrite
+> audit (0054), aegis schema-drift git-history check (0072), three-primer drift check
+> (0048), old cut'n'paste housekeeping prompts (0073), hallucinated-tag corpus (0058),
+> early-vs-late savefile diffs (0061), E:\rpg entity-registry → lore-search (0040),
+> gm-skill craft layer, Tarot Tales, workshop handoff seam, guide-drift mapping,
+> Desktop bulk datadump workflow (0064, planned).
 
 Living index for the research/speculation phase. Two jobs: (1) catalogue the **source
 repos** we mine for patterns, (2) index every **note** we capture in `docs/notes/`.
