@@ -40,9 +40,20 @@ play. Next-gen data model question: is a oneshot a degenerate campaign, or its o
 type? (Cf. [[0026-exceptions-are-features]] — a structural class the current system
 doesn't even *try* to absorb.)
 
+**Upgraded from pondering to plan (user, 2026-06-06).** "i'll prolly do a full claude
+desktop/web/mobile datadump sometimes. and..toss that into our process-framework. we'll
+need to build a workflow for handling that, because that'll be ridiculous amounts of data,
+and i suspect at most half will be relevant." So this is now a **named next-gen workflow
+requirement**: a bulk-ingest/triage module, not a one-off chore. Implied stages: classify
+(RP / not-RP — expect ≥50% discard), attribute (existing campaign / lost campaign /
+oneshot), route (imports, new homes, [[0065-oneshots-as-spawning-pool]]'s cheap home for
+oneshots), then feed the librarian ([[0075-postprocessing-as-vault-librarian]]) at archive
+scale. Also the future test corpus for trigger-keyword validation
+([[0069-one-knowledge-base-many-presentation-layers]]) and cache-policy simulation
+([[0077-context-injection-vs-cache-economics]]) — the dump pays for itself thrice.
+
 **Open threads.** Is a Desktop data dump even exportable in bulk today, and in what format?
-Triage criteria: route by campaign how — title matching, content classification? Is this a
-next-gen *workflow to design* (bulk-ingest module) rather than a one-off chore? Storage:
+Triage criteria: route by campaign how — title matching, content classification? Storage:
 1000 threads of JSONL is heavy — does it live in the campaign repo or a separate
 archive store (data/tools split, per E:\rpg's design)?
 
