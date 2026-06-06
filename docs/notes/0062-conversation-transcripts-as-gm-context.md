@@ -39,11 +39,34 @@ The imports archive is not an inbox, it's the permanent harvest substrate
 ([[0007-harvest-vs-workshop]]). The real design requirement is *cheap, addressable
 re-extraction* (find scene Y in session X fast), not foresight.
 
+**The artifacts examined (sweep 2026-06-06).** Two files in
+`lumina-city/transcripts/` (`nyx-session-0{2,3}-ling-vidal-transcript.md`, ~8KB each).
+The emergent format is remarkably well-formed for an undesigned type:
+- **Header block:** Campaign / Branch / Session / Timeframe / Location / Speakers (with
+  role notes) / **Source** / Type — where *Source cites the exact chunk files and line
+  ranges* (`imports/chunks/session-02-chunk-02.md lines ~710–889`). That's
+  [[0076-self-canonizing-hallucinations]]'s **provenance receipts, invented independently
+  in the wild** — the strongest possible validation that receipts are a natural shape,
+  not imposed ceremony.
+- **Type declaration in-file:** "Verbatim dialogue extract — spoken lines only; narration,
+  interiority, and player-input lines omitted. `…` marks elided narration." A treatment
+  flag ([[0085-knowledge-entries-vs-tool-data]]) written as prose.
+- **Scene-context blockquote:** 1–2 sentences of what the conversation *accomplishes*
+  (purpose zoom), then `**SPEAKER:**` lines with `…` elisions.
+- So the transcript is already a knowledge entry with the standard anatomy: metadata,
+  purpose line, body, provenance — it just doesn't know it yet.
+
+**And the system is blind to it:** transcripts appear in *no* documented structure —
+not lumina-city's CLAUDE.md, not postprocess-instructions' 7 memory types, not the
+summaries. A live specimen of the custodian's exception-hunting job
+([[0075-postprocessing-as-vault-librarian]]): a treasure-exception the tooling would
+never have surfaced ([[0026-exceptions-are-features]]).
+
 **Open threads.** Does on-demand extraction scale, or do hot conversations earn promotion
-to a cached artifact after first extraction (extract-once, keep-thereafter)?
-Where do they live — a new artifact type, or memories with a verbatim mode restored (0054's
-fix)? Context cost: transcripts are heavy; JIT-load per scene
-([[0060-jit-loading-retry]]) rather than infodump? Extraction tooling: currently manual —
+to a cached artifact after first extraction (extract-once, keep-thereafter — these two
+*are* that promotion, manually)? Where do they live — new artifact type, or knowledge
+entry with a verbatim treatment flag (0085's answer: the latter)? Context cost: heavy;
+JIT-load per scene ([[0060-jit-loading-retry]])? Extraction tooling: currently manual —
 debrief-stage automation candidate.
 
 **Verdict.** _(unevaluated.)_

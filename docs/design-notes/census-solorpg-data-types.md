@@ -59,6 +59,7 @@
 | Character manifest | TXT | `characters/*.txt` | 3+ | simple list | plain rosters |
 | Branch/session memories | JSON | `branches/*/memories/`, `memories/session-NN-memories.json` | 4+/2+ | same as root | branch-scoped |
 | Cheatsheet | HTML | `branches/*/player/cheatsheet.html` | 1+ | custom | player-facing |
+| Conversation transcript | MD | `transcripts/*-transcript.md` | 1 (lumina-city, 2 files) | emergent format (header + source-chunk citations + dialogue-only body) | **missed by original census**; undocumented type, see [[0062-conversation-transcripts-as-gm-context]] |
 
 ## Shape variance analysis (the census's key finding)
 
