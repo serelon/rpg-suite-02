@@ -22,6 +22,14 @@ that same corpus. Verification against a self-contaminated source can only confi
 catch. (User's own caveat: "likely a prompting/method failure, but still" — the prompt
 presumably didn't distinguish *verify against canon* from *verify internal consistency*.)
 
+**Context: this happened in-play, as a drift-stopping attempt.** Mid-session, the GM was
+asked to fact-check — and treated its *own recent session prose* as the canon source. The
+anti-drift measure became the drift vector: in-session text is precisely the least
+authoritative layer (it's what the primers/savefiles exist to anchor), but it's also the
+nearest and freshest in context, so it wins by recency. An in-play checker must be pointed
+*down* the precedence stack ([[0048-canon-precedence-and-naming-is-permission]]), away
+from the session transcript it just wrote.
+
 **Why it matters for next-gen.** Direct threat to the librarian/custodian model
 ([[0075-postprocessing-as-vault-librarian]]): a custodian that "resolves
 canon-contradictions" by majority-of-what's-written will systematically side with
