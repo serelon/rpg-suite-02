@@ -5,8 +5,9 @@ tags:
   - theme/single-source-of-truth
   - theme/context-economy
   - maturity/growing
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-06
+appraised: 2026-06-06
 synthesizes:
   - "[[0067-campaign-data-as-linked-vault]]"
   - "[[0068-multi-lens-data]]"
@@ -23,9 +24,11 @@ synthesizes:
 
 # The Knowledge Base — canonical vault, lenses, librarians
 
-> **Second synthesis doc.** Cluster notes individually appraised 2026-06-06 (adopts;
-> 0077 adapt; 0072 undecided). Theme-level thesis awaiting ratification — see Appraisal
-> record at bottom.
+> **Second synthesis doc — appraised 2026-06-06, verdict: adopt.** Thesis ratified by the
+> user after point-by-point pushback (see Appraisal record at bottom). Cluster notes carry
+> individual verdicts (0072 stays `undecided`). Headline standing work item: **KB
+> structure needs a lot of thinking — data types, formats, templates — not just placement
+> and linking.**
 
 ## The thesis (what we believe so far)
 
@@ -167,4 +170,5 @@ rest of the corpus proves is the exception.
    design-work item of the theme: KB structure needs *a lot* of thinking — not just where
    to put data and how to link it, but data types, formats, templates.**
 
-**Status:** thesis engaged point-by-point, no leg rejected; formal stamp pending.
+**Status:** thesis engaged point-by-point, no leg rejected; **ratified — adopt**
+(2026-06-06). Soft list stands as design work.

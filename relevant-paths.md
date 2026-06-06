@@ -8,8 +8,9 @@
 > cite notes; open questions first-class) → roadmap; never spec ahead of appraisal.
 > **Work owed:** appraise remaining backlog (0051–0066, 0070–0071, 0074, 0078–0082),
 > promote KB/vault theme; bundle.py flaw audit, version-skew note, graduation mechanism,
-> module contract (resolves 0038), re-read 0034. Second theme promoted:
-> [[knowledge-base-canonical-vault]] (thesis awaiting ratification). Candidate themes:
+> module contract (resolves 0038), re-read 0034. Second theme promoted **and adopted**:
+> [[knowledge-base-canonical-vault]] (headline work: KB structure — types, formats,
+> templates). Candidate themes:
 > **verbatim-anchors / voice-and-register**
 > (0005–0008, 0030, 0053–0055, 0062), **engineer-and-gardener doctrine** (0078–0082).
 > Unmined veins: rpg-tools built-never-used sweep (0050), postprocess verbatim-rewrite
