@@ -62,7 +62,12 @@ has traditionally been Opus in Claude Code ("the best and smartest option… als
 expensive"), and a mid-tier model may cover much of it. The roster is explicitly
 era-variable ("at least until mythos drops...") — so per-[[0031-beware-transient-constraint-architecture]],
 the pipeline should bind *stages to judgment levels*, not to named models; which model
-fills which tier is config, not architecture.
+fills which tier is config, not architecture. User's capability map: DeepSeek "*dirt
+cheap*, and getting quite capable"; local Gemma 4 "somewhere between haiku and sonnet in
+brainpower." **Key takeaway (user's words): "incorporate third party agents into the
+workflow at key positions. or at least properly evaluate this"** — a standing next-gen
+requirement, with the cheap evaluation path being diff-against-Opus on already-processed
+sessions (the archive as answer sheet, again).
 
 **Open threads.** Is a Desktop data dump even exportable in bulk today, and in what format?
 Triage criteria: route by campaign how — title matching, content classification? Storage:
