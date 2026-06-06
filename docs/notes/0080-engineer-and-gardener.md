@@ -57,6 +57,10 @@ design question for the KB's seed format.
    it's really **goalposting**: minimal mandatory waypoints, open-ended in between (e.g.
    origin-story beats, or sealed bounded segments per [[0089-sealed-secrets-files]]).
    Rails minimal, goalposts open — the beat-by-beat script is what kills the garden.
+   The test isn't the structure itself, it's the effect: **the failure state is where
+   goals/railroads stifle the GM's imagination** — "we want it to be creative, not follow
+   a script." A script turns the gardener into an executor; the seed-quality bar and the
+   goalpost bar are the same bar: does it leave the GM something to *invent*?
 2. **Too-small — the insidious one.** The seed "doesnt have enough interesting traits to
    extrapolate." It doesn't fail loudly; it just grows boring.
 3. **Signal drowned — the worst.** The seed *has* an interesting trait, "and thats
