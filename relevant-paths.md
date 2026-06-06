@@ -8,8 +8,9 @@
 > cite notes; open questions first-class) → roadmap; never spec ahead of appraisal.
 > **Work owed:** appraise remaining backlog (0051–0066, 0070–0071, 0074, 0078–0082),
 > promote KB/vault theme; bundle.py flaw audit, version-skew note, graduation mechanism,
-> module contract (resolves 0038), re-read 0034. Candidate themes: **knowledge-base/vault**
-> (0067–0069, 0072–0073, 0075–0077, 0082), **verbatim-anchors / voice-and-register**
+> module contract (resolves 0038), re-read 0034. Second theme promoted:
+> [[knowledge-base-canonical-vault]] (thesis awaiting ratification). Candidate themes:
+> **verbatim-anchors / voice-and-register**
 > (0005–0008, 0030, 0053–0055, 0062), **engineer-and-gardener doctrine** (0078–0082).
 > Unmined veins: rpg-tools built-never-used sweep (0050), postprocess verbatim-rewrite
 > audit (0054), aegis schema-drift git-history check (0072), three-primer drift check
@@ -175,3 +176,4 @@ graduates into a synthesis doc in `docs/themes/`.
 | Theme doc | Synthesizes | Thesis |
 |-----------|-------------|--------|
 | [[modular-self-evolving-architecture]] | 0034·0036·0024·0037·0038·0039·0040·0041·0042·0043 (+0010·0033·0026) | One home per concern; refer back & compose, don't fork; evolve by graduating campaign experiments into a versioned spec. |
+| [[knowledge-base-canonical-vault]] | 0067·0068·0069·0072·0073·0075·0076·0077·0082 (+0070·0071) | Every fact has one home: canonical linked vault; everything else is a rendered view; writes are operated mutations via librarians; truth defended structurally (provenance, precedence, write-time validation). |
