@@ -39,8 +39,9 @@ files).
 **Custodian's job list (user, 2026-06-06 — research material, not committed design):**
 housekeeping; audit links / graph health; archive obsolete data; resolve
 canon-contradictions; flag out-of-date formats needing updates; and the tricky one —
-**look for *exceptions*** (cf. [[0026-exceptions-are-features]]: exceptions are signal,
-the custodian hunts them rather than normalizing them away). Two hard constraints named:
+**look for *exceptions*** — user's lean: mostly *treasure* ("new patterns we need to
+cover", cf. [[0026-exceptions-are-features]]) but it "can also be rot"; the custodian
+surfaces both and the human sorts which is which. Two hard constraints named:
 the whole thing is being set up to be **self-evolving** ([[0041-self-evolving-versioned-spec]]),
 and — guardrail — **"always talk to the human before doing changes, or we risk going off
 the rails"**: the custodian proposes, never commits; same human-gate as the
