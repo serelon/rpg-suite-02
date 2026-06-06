@@ -36,6 +36,16 @@ files).
    ([[0051-live-context-delta]]) doing double duty — the same scene-condensate could
    patch the *running* session's context AND queue as a vault mutation.
 
+**Custodian's job list (user, 2026-06-06 — research material, not committed design):**
+housekeeping; audit links / graph health; archive obsolete data; resolve
+canon-contradictions; flag out-of-date formats needing updates; and the tricky one —
+**look for *exceptions*** (cf. [[0026-exceptions-are-features]]: exceptions are signal,
+the custodian hunts them rather than normalizing them away). Two hard constraints named:
+the whole thing is being set up to be **self-evolving** ([[0041-self-evolving-versioned-spec]]),
+and — guardrail — **"always talk to the human before doing changes, or we risk going off
+the rails"**: the custodian proposes, never commits; same human-gate as the
+postprocessing PRs in [[0052-evolution-vs-drift]].
+
 **Why it matters for next-gen.** Defines post-processing's role in the one-KB architecture
 ([[0069-one-knowledge-base-many-presentation-layers]]): consumers read the KB, the
 librarian is the *write path*. If writes are streamed, the KB stays near-live; if batch,
