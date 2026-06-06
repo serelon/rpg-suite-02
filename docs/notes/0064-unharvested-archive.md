@@ -57,7 +57,12 @@ much of the bulk — "at least postprocess/categorize." Suggests a **cost-tiered
 local models do the high-volume/low-judgment passes (RP-or-not classification, campaign
 attribution, chunking), frontier models reserved for the low-volume/high-judgment passes
 (verbatim extraction, voice/texture harvesting, canon-sensitive summarization). Tier
-boundary = where errors become expensive.
+boundary = where errors become expensive. Middle tier candidate: DeepSeek — postprocessing
+has traditionally been Opus in Claude Code ("the best and smartest option… also the most
+expensive"), and a mid-tier model may cover much of it. The roster is explicitly
+era-variable ("at least until mythos drops...") — so per-[[0031-beware-transient-constraint-architecture]],
+the pipeline should bind *stages to judgment levels*, not to named models; which model
+fills which tier is config, not architecture.
 
 **Open threads.** Is a Desktop data dump even exportable in bulk today, and in what format?
 Triage criteria: route by campaign how — title matching, content classification? Storage:
