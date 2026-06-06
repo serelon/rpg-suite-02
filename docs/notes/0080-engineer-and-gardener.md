@@ -49,10 +49,23 @@ checkpoint writes; gardening wants JIT loading ([[0060-jit-loading-retry]]), liv
 between them — what makes a seed *growable* ("a phrase" suffices) vs overdetermined is a
 design question for the KB's seed format.
 
-**Open threads.** What does a *bad* seed look like — overgrown engineering that leaves the
-gardener nothing to do (the pre-session infodump failure of 0060?), or too-bare seeds that
-grow wild ([[0052-evolution-vs-drift]])? Do gardener-grown elements need an engineering
-pass before becoming canon (harvest-review = the postprocessing PRs)? Is the
-[[0044-scenario-compiler]] an engineer tool, a gardener tool, or the bridge?
+**Seed-failure taxonomy (user, same day):**
+1. **Overengineering — the easy one, instant failure.** "giving too much info, too many
+   plothooks, laying out railroads." The gardener has nothing to grow; the seed is already
+   a (dead) tree.
+2. **Too-small — the insidious one.** The seed "doesnt have enough interesting traits to
+   extrapolate." It doesn't fail loudly; it just grows boring.
+3. **Signal drowned — the worst.** The seed *has* an interesting trait, "and thats
+   overshadowed by the eh traits." The gardener (an LLM, pattern-matching across the whole
+   seed — [[0079-relational-anchoring-antipattern]]'s mechanism again) waters everything
+   equally, and filler traits steal growth from the live one. Implication: a seed's
+   quality isn't its size but its **signal density — every trait present should deserve
+   extrapolation**, because everything present *will* get extrapolated.
+
+**Open threads.** Do gardener-grown elements need an engineering pass before becoming
+canon (harvest-review = the postprocessing PRs)? Is the [[0044-scenario-compiler]] an
+engineer tool, a gardener tool, or the bridge? Could seed review be a workshop step —
+the engineer pruning "eh traits" before play, the way 0066 prunes thinking blocks to
+"short, fixed, genuine"?
 
 **Verdict.** _(unevaluated.)_
