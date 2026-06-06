@@ -4,7 +4,7 @@ tags:
   - source/claude-desktop
   - theme/context-economy
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-06
 ---
 
@@ -56,4 +56,8 @@ two-trunk/page-vs-design-doc split ([[0068-multi-lens-data]]) give natural "laye
 check targets for free? Is there a cheap prompting fix (explicit "newer text is suspect,
 older canon is truth" ordering) worth testing before structural fixes?
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** **Adopt** (appraised 2026-06-06) — both defenses: provenance ("receipts")
+and check-against-the-layer-below. Known open issue, flagged by the user at appraisal:
+**tuning the granularity** of provenance — per-claim is unbearable, per-file too coarse to
+catch a single laundered detail; section-level is the starting guess, to be tuned in
+practice.
