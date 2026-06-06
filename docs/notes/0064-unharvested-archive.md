@@ -52,6 +52,13 @@ scale. Also the future test corpus for trigger-keyword validation
 ([[0069-one-knowledge-base-many-presentation-layers]]) and cache-policy simulation
 ([[0077-context-injection-vs-cache-economics]]) — the dump pays for itself thrice.
 
+**Resource note (user, 2026-06-06):** local LLMs are available (Gemma 4) and could carry
+much of the bulk — "at least postprocess/categorize." Suggests a **cost-tiered pipeline**:
+local models do the high-volume/low-judgment passes (RP-or-not classification, campaign
+attribution, chunking), frontier models reserved for the low-volume/high-judgment passes
+(verbatim extraction, voice/texture harvesting, canon-sensitive summarization). Tier
+boundary = where errors become expensive.
+
 **Open threads.** Is a Desktop data dump even exportable in bulk today, and in what format?
 Triage criteria: route by campaign how — title matching, content classification? Storage:
 1000 threads of JSONL is heavy — does it live in the campaign repo or a separate
