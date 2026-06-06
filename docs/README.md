@@ -81,7 +81,12 @@ to pile up.
    one source-area at a time). Descriptive only; tag `verdict/unevaluated`. Big sweeps get
    rubber-stamped — keep batches small so review keeps pace.
 2. **Report** — surface the fresh batch back for review (the index makes this easy).
-3. **Appraise** — the protected step. **Interview-first:** let the user think out loud and
+3. **Appraise** — the protected step. **The delta lens (2026-06-06):** we are auditing
+   our *own previous gen*, not gatekeeping a stranger's patterns — so the productive
+   question is not "is this good?" but **"what's the next-gen delta?"**: *carry as-is /
+   carry with this specific evolution / superseded by [x]*. Zero rejects is the expected
+   outcome, not a smell; the deltas themselves are design input. (`reject` stays in the
+   vocabulary for the genuine duds.) **Interview-first:** let the user think out loud and
    surface their read *before* any verdict is proposed — we won't always be in sync, and
    anchoring them early hides that. Only once they've processed does the assistant give its
    own verdict **plus honest pushback / constructive criticism** (this matters more as the

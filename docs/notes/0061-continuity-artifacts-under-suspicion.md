@@ -42,4 +42,15 @@ tiered mutability)? **Mining lead:** diff early vs late savefiles of a long camp
 look at what the structure did under pressure. Same study for summary formats across
 campaigns ([[0027-recurring-exception-taxonomy]] angle: did campaigns fork the format?).
 
-**Verdict.** _(unevaluated.)_
+**Amended (user, pillar-1 review 2026-06-06): the savefile doubt was overstated.** "the
+savefile format as is now is actually fairly mature, the issues are in the details, in
+the **guidelines for capture** (they need tuning), and for **maintaining**." So the
+format survives; the redesign target is capture guidance + maintenance practice. And
+savefile-as-knowledge-entry ([[0085-knowledge-entries-vs-tool-data]]) is a **growth
+play**, not a rescue: "having the core subsections of the savefile.jsons be subsections
+in a potentially much larger page … means the loremaster can track *alot* more data —
+a full history section, a full changelog, etc." The summary-format doubt stands
+unchanged.
+
+**Verdict.** _(unevaluated — summary half still owes its appraisal; savefile half
+reframed above.)_

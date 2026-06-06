@@ -58,8 +58,25 @@ Index-lines are also the obvious building block for the index-pages that replace
 an index-page is just a curated/generated list of index-lines, which means the
 roster-replacement may be a *render* (custodian/build output), not an authored doc.
 
-**Open threads.** Is "treated a certain way" a closed flag vocabulary or extensible per
-module? Index-pages: generated (custodian output) or authored — or authored-order over
+**Sharpened (user, pillar-1 review 2026-06-06): the cut is by *substrate*, not shape.**
+"tool data is raw json data, doesnt become an md in the obsidian tree. knowledge entries
+do, they're fully standardized with obsidian as the base template, *regardless* of how
+complex they become. memories, characters, savefiles, maybe even spreadsheets, all go in
+there. **it's about the base template, not the end shape.**" So: knowledge entry = vault
+page on ONE base template ([[0090-cherrypick-contract-three-layers]]'s three layers);
+tool data = raw JSON outside the tree; **images/raw assets are a third substrate**.
+Complexity lives *inside* the template, never as a schema fork. **Multi-template pages
+kept open** as a possibility (one page validly carrying two subtemplates) — no design,
+just not foreclosed. Savefiles land here too — see [[0061-continuity-artifacts-under-suspicion]]'s
+amendment (savefile-as-page is a growth play).
+
+**Flag vocabulary settled (user, same review): extensible per module, but *always*
+documented.** "we want the repo to be self-evolving, but we also want to avoid the trap
+of undocumented innovations." Module owns its flags' docs ([[0036-every-subsystem-is-a-module]]),
+spec owns the core set ([[0041-self-evolving-versioned-spec]]), undocumented-flag-hunting
+is a custodian audit job ([[0075-postprocessing-as-vault-librarian]]).
+
+**Open threads.** Index-pages: generated (custodian output) or authored — or authored-order over
 generated-content? Is the index-line *derived* from page frontmatter (name + role + key
 links) or hand-written — and if hand-written, it's the one tier where
 [[0079-relational-anchoring-antipattern]] is *allowed* (relational hooks are the point of

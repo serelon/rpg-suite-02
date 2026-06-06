@@ -172,3 +172,25 @@ rest of the corpus proves is the exception.
 
 **Status:** thesis engaged point-by-point, no leg rejected; **ratified — adopt**
 (2026-06-06). Soft list stands as design work.
+
+## Pillar-1 review riders (2026-06-06, later same day)
+
+1. **The cherrypick gate is resolved — go.** Obsidian-compat was conditional on tools
+   extracting targeted sub-data from compliant pages; a working prototype settled it.
+   Contract: frontmatter = edges/scalars, fenced json blocks = nested mechanical data,
+   `##` sections = prose. See [[0090-cherrypick-contract-three-layers]] and
+   `experiments/cherrypick/`. The "markdown database" discomfort (pushback #1) is
+   thereby retired; the binding constraint shifts to template discipline.
+2. **Edges-as-datastructs (pushback #3) upgraded** from "needs thinking" to live
+   evidence: Obsidian Properties support real frontmatter links (graph-visible,
+   rename-safe), demonstrated in the PoC. Links inside code blocks stay dead — relations
+   never go in json blocks.
+3. **Campaign isolation (pushback #4) decided:** one vault, campaign-folder entrypoints,
+   tool-enforced boundaries — [[0091-one-vault-campaign-folder-entrypoints]].
+4. **Widget lane confirmed**; one flagged future exception: **images** (generated scene
+   art = ephemeral vs canonical portrait = vault asset) — a future pipeline question,
+   parked. Images/raw assets noted as a third substrate alongside vault pages and tool
+   JSON ([[0085-knowledge-entries-vs-tool-data]]).
+5. **The headline work item (KB structure/types/templates) reaffirmed** — with the
+   user's bounding observation: it's **archaeology, not invention** — "most of it will be
+   based on live examples already existing in our campaign database."
