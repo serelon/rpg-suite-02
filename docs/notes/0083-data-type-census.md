@@ -41,6 +41,20 @@ chunks), or retired. Finding 1 is the design argument: **giving prose types real
 + write-path tooling is where the variance reduction will come from.** Finding 3 says the
 cherrypick/section schemas must move out of skill prose into the KB's own type definitions.
 
+**Corrections & color (user, same day):**
+- Character MD profiles are the **legacy pre-JSON format, not yet migrated** — a
+  migration debt, not a parallel type.
+- Rosters are an organizational stopgap the user wants **replaced by folders + tags +
+  index-pages** — "they dont actually solve the lack of organization problem" (flat
+  directories turn into a mess over time; this is 0067's relations-over-flatness argument
+  showing up as lived pain).
+- Namesets: "one of my most complex, and also most mature formats. so proud of those :3"
+  — complexity and maturity *together*; the toolbox's flagship type.
+- Census missed **conversation transcripts** (~2 in lumina-city,
+  [[0062-conversation-transcripts-as-gm-context]]) — add to the inventory.
+- User's reaction to ~50 types: "alot more types than i expected" — the census surfaced
+  genuine unknowns.
+
 **Open threads.** The aegis data/ cluster (threads, strategic, equipment, vault,
 blueprints…) is a whole genre — "campaign-mechanical state" — that the rpg-tools type
 system doesn't cover at all; does next-gen absorb it as module-owned page types
