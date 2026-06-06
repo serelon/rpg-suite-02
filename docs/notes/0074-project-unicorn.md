@@ -31,6 +31,15 @@ architecture *now*:
   stack being valuable *without* Unicorn ever shipping: every layer (KB, compiler,
   presentation modules) must stand alone. Unicorn is the capstone, never a dependency.
 
+**Sequencing & doctrine (user, same session).** The primary build target comes first:
+**recreate the static bundles** on the new stack — Unicorn starts only "after that is
+mature." Doctrinally, Unicorn will be "a combination between my old workflows, and a bunch
+'o concepts from sillytavern — the context-engineering, and long-context handling
+primarily." So the SillyTavern influence isn't just the keyword-RAG consumer in
+[[0069-one-knowledge-base-many-presentation-layers]]; it's a doctrinal pillar of the
+client itself (lorebook-style context assembly, long-context budgeting/trimming
+strategies) married to the solorpg workflow lineage.
+
 **Open threads.** What does "ultimate RP client" mean concretely — a chat UI with the KB
 live behind it? Session management, portability ([[0063-portable-bundles-constraint]]),
 the audit GUI ([[0057-compiled-context-needs-audit-tooling]]) folded in? Deliberately
