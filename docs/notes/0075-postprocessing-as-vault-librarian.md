@@ -42,7 +42,11 @@ librarian is the *write path*. If writes are streamed, the KB stays near-live; i
 it lags a session behind — which consumers (especially RAG) would feel.
 
 **Open threads.** Scene-boundary detection — who calls "that was a scene"? (GM model
-mid-play? a watcher? explicit user beat?) Does streamed condensation degrade prose quality
+mid-play? a watcher? explicit user beat?) **Genuinely unsolved** (user, 2026-06-06):
+"sometimes we have very clear barriers, sometimes they blur, and i dont really have a
+clear answer." Likely needs a hybrid: take the cheap wins when barriers are clear (hard
+cuts, location changes, time skips), and let blurry stretches fall back to end-of-session
+batch — streaming as opportunistic, not mandatory. Does streamed condensation degrade prose quality
 vs end-of-session hindsight (early scenes look different once the session's end is known)?
 Review gate: solorpg post-processing earned PRs — what's the review step for a stream of
 small mutations ([[0052-evolution-vs-drift]] gates)?
