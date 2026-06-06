@@ -92,6 +92,8 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0080-engineer-and-gardener]] | principle | solorpg | Load-bearing doctrine: engineer (OOC workshop — design, primers, seeds) and gardener (IC play — grows seeds organically); librarian harvests. One-line seed → played session → 1000-word profile. |
 | [[0081-writer-planner-split]] | idea | conversation | Unicorn: local RP-finetune writes prose, Opus plans/judges. Two attentions solve attention starvation; tier-by-judgment applied to live play. Interface = the seed contract? |
 | [[0082-live-hook-pipeline]] | idea | conversation | Event-driven agents after the writer (live extraction, widget updates): "run agent x at stage a whenever y happened." Tiny cheap hooks for often-run things; writer never does bookkeeping. The mechanism for streamed librarianship. |
+| [[0083-data-type-census]] | pattern | solorpg | ~50 data types censused; shape variance tracks tool-backing almost perfectly; adoption gradient hard-counted; skills are de-facto schema authorities for prose types. Input inventory for KB-structure work. |
+| [[0084-rpg-tools-data-layer]] | pattern | rpg-tools | The toolbox is a proto-KB: tiered records (minimal/full/sections), read-anywhere/write-canonical, namespace+extends, ref validation (memories.py only), era parsers. Steal primitives, not plumbing. |
 | [[0065-oneshots-as-spawning-pool]] | pattern | solorpg/claude-desktop | Oneshots mostly fizzle but graduate 3 ways (→campaign, →branch, →canon arc); need cheap home, graduation paths, dignified fizzle. |
 | [[0064-unharvested-archive]] | question | solorpg/claude-desktop | ~58 exports in repo vs ~500 RP sessions in Desktop; substrate mostly missing — bulk dump-and-triage is an agent-scale job. |
 | [[0063-portable-bundles-constraint]] | pattern | solorpg | Away-from-repo play (phone/Desktop/web) is first-class: the bundle is the whole world → compiler needs thin (at-home/JIT) and fat (away/self-contained) target profiles. |
@@ -167,6 +169,8 @@ that link back. See `docs/README.md` → "Design-notes".
 | [[sample-book]] | notes 0005–0012 | Steer voice by demonstration via a (scene-type × register) exemplar grid; the voice-layer of a docs-as-code context architecture. |
 | [[gm-skill]] (+ [[gm-skill-SKILL]], [[gm-skill-RATIONALE]]) | notes 0013–0019 (meta layer) | Working Claude Desktop GM skill + its anti-regression rationale doc. Craft layer preserved, not yet atomized. |
 | [[gm-skill-thinking-tuning]] | note 0066 | Field incident (Lumina City s04): thinking-block enforcement starved by a "stop overthinking" instruction; fix = mandatory checks, not length. First inbox report. |
+| [[census-solorpg-data-types]] | note 0083 | Full data-type inventory of the solorpg vault (~50 types, formats, breadth, variance). Reference for KB-structure design. |
+| [[census-rpg-tools]] | note 0084 | Full tool/schema inventory of rpg-tools (reads/writes, discovery paths, documented formats, skew). Reference for KB-structure design. |
 | [[session-postprocess]] (+ [[session-postprocess-SKILL]]) | notes 0033–0035 (+0028/0030/0032) | The flagship live workflow. Headline lesson: outgrown scaffold / knowledge-composition bottleneck. |
 
 ## Themes (synthesis)
