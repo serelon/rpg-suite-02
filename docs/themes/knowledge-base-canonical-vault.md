@@ -143,4 +143,28 @@ rest of the corpus proves is the exception.
 
 ## Appraisal record (2026-06-06)
 
-_(theme-level thesis pending user ratification; cluster notes carry individual verdicts.)_
+**Assistant's pushback and the user's responses:**
+
+1. *"The vault is a markdown database, and markdown is a bad database."* — Acknowledged:
+   "'markdown database' is not ideal, but having it obsidian compatible is. i'm not sure
+   how much wiggle room we have there." The existing JSON database is "fairly nice,
+   tooling wise, but hard for the user to browse." Alternative noted but **not sold on**:
+   a JSON/NoSQL db fronted by a custom Project-Unicorn interface. Human-browsability is
+   the binding constraint; the cherrypick contract must stay small.
+2. *"The librarian is a bottleneck by design."* — Agreed. Current librarian flow is
+   post-session with a big audit step. A live/parallel librarian "would need a way to
+   loop back non-audited things early, and defer the audit abit. maybe...idk" — open.
+   **Important boundary drawn:** widget/state-level writes *aren't the librarian process
+   at all* and aren't constrained the same way — "a widget could just read the latest
+   post and be like 'yeah, heres some garbage i just made up' and that destroys nothing."
+   Ephemeral display ≠ canon writes. (Plus: tool calls with **widget sidecards** — fancy
+   graphical dice rolls inline — folded into [[0082-live-hook-pipeline]].)
+3. *"Auto-reverse links conflict with structured mutation."* — "needs thinking about."
+   Open; leading candidate: edges as datastructs (frontmatter), never in prose, which
+   0073's rule already permits mutating.
+4. *"Campaign isolation is hand-waved."* — Confirmed deferred: "we'll have to do a fair
+   bit of thinking about this later." Broadened by the user into the **biggest named
+   design-work item of the theme: KB structure needs *a lot* of thinking — not just where
+   to put data and how to link it, but data types, formats, templates.**
+
+**Status:** thesis engaged point-by-point, no leg rejected; formal stamp pending.

@@ -36,6 +36,14 @@ threads:
 - "Widget updating" implies Unicorn's UI has live state panes fed by hooks, not by the
   writer — the writer never does bookkeeping.
 
+**Widget lane clarified (user, theme appraisal 2026-06-06).** Widget/state-level writes
+are **not the librarian process** and skip its constraints entirely: "a widget could just
+read the latest post and be like 'yeah, heres some garbage i just made up' and that
+destroys nothing" — ephemeral display, regenerable, zero canon risk. Two lanes confirmed:
+widgets (fast, unaudited, disposable) vs librarian mutations (gated, canon). Also: **tools
+with widget sidecards** — graphic inline toolcalls, "fancy dicerolls!" — Unicorn UI candy
+where a tool invocation renders its own visual card in the story stream.
+
 **Open threads.** What's the trigger vocabulary ("y has happened") — turn-complete,
 entity-mentioned, state-changed, scene-break, explicit player beat? Hook failure handling:
 a missed extraction is recoverable (batch sweep later, [[0075]]'s fallback), so hooks can
