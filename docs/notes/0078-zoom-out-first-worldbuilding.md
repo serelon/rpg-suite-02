@@ -40,10 +40,18 @@ container-world risk is the *reason* for the nudge, and it's worth surfacing to 
 during workshops, not silently enforcing. Checkpoint writes pair with the disposable/
 permanent primer tiers ([[0049-disposable-bootstrap-primer]]).
 
-**Open threads.** Can a character-first start be *deliberately de-weighted* — a workshop
-move that zooms out hard after the seed is captured ("park the character, build the world
-that doesn't revolve around them, then re-place them")? Is Emberfall's 6-branch spread an
-attempted correction of Xel-iri gravity, or an expression of it? What are the "big
-checkpoints" exactly — do they map to the three primers ([[0048-canon-precedence-and-naming-is-permission]])?
+**Follow-ups answered (user, same day).** De-weighting a character-first start is "very
+hard" — the mechanism is [[0079-relational-anchoring-antipattern]] (the LLM writes
+everything as relatives of in-context material); workaround is excluding the character
+from context while building world material, effortful and imperfect. And Emberfall's
+6 branches aren't a correction *or* an expression of Xel-iri gravity — it's simply the
+user's one fantasy setting with many characters being started in it; but "original primer
+was very much keyed for xel-iris branch," so the weighting sits in the *primer*, not the
+branch spread.
+
+**Open threads.** What are the "big checkpoints" exactly — do they map to the three
+primers ([[0048-canon-precedence-and-naming-is-permission]])? Does a primer "keyed for"
+one branch need a de-keying pass when a setting goes multi-branch (Emberfall as the test
+case)?
 
 **Verdict.** _(unevaluated.)_
