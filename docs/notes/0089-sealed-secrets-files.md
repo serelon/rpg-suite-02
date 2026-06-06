@@ -42,8 +42,10 @@ secret 1 and 2 — before then, it was a scenario seed, after that the session s
 real… for origin stories there are going to be mandatory beats. or the concept wont
 happen." So: **mandatory beats are legitimate inside a sealed, bounded segment** (an
 origin's load-bearing skeleton), and the seal is what makes them playable — the GM can't
-foreshadow rails it can't see. Refines 0080's taxonomy: railroad = seed failure *except*
-sealed + bounded + concept-critical.
+foreshadow rails it can't see. Refines 0080's taxonomy — and the user refined it further: the real distinction is
+**goalposting vs beat-by-beat planning**. Mandatory waypoints with open-ended play between
+them are fine (sealed origin beats are exactly that); "unprompted session-planning… a
+detailed beat-by-beat plan is the nono." Rails minimal, goalposts open.
 
 **Why it matters for next-gen.** Completes the audience axis
 ([[0088-player-display-artifacts]]) with its missing quadrant: content hidden *from the

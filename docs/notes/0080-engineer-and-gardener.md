@@ -52,7 +52,11 @@ design question for the KB's seed format.
 **Seed-failure taxonomy (user, same day):**
 1. **Overengineering — the easy one, instant failure.** "giving too much info, too many
    plothooks, laying out railroads." The gardener has nothing to grow; the seed is already
-   a (dead) tree.
+   a (dead) tree. *Refined (2026-06-06):* the precise nono is **unprompted
+   session-planning — a detailed beat-by-beat plan**. Some railroading is acceptable when
+   it's really **goalposting**: minimal mandatory waypoints, open-ended in between (e.g.
+   origin-story beats, or sealed bounded segments per [[0089-sealed-secrets-files]]).
+   Rails minimal, goalposts open — the beat-by-beat script is what kills the garden.
 2. **Too-small — the insidious one.** The seed "doesnt have enough interesting traits to
    extrapolate." It doesn't fail loudly; it just grows boring.
 3. **Signal drowned — the worst.** The seed *has* an interesting trait, "and thats
