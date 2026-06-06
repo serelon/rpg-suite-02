@@ -24,8 +24,11 @@ challenge ("thats challenging to integrate in an agentic flow..") decomposes cle
    exact illegibility that mothballed the original module (0086's failure mode).
 3. **Visualization → a generated HTML view.** "spreadsheets are also a great
    visualisation layer" (user) — served by a *render*: recalc emits an HTML report
-   (tables/balances/charts, no deps). Precedent exists in-house: sophie's
-   `cheatsheet.html`. [[0056-files-as-build-products]] again — the pretty view is a build
+   (tables/balances/charts, no deps). Precedent is established in-house: **cheatsheets
+   are widespread across branches and there's a dedicated `cheatsheet` skill to generate
+   them** (user correction — not just sophie's one-off). Generated-HTML-view-of-campaign-
+   state is already a proven, skill-backed pattern; this extends it to mechanical state.
+   [[0056-files-as-build-products]] again — the pretty view is a build
    product, never the source of truth. Unicorn-era: same render as a widget pane
    ([[0082-live-hook-pipeline]]).
 
