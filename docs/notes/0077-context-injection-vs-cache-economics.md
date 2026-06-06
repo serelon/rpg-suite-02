@@ -4,7 +4,7 @@ tags:
   - source/conversation
   - theme/context-economy
   - maturity/speculative
-  - verdict/unevaluated
+  - verdict/adapt
 created: 2026-06-06
 ---
 
@@ -45,4 +45,8 @@ only at boundaries (latency vs freshness)? Measure: what does a typical session'
 cache-hit profile look like under each policy — can be simulated from existing session
 transcripts ([[0064-unharvested-archive]] as test corpus again)?
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** **Adapt** (appraised 2026-06-06). The cache-scheduling problem itself is
+Unicorn-era — parked. But one piece lands *now*, on the KB side: **"the rules for where to
+inject data must start with the data itself"** — KB pages/blocks should carry placement
+metadata (volatility tier, injection position hints) so future consumers can schedule for
+caching without re-deriving it. Data carries the hints; consumers own the algorithm.

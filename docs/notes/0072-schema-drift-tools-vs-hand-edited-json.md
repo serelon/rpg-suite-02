@@ -4,7 +4,7 @@ tags:
   - source/aegis-tools
   - theme/architecture
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/undecided
 created: 2026-06-05
 ---
 
@@ -54,4 +54,14 @@ folded back into the code. That's the same failure as [[0046-campaign-lifecycle-
 improvements made in the data layer with no path back to the tool layer. Does next-gen
 need a "schema PR" loop — when the human outgrows the schema, the schema follows?
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** **Undecided — cause unknown** (appraised 2026-06-06). The user can't
+reconstruct why the diff exists: "if its tool-worked data, there shouldnt be [a diff],
+those are supposed to be tool-first. if its hidden metadata, that the tool just doesnt
+see, then thats a trick we've used before (used to hide metadata in namesets before we
+made that a canon approach)." So the divergence is either a genuine anomaly or a
+deliberate-but-forgotten hidden-metadata move. **Mining lead:** check the aegis data's git
+history — did the off-schema shapes (threads-as-dict, tech `vault`) arrive via hand edits,
+tool versions that changed, or intentional metadata smuggling? The validate-loudly stance
+waits on that answer. (Side capture: *hidden metadata in namesets, later canonized* is
+itself an instance of informal-trick-graduates-to-canon-approach — the [[0043-campaigns-as-testbeds]]
+graduation path working.)

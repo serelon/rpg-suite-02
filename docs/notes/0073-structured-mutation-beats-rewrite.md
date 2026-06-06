@@ -5,7 +5,7 @@ tags:
   - source/aegis-tools
   - theme/single-source-of-truth
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-05
 ---
 
@@ -43,4 +43,9 @@ what's "patch" for a narrative summary)? Does the savefile survive at all, or do
 dissolve into structured-mutation artifacts (threads-like state + memories)? Find the old
 cut'n'paste housekeeping prompts.
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** **Adopt — as a hard rule** (appraised 2026-06-06). "rewritten is how we get
+extreme drift… likely still [drifts] with opus 4.8. we want as subtle and as atomic edits
+as possible." Spec phrasing from the user: **unless specifically audited, never change the
+wording or data context of files — only datastructs** (e.g. migrating one JSON schema to
+another is fine; the content riding in it is untouchable). Wording changes require an
+explicit audited pass; they never happen as a side effect.
