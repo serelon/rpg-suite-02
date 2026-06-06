@@ -39,11 +39,19 @@ the first, foundational cut in that structure:
   exceptions first** (census done), *then* squeeze — exceptions as input, not noise
   ([[0026-exceptions-are-features]]).
 
-**Open threads.** Where do hybrid types fall — characters are knowledge entries (read into
-context) but also tool-targets (characters.py filters/loads them)? Is "treated a certain
-way" a closed flag vocabulary or extensible per module? Do entity pages (characters,
-locations, factions) form a third kind — *registry entries* — or are they knowledge
-entries with identity flags? Rosters dissolve into folders+tags+index-pages (user) — are
-index-pages generated (custodian output) or authored?
+**Hybrid question resolved (user, same day): characters are knowledge entries — and the
+oldest living example of [[0068-multi-lens-data]]'s zoom pattern.** The current character
+format (and the legacy .md one before it): "there's a short profile, to be loaded in bulk
+for many characters. there's the long profile to be loaded for the most important
+spotlight characters. and there's room for extra sections to be loaded on demand. also
+some metadata." So: minimal = bulk zoom, full = spotlight zoom, sections = on-demand
+hops, metadata = selection layer. characters.py is not a tool consuming tool-data — it's
+a *presentation consumer* ([[0069-one-knowledge-base-many-presentation-layers]]) pulling
+zoom tiers. The two-kind cut survives clean: knowledge entries zoom; tool data computes.
+
+**Open threads.** Is "treated a certain way" a closed flag vocabulary or extensible per
+module? Rosters dissolve into folders + tags + index-pages (user) — are index-pages
+generated (custodian output) or authored? Does the knowledge-entry base shape standardize
+the zoom-tier names (bulk/spotlight/on-demand) across all entry types, or per-type?
 
 **Verdict.** _(unevaluated.)_
