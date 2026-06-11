@@ -21,7 +21,7 @@ This repo doubles as an **Obsidian vault** for organizing the research. The stru
 - `docs/themes/` — **synthesis docs**, written only when a `theme/` tag earns enough notes to graduate.
 - `ROADMAP.md` (root) — placeholder; the *last* artifact, populated only when proven/decided material exists to sequence.
 
-- `inbox/` (root) — drag-and-drop queue for raw, unprocessed material. Not canonical; emptied as items are mined into notes.
+- `inbox/` (root) — drag-and-drop queue for raw, unprocessed material. Not canonical; a *staging area*, not a destination. As items are mined, they move **onward to their home in the repo** (notes capture the ideas; the raw source is preserved/archived and cross-referenced) — **never deleted**. "Cleared from the inbox" means *integrated*, not discarded.
 
 **Workflow: mine → report → appraise → commit.** Mine patterns in *small batches* (~3–5), report them back, then **appraise together** before committing. Every note is born `verdict/unevaluated` and stays that way until we explicitly judge it (`adopt`/`adapt`/`reject`/`undecided`) — this gate is deliberate, to protect the good-vs-bad evaluation step from being skipped. Find un-reviewed notes via the `verdict/unevaluated` tag. Keep `maturity/` (proven *in its source*) distinct from `verdict/` (our call for next-gen).
 

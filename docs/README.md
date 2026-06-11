@@ -14,9 +14,10 @@ relevant-paths.md   # living index (repo root): source repos + every note
 docs/
   notes/            # atomic captures — ONE idea/pattern/workflow/question per file
   design-notes/     # rich multi-idea docs, preserved verbatim (see below)
+  sources/          # raw mined sources, preserved verbatim as primary citations
   themes/           # synthesis docs — written later, when a tag earns its keep
   README.md         # this file
-inbox/              # drag-and-drop queue for unprocessed material (repo root)
+inbox/              # drag-and-drop STAGING queue for unprocessed material (repo root)
 ROADMAP.md          # placeholder; populated when notes mature (repo root)
 ```
 
@@ -37,6 +38,23 @@ worth keeping whole.
 **Companion docs are a first-class artifact.** When a built thing (skill/tool/prototype)
 ships with a doc explaining *why* it's designed that way, that doc is high-value research
 input — capture it here. (The idea of *writing* such companion docs is itself worth a note.)
+
+## Mining is non-destructive
+
+Two standing principles for processing `inbox/` material:
+
+1. **Non-destructive mining.** The inbox is a *staging area*, never a graveyard. Mined
+   items move **onward to a home in the repo** — they are never deleted. "Cleared from
+   the inbox" means *integrated*. Raw sources too bulky or low-prose to be design-notes
+   are preserved verbatim in `docs/sources/<file>` (their original filename kept).
+2. **Maintain cross-references.** When something moves, keep the links intact. A note
+   citing a source points at its real, stable path; the source (or its index row) points
+   back at the notes mined from it. Moving a file means updating the references that name
+   it, not orphaning them.
+
+`docs/sources/` is the home for raw primary material (e.g. third-party config files,
+exports, presets) — distinct from `docs/design-notes/`, which is for *prose* documents
+with voice and argument. Both are citations; sources are data, design-notes are writing.
 
 ## Notes
 

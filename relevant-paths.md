@@ -108,6 +108,11 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0096-enforcement-matches-reversibility]] | principle | conversation | Match enforcement to failure reversibility: campaign bleed is recoverable → tool-enforced (0091); public leak is irreversible → structural split (0095). Ladder: discipline → tool → gate → structurally impossible. |
 | [[0097-interleaved-checklist-thinking]] | pattern | conversation | Old experiment: per-paragraph think-blocks (pacing / stop-point / fact-check). Fact-check is *the* damning 0076 example — checked drift against its own prose, self-confirmed. Checklist-discipline is the keeper; modern Opus collapses it. Self-checks need an external reference. |
 | [[0098-vector-index-over-vault-not-store]] | question | conversation | Vector DB as a rebuildable *index over* the vault (vault = source of truth), not a store. Refines 0040's ownership. Multi-granularity (page+section+) with filters = E:\rpg chunking kept, store dropped. Sealed secrets must be hard-filtered or search blows the seal. |
+| [[0099-pseudocode-as-encoding]] | idea | conversation | Format prompts/lore as pseudocode, betting on LLM code-tuning for better thread-following. Two readings: lore-as-data-structures (safe) vs logic-as-control-flow (railroad risk). Likely fits structural lore, not voice. Early win: human auditability — caught a misunderstanding instantly that a prose blob hid. |
+| [[0100-fragment-library-prompt-assembly]] | pattern | new (ST presets) | ST preset architecture: fragment pool + ordered enable-manifest + marker/data-hole slots = a prompt compiler (library/linker/live-jacks). The wanted pattern for campaign-context assembly. ST's on/off-only manifest can't do mutual-exclusion/deps → it hacks with convention-as-UI; our custom toolchain should solve cardinality natively. |
+| [[0101-swappable-cot-modules]] | pattern | new (ST presets) | CoT as a hot-swappable fragment, per-model/per-genre (MAX+ ships 5 variants + a Claude/Gemini one). Shape: `<think>` bullets-only, 7-task numbered checklist, leak-gate. Echoes 0097 checklist-discipline — but self-checks need an *external* referent (banned list / state file) or they self-confirm. |
+| [[0102-catalogue-metadata-shape]] | idea | conversation | Cataloguing shape for KB entries: validated mandatory core + additive periphery. Reframe — "wrong schema" is cheap (additive), only *unstamped capture-time facts* are fatal; a session/provenance anchor makes the rest backfillable. Validation implies a registry → phase it in. template-version is the keystone. |
+| [[0103-bitemporal-subentry-versioning]] | idea | conversation | Item = stable identity; subentries = versioned, provenanced fact-slices. Bitemporal (transaction vs valid time) + SCD-2. Free changelog + time-travel queries; distinguish in-world change vs retcon. Provenance lives per-version. Branch axis = open thread. |
 | [[0065-oneshots-as-spawning-pool]] | pattern | solorpg/claude-desktop | Oneshots mostly fizzle but graduate 3 ways (→campaign, →branch, →canon arc); need cheap home, graduation paths, dignified fizzle. |
 | [[0064-unharvested-archive]] | question | solorpg/claude-desktop | ~58 exports in repo vs ~500 RP sessions in Desktop; substrate mostly missing — bulk dump-and-triage is an agent-scale job. |
 | [[0063-portable-bundles-constraint]] | pattern | solorpg | Away-from-repo play (phone/Desktop/web) is first-class: the bundle is the whole world → compiler needs thin (at-home/JIT) and fat (away/self-contained) target profiles. |
@@ -186,6 +191,15 @@ that link back. See `docs/README.md` → "Design-notes".
 | [[census-solorpg-data-types]] | note 0083 | Full data-type inventory of the solorpg vault (~50 types, formats, breadth, variance). Reference for KB-structure design. |
 | [[census-rpg-tools]] | note 0084 | Full tool/schema inventory of rpg-tools (reads/writes, discovery paths, documented formats, skew). Reference for KB-structure design. |
 | [[session-postprocess]] (+ [[session-postprocess-SKILL]]) | notes 0033–0035 (+0028/0030/0032) | The flagship live workflow. Headline lesson: outgrown scaffold / knowledge-composition bottleneck. |
+
+## Sources (preserved raw — `docs/sources/`)
+
+Raw mined material kept verbatim as primary citations (non-destructive mining). Distinct
+from design-notes: these are *data/config*, not prose.
+
+| Source | Mined into | One-line |
+|--------|------------|----------|
+| `Freaky Frankenstein 4 BOLT+ Updated.json`, `...MAX+ Updated.json` | notes [[0100-fragment-library-prompt-assembly]], [[0101-swappable-cot-modules]] (+ [[0099-pseudocode-as-encoding]]) | Community SillyTavern Chat-Completion presets. Mined for *structure* (not the ERP payload): fragment-pool + enable-manifest + data-hole composition; pseudocode-DSL prompt encoding; swappable per-model CoT modules. |
 
 ## Themes (synthesis)
 
