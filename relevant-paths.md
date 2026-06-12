@@ -1,6 +1,8 @@
 # Relevant Paths & Index
 
-> **Status (2026-06-06):** 82 notes. Appraised: 0046–0050 (4 adopt, 1 adapt) and the
+> **Status (2026-06-12):** 108 notes. Progression cluster added (0104–0107) from the
+> Tarot→freeform→Aegis interview — unappraised.
+> _(historic, 2026-06-06: 82 notes.)_ Appraised: 0046–0050 (4 adopt, 1 adapt) and the
 > **KB cluster** 0067–0069 + 0073 + 0075–0077 (adopts; 0077 adapt; 0072 undecided —
 > cause unknown). 6 preserved design-notes, first theme promoted **and appraised**
 > ([[modular-self-evolving-architecture]]). Four north-stars: 0004 · 0024 · 0036 · 0041.
@@ -70,6 +72,10 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0107-prose-deprecation-doctrine]] | principle | conversation | Deprecate prose for *data* (illegible/lossy/drift/rewrite-only); structure by default. Keep prose only where it's the *payload* (voice/appearance/texture), heavily curated. Splits corpus by payload-vs-carrier. |
+| [[0106-three-layer-character-record]] | pattern | conversation | Character/progression in 3 layers: mechanical (defined statblock, JSON, CRUD), semantic (interpretation contract — the layer Tarot fatally lacked), prose (curated, where prose is the payload). Failures = a missing/collapsed layer. |
+| [[0105-tarot-progression-unifying-failure]] | pattern | tarot-tales | Tarot's 4 progression gears (aspects/traits/Discovery/Between-Adventures + Powers) all failed one way: under-specified markers, no semantic layer → decay into flavor. Token-heavy stars + rewrite-to-update = a 0073 instance. Cap problem too. Fixed in Aegis. |
+| [[0104-progression-as-pluggable-layer]] | idea | conversation | The 3 eras = points on one axis (module off→light→heavy): freeform off, Tarot light(-broken), Aegis heavy. Next-gen owns the *axis* — progression as a pluggable layer (0024 applied to progression); Aegis = the dial maxed, not an exception. |
 | [[0030-summary-as-compression]] | pattern | solorpg | Summaries = forward-looking state, "will it matter in 10 sessions?"; texture evicted to memories. |
 | [[0029-information-boundary-enforcement]] | question | solorpg | Unmet need: secrets must not leak across POVs/saves; currently prose-only, no checkpoint. |
 | [[0028-checkpointed-human-gates]] | pattern | solorpg | Draft→review→adjust→write at every artifact; additive-only diffs for core data. Agents propose, gates dispose. |
