@@ -1,6 +1,16 @@
 # Relevant Paths & Index
 
-> **Status (2026-06-13):** 113 notes. Import-pipeline cluster added (0108–0112) from
+> **Status (2026-06-13):** 118 notes. **Local-finetuning cluster (0113–0117) appraised**
+> (from the inbox LoRA conversation, [[Claude-export-custom-lora]] preserved as a source).
+> Reframe: the LoRA is a **sidequest** (play stays on Opus in Desktop) — the durable win is a
+> **scene/register categorization layer** serving the **sample book** (quickest+best win,
+> 0006/0055), with LoRA-dataset prep a free rider. Verdicts: 0113 distill **adapt**
+> (workshop technique for curated exemplars), 0114 register-grid **adapt**, 0116 earns-its-keep
+> **adopt** (the sidequest gate), 0115 idiom-vs-facts **undecided** (parked), 0117 **adapt →
+> resolved principle**: *rewrite belongs to the curated layer + needs an explicit anchor; copy
+> to the verbatim layer* (dissolves the 0113↔0054/0094 tension; extends 0007 with a
+> rewrite-harvested middle gear). Feeds the **voice-register** theme. Import-pipeline cluster added
+> (0108–0112) from
 > solorpg pre-planning ([[import-design-brief]] + [[export-structure-map]] preserved as
 > design-notes; **roadmap candidate**); confirmations folded into 0001/0102/0103.
 > Progression cluster (0104–0107) and ST-preset cluster (0100–0103) also unappraised.
@@ -77,6 +87,11 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0117-distill-vs-verbatim-tension]] | principle | conversation | **Resolved:** the *layer's contract* decides, not the operation. Rewrite belongs to the **curated layer** (sample book/texture bank — the feature) + needs an **explicit anchor** present; **copy-only** in the verbatim source (transcripts/memories — 0054's sin was rewriting the wrong layer). Dissolves the 0113↔0054/0094 tension; the anchor-presence is the whole 0113-vs-0054 difference. Open edge: a fine-tune *bakes* derived voice into weights (sidequest-gated). |
+| [[0116-lora-earns-its-keep]] | principle | conversation | The skeptic's gate: userstyle+few-shot ≈ 85% on capable models; a fine-tune earns its keep only where prompting can't reach — canonically, making a *small/local* model hold a register zero-shot can't. Keeps fine-tuning in its lane; feeds 0081 writer/planner split. Per-campaign hot-swap adapters (0091) = solution maybe ahead of its problem. |
+| [[0115-lora-idiom-lorebook-facts]] | principle | conversation | Single-source-of-truth applied to weights: fine-tune carries voice + setting-*idiom*; hard facts (numbers, named tech, who's-who) stay in the lorebook. Weights are the worst place to store a fact — unauditable, un-updatable, lossy. Extends 0011/0107: model weights are a substrate, and they're for idiom not data. |
+| [[0114-voice-vs-setting-fidelity]] | pattern | conversation | "Sails on starships" is a *default-association* error, not a voice error — different layer fixes it. Fine-tuning shifts defaults *better* than it teaches voice → contrastive anchors at the cliché fork. Generalizes as a diagnostic axis. Discover registers by clustering, don't enumerate (0006/0110). Rewrite step launders the cliché unless gated by an external banned-list (0076). |
+| [[0113-distill-dont-imitate]] | idea | conversation | When the corpus is inconsistent and *unifying* is the goal, training on it raw teaches the inconsistency. Distill instead: strong model rewrites raw scenes toward the canonical-voice spec → consistent by construction. Two filters (situation-in / QC-out); 50 range-spanning anchors as style bible. Tension w/ 0054/0094 → 0117. |
 | [[0112-design-now-build-into-frame]] | principle | solorpg | Design now, build into the refactor — durable capabilities, not bolt-on scripts. The import brief waits *on purpose*: its core pieces are data-model decisions. Test: "native capability or bolt-on?" Discipline against premature scripting; import pipeline = a roadmap-candidate entrypoint, not a side tool. |
 | [[0111-provenance-graph-as-secret-history]] | idea | solorpg | seed-of/variant-of/crossover edges reconstruct how settings *evolved* (oneshot→canon, failed sibs orbiting a success) — folder-routing discards it as residue. Lineage = first-class artifact. Same shape as Tarot→solorpg lineage, oneshot graduation (0065), branches (0103). |
 | [[0110-wilderness-survey-idea-recovery]] | pattern | solorpg | Two spines on one embed pass: supervised routing + unsupervised wilderness survey. The survey (lost seeds, forgotten campaigns) is the higher-value half. Mechanized answer to 0064; engine for 0065. Idea-recovery as a *standing* tool, not a one-time import. |
@@ -217,6 +232,7 @@ from design-notes: these are *data/config*, not prose.
 | Source | Mined into | One-line |
 |--------|------------|----------|
 | `Freaky Frankenstein 4 BOLT+ Updated.json`, `...MAX+ Updated.json` | notes [[0100-fragment-library-prompt-assembly]], [[0101-swappable-cot-modules]] (+ [[0099-pseudocode-as-encoding]]) | Community SillyTavern Chat-Completion presets. Mined for *structure* (not the ERP payload): fragment-pool + enable-manifest + data-hole composition; pseudocode-DSL prompt encoding; swappable per-model CoT modules. |
+| `Claude-export-custom-lora.jsonl` (orig. `Claude_export_Custom LoRA for local RPG campaign model_9a9538e1-ee2c-473a-b91d-ce9016a99b2c.jsonl`) | notes [[0113-distill-dont-imitate]], [[0114-voice-vs-setting-fidelity]], [[0115-lora-idiom-lorebook-facts]], [[0116-lora-earns-its-keep]], [[0117-distill-vs-verbatim-tension]] | Inbox conversation (other-assistant) on building a per-campaign style LoRA for a tiny local model. Mined for the *design ideas* (distill-toward-spec data move; voice-vs-default error split; idiom-vs-facts substrate cut; earns-its-keep gate), not the LoRA tutorial — treat its hardware/dataset-size claims as the other assistant's assertions, not enshrined fact. |
 
 ## Themes (synthesis)
 

@@ -25,6 +25,16 @@ Advance-authoring gives two things harvest can't: it **defines** the register (y
 what "right" is until you've fought to write one clean instance — authoring is discovery),
 and it yields a **cleaner, fingerprint-stripped key**.
 
+- **Rewrite-harvested** (the middle gear, added 2026-06-13) — for registers the model
+  *roughly* hits but never *cleanly*. Take a real harvested scene and tune it up toward the
+  anchor with a strong model, producing a better exemplar than either raw play or
+  cold-authoring: harvest supplies the situation, the rewrite supplies the polish you can't
+  manage mid-scene. Sits between harvest (clip-as-is) and workshop (hand-seed from nothing).
+  **Only safe in this curated layer and only with an explicit anchor present** — otherwise
+  the rewrite launders the model's defaults into the bank. See
+  [[0113-distill-dont-imitate]] and the layer-contract rule in
+  [[0117-distill-vs-verbatim-tension]].
+
 **Findability is the actual first product.** A usable corpus already exists, scattered across
 years of past play — just unindexed. Half the win is pure *collect-and-tag*. **Build
 retrieval before generation.**
