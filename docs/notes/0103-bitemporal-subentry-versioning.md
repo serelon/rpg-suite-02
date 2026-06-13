@@ -64,4 +64,12 @@ itself *spawn* a branch, smearing the line. What granularity warrants a new sube
 in-place fix (else the changelog is noise). Read-path cost of collapsing subentries to
 "current" on every query.
 
+**Confirmed by independent planning (2026-06-13).** The import design brief
+([[import-design-brief]]) reaches the same spine from the data-engineering side: **UUID is
+the stable primary key; every stage merges, never rebuilds; re-import diffs by UUID
+(new / grew / unchanged) and human `rulings` persist against the UUID, never
+re-adjudicated.** That's this note's item-identity + versioned-payload split, plus an
+idempotency rule (don't reprocess unchanged versions) worth importing here. Treat re-import
+as the *normal* case, not an edge case — the recurring-not-one-shot constraint.
+
 **Verdict.** _(unevaluated.)_

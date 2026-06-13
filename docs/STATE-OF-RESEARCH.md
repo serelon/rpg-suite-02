@@ -192,7 +192,7 @@ mined only conceptually), UI shape of Unicorn, how a non-executing frontend degr
 
 ## Standing mining leads (named in notes, never executed)
 
-E:\rpg entity-registry & disambiguation (0040) · deeper rpg-tools structural mine — bundling/build/cross-tool wiring (0037) · aegis data git-history, cause of 0072 · hallucinated-tag corpus study before designing the flag vocabulary (0059/0058) · Desktop archive bulk dump & triage, ~500 sessions (0064) · bundle.py audit before the compiler decision (0039/0044) · early-campaign memories before/after for 0054's style-drift proof · factions.py economy usage check (0084) · reverse-mcp-rpg as a source repo · SillyTavern mechanics (lorebook assembly, long-context handling) as a source.
+E:\rpg entity-registry & disambiguation (0040) · deeper rpg-tools structural mine — bundling/build/cross-tool wiring (0037) · aegis data git-history, cause of 0072 · hallucinated-tag corpus study before designing the flag vocabulary (0059/0058) · Desktop archive bulk dump & triage (0064) — **now grounded**: census done + pre-planning captured ([[import-design-brief]], notes 0108–0112) · bundle.py audit before the compiler decision (0039/0044) · early-campaign memories before/after for 0054's style-drift proof · factions.py economy usage check (0084) · reverse-mcp-rpg as a source repo · SillyTavern mechanics (lorebook assembly, long-context handling) as a source.
 
 ## Ripe to graduate (theme-doc candidates, in rough order of readiness)
 
@@ -200,3 +200,11 @@ E:\rpg entity-registry & disambiguation (0040) · deeper rpg-tools structural mi
 2. **Craft-skill authoring** (0013–0017, 0066) — proven in gm-skill, clean failure taxonomies.
 3. **The compiler / composition stack** (0010, 0039, 0044, 0045, 0051, 0056–0058, 0063) — blocked partly on the bundle.py audit.
 4. **The play-loop doctrine** (0080, 0078/0079, 0089, 0048/0052, 0060) — newest, still settling.
+
+## Roadmap candidates (concrete enough to sequence once the frame exists)
+
+- **Export→import pipeline** ([[import-design-brief]] + [[export-structure-map]]; notes
+  0108–0112). The user's own framework-agnostic pre-planning — one entrypoint of the future
+  workflow, deliberately waiting on the refactor ([[0112-design-now-build-into-frame]]).
+  Consumer of the KB data-model (Pillar 1) and composition stack (Pillar 3); recurring
+  idea-recovery tool, not a one-time migration. Unappraised.

@@ -25,6 +25,13 @@ source repo — a long campaign's data vastly exceeds a usable context window. T
 proven answer at the *tool* layer: progressive disclosure driven by the caller. Any
 next-gen retrieval design has to preserve this, not regress to frontloading.
 
+**Confirmed in another domain (2026-06-13).** The import design brief
+([[import-design-brief]]) independently reinvents this as a **tier pyramid for *processing*
+cost**, not just read cost: regex on name → embed + k-NN → local LLM → Claude, each tier
+seeing only the residue the cheaper tier couldn't resolve. Same shape — cheapest engine
+first, escalate only the trickle — applied to classification instead of context loading.
+Evidence the "narrow cost at each step" principle generalizes beyond the read path.
+
 **Open threads.** This is pull-based and manual (the model decides what to load). The
 `old-erpg` answer was push-based retrieval (vector search over chunks). How do tiered
 loading and semantic retrieval combine rather than compete? See

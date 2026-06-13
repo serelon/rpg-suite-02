@@ -1,7 +1,9 @@
 # Relevant Paths & Index
 
-> **Status (2026-06-12):** 108 notes. Progression cluster added (0104–0107) from the
-> Tarot→freeform→Aegis interview — unappraised.
+> **Status (2026-06-13):** 113 notes. Import-pipeline cluster added (0108–0112) from
+> solorpg pre-planning ([[import-design-brief]] + [[export-structure-map]] preserved as
+> design-notes; **roadmap candidate**); confirmations folded into 0001/0102/0103.
+> Progression cluster (0104–0107) and ST-preset cluster (0100–0103) also unappraised.
 > _(historic, 2026-06-06: 82 notes.)_ Appraised: 0046–0050 (4 adopt, 1 adapt) and the
 > **KB cluster** 0067–0069 + 0073 + 0075–0077 (adopts; 0077 adapt; 0072 undecided —
 > cause unknown). 6 preserved design-notes, first theme promoted **and appraised**
@@ -48,6 +50,9 @@ Update this whenever a new source surfaces or a new note is written.
   Claude-memory store `projects/*/memory/` (hard-won feedback like [[0003-scope-memories-to-context]]).
 - **`../solorpg/campaigns/*/memories/`** — the campaign-memory JSON corpus (the data the
   memory tooling operates on). Data, not patterns — mine for *schema/workflow*, not lore.
+- **`../solorpg/imports/`** — pre-planning for the export→import pipeline. Patterns mined
+  into 0108–0112; docs preserved as [[import-design-brief]]/[[export-structure-map]]. Holds
+  the 116 MB Claude Desktop export zip (the substrate behind [[0064-unharvested-archive]]).
 
 ### Frontends / external systems (targets, not core — also minable for patterns)
 
@@ -72,6 +77,11 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0112-design-now-build-into-frame]] | principle | solorpg | Design now, build into the refactor — durable capabilities, not bolt-on scripts. The import brief waits *on purpose*: its core pieces are data-model decisions. Test: "native capability or bolt-on?" Discipline against premature scripting; import pipeline = a roadmap-candidate entrypoint, not a side tool. |
+| [[0111-provenance-graph-as-secret-history]] | idea | solorpg | seed-of/variant-of/crossover edges reconstruct how settings *evolved* (oneshot→canon, failed sibs orbiting a success) — folder-routing discards it as residue. Lineage = first-class artifact. Same shape as Tarot→solorpg lineage, oneshot graduation (0065), branches (0103). |
+| [[0110-wilderness-survey-idea-recovery]] | pattern | solorpg | Two spines on one embed pass: supervised routing + unsupervised wilderness survey. The survey (lost seeds, forgotten campaigns) is the higher-value half. Mechanized answer to 0064; engine for 0065. Idea-recovery as a *standing* tool, not a one-time import. |
+| [[0109-knn-not-centroids-drift]] | pattern | solorpg | Classify orphans by k-NN over individual labeled points, NOT centroids — long campaigns drift (arc/tone/POV/model); averaging blurs the campaigns that matter. Bonus: top-2 neighbours from different campaigns = the crossover detector for free. Extends 0098. |
+| [[0108-multi-label-relational-routing]] | pattern | solorpg | Routing = a *set of typed edges* (belongs-to / crossover / seed-of / variant-of / about / cluster / unrelated), each with confidence + provenance-of-decision (heuristic/embed/model/human), not one folder. Tags-are-truth applied to routing; the 0102 cross-ref layer made concrete. |
 | [[0107-prose-deprecation-doctrine]] | principle | conversation | Deprecate prose for *data* (illegible/lossy/drift/rewrite-only); structure by default. Keep prose only where it's the *payload* (voice/appearance/texture), heavily curated. Splits corpus by payload-vs-carrier. |
 | [[0106-three-layer-character-record]] | pattern | conversation | Character/progression in 3 layers: mechanical (defined statblock, JSON, CRUD), semantic (interpretation contract — the layer Tarot fatally lacked), prose (curated, where prose is the payload). Failures = a missing/collapsed layer. |
 | [[0105-tarot-progression-unifying-failure]] | pattern | tarot-tales | Tarot's 4 progression gears (aspects/traits/Discovery/Between-Adventures + Powers) all failed one way: under-specified markers, no semantic layer → decay into flavor. Token-heavy stars + rewrite-to-update = a 0073 instance. Cap problem too. Fixed in Aegis. |
@@ -197,6 +207,7 @@ that link back. See `docs/README.md` → "Design-notes".
 | [[census-solorpg-data-types]] | note 0083 | Full data-type inventory of the solorpg vault (~50 types, formats, breadth, variance). Reference for KB-structure design. |
 | [[census-rpg-tools]] | note 0084 | Full tool/schema inventory of rpg-tools (reads/writes, discovery paths, documented formats, skew). Reference for KB-structure design. |
 | [[session-postprocess]] (+ [[session-postprocess-SKILL]]) | notes 0033–0035 (+0028/0030/0032) | The flagship live workflow. Headline lesson: outgrown scaffold / knowledge-composition bottleneck. |
+| [[import-design-brief]] (+ [[export-structure-map]]) | notes 0108–0112 (+ folds into 0001/0102/0103) | **Roadmap candidate.** User's own framework-agnostic pre-planning for the export→import pipeline (consumer of the coming refactor). Multi-label routing, k-NN, two-spine survey, provenance graph, design-now-build-later. Companion map = empirical census of the 2-yr Desktop export (1,201 convos), grounding 0064. |
 
 ## Sources (preserved raw — `docs/sources/`)
 

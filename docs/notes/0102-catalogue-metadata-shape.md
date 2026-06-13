@@ -61,4 +61,11 @@ and the canonical-vault program.
 Does the additive periphery attach at item or version level? Granularity of links. How the
 capture workflow *prompts* for lossy/seal fields so they aren't forgotten.
 
+**Confirmed by independent planning (2026-06-13).** The import design brief
+([[import-design-brief]]) leans on exactly this anchor: UUID + `last_processed_dump` +
+`embedding_ref` make re-import idempotent, and `rulings` (human decisions) are durable
+metadata that survive every re-import — the "provenance anchor makes the rest backfillable"
+claim, validated against a real 2-year corpus. Its routing edges
+([[0108-multi-label-relational-routing]]) are the relational layer this note flagged.
+
 **Verdict.** _(unevaluated.)_
