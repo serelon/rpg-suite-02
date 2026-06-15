@@ -9,15 +9,14 @@ after the theme (`context-economy.md`) that gathers the thread, links its notes 
 
 - **[[modular-self-evolving-architecture]]** — the densest cluster (modularity / single source
   of truth / self-evolution loop). The first synthesis; still pre-appraisal.
+- **[[knowledge-base-canonical-vault]]** — every fact has one home; rendered views; operated
+  writes; truth defended structurally. Second synthesis; **appraised, adopt**.
+- **[[voice-and-register]]** — voice is tacit → demonstrate → harvest/preserve exemplars; the
+  Sample Book grid, verbatim-as-mechanism, the rewrite contract, fine-tune-as-sidequest. Third
+  synthesis; **components appraised, but the overarching thesis is PROPOSED, pending appraisal**
+  — owes the point-by-point interview before any verdict upgrade.
 
 ## Candidates still accumulating
 
 `context-economy` (0001·0009·0017·0030·0032·0040 — strong, likely next), `skill-authoring`
 (0013–0016·0019), `failure-modes` (0014·0015). Promote when ready — not before.
-
-**Ready to graduate — `voice-register`** (0005–0008·0092·0099·0113–0117·0053–0055·0062):
-**fully appraised** 2026-06-13 (spine 0005–0008 + 0092 adopt, 0099 undecided). Its synthesis
-already half-exists as **[[0118-encoding-by-data-type]]** (the three-register encoding model) —
-the theme doc should pull that together with the Sample Book spine (exemplars-first, the
-grid, harvest/workshop/rewrite, craft laws), the weave doctrine, and the distill/LoRA cluster.
-This is the next theme-doc to write.
