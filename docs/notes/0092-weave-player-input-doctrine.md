@@ -5,8 +5,9 @@ tags:
   - theme/gm-craft
   - theme/voice-register
   - maturity/proven
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-07
+appraised: 2026-06-13
 ---
 
 # Weave player input into the narrative — interleave-and-render, never echo-then-append
@@ -54,4 +55,10 @@ with [[0053-anchor-hierarchy-voice-keystone]] — voice touchup needs the charac
 voice anchors in context. Does late-Opus-4.x-era training still fight weaving as hard
 as 3.x-era?
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** _adopt — but firm in the spec, forgiving in the judgement._ Proven user doctrine
+and a keeper. The guard: because weaving is **counter-trained** ([[0013-counter-training-name-the-default]]),
+the next-gen GM-skill *instruction* must stay firm ("always weave") even though the GM (you)
+grows more forgiving in practice about when a seam is worth a redo. Don't soften the rule to
+match the mood — relax the instruction and the echo-then-append default reconquers. Weaving is
+also a prime exemplar-taught behavior ([[0005-exemplars-over-instructions]]), not a rule-taught
+one. EQ-dependence makes it a model-selection criterion too.

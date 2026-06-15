@@ -5,9 +5,10 @@ tags:
   - source/sillytavern
   - theme/voice-register
   - theme/corpus-building
-  - maturity/growing
-  - verdict/unevaluated
+  - maturity/proven
+  - verdict/adopt
 created: 2026-06-03
+appraised: 2026-06-13
 ---
 
 # Build the corpus two ways, sorted by difficulty — and findability first
@@ -37,7 +38,10 @@ and it yields a **cleaner, fingerprint-stripped key**.
 
 **Findability is the actual first product.** A usable corpus already exists, scattered across
 years of past play — just unindexed. Half the win is pure *collect-and-tag*. **Build
-retrieval before generation.**
+retrieval before generation.** **Already realized, loadbearing:** this is exactly what the
+current post-processing-after-play does — each session generates the indexed data that feeds
+the next. So "retrieval before generation" isn't a proposal here; it's a *proven mechanism to
+carry forward*, which is why this note reads `maturity/proven`.
 
 **Where it comes from.** [[sample-book]] §2.
 
@@ -47,3 +51,8 @@ Pairs with [[0003-scope-memories-to-context]] (tag-on-capture) and the inbox→n
 
 **Open threads.** Which cells are "hard" is model-specific — see
 [[0012-intelligence-in-scaffolding]]. Authoring-as-discovery resists automation.
+
+**Verdict.** _adopt._ Retrieval-before-generation is already loadbearing in the current
+post-processing pipeline; carry it forward. The three gears (harvest / rewrite-harvested /
+workshop) and the bootstrapping-deadlock rationale stand. Difficulty-sorting is what makes a
+fixed exemplar:instruction ratio wrong ([[0005-exemplars-over-instructions]]).

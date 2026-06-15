@@ -6,8 +6,9 @@ tags:
   - theme/voice-register
   - theme/context-architecture
   - maturity/seed
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
+appraised: 2026-06-13
 ---
 
 # The Sample Book: a (scene-type × register) grid of voice exemplars
@@ -30,3 +31,8 @@ are how it gets filled and used.
 **Open threads.** What's the cell schema (frontmatter: scene-type, register, tags, load
 conditions)? How do scene-types get named/detected at runtime? Relation to namesets/pools in
 `rpg-tools` (also tagged, retrievable libraries). Built status: not built — `seed`.
+
+**Verdict.** _adopt._ The grid is the buildable artifact for the exemplars-first pillar
+([[0005-exemplars-over-instructions]]); it's the category-1 (tacit/exemplar) store in the
+encoding model ([[0118-encoding-by-data-type]]). Schema/detection stay open as build details,
+not appraisal blockers.

@@ -1,6 +1,14 @@
 # Relevant Paths & Index
 
-> **Status (2026-06-13):** 118 notes. **Local-finetuning cluster (0113–0117) appraised**
+> **Status (2026-06-13):** 119 notes. **Voice-register cluster appraised** (0005–0008 +
+> 0092 **adopt**, 0099 **undecided**): the Sample Book spine (exemplars-first; works for Opus
+> too — pattern-match, don't interpret), retrieval-before-generation (already loadbearing in
+> post-processing), and weave-doctrine (firm in spec, forgiving in judgement) all adopt.
+> Synthesis: **[[0118-encoding-by-data-type]]** (new) — encode by data type, three registers
+> (tacit→exemplar/prose · factual→structured records · relational→pseudocode); prose for
+> pattern-matching *alone*; "Excel-sheet doctrine" mixes 2+3 only by exception. Voice-register
+> is now a **theme-graduation candidate** (fully appraised). **Local-finetuning cluster
+> (0113–0117) appraised**
 > (from the inbox LoRA conversation, [[Claude-export-custom-lora]] preserved as a source).
 > Reframe: the LoRA is a **sidequest** (play stays on Opus in Desktop) — the durable win is a
 > **scene/register categorization layer** serving the **sample book** (quickest+best win,
@@ -87,6 +95,7 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 
 | Note | Kind | Source | One-line |
 |------|------|--------|----------|
+| [[0118-encoding-by-data-type]] | principle | conversation | **adopt — voice-register synthesis.** Encode by data type: 3 registers sorted by tacitness — tacit→**exemplar/prose** (sample book), factual→**structured records** (sheets/stats, already solved), relational→**pseudocode** (the glue). Prose for pattern-matching *alone*; old system's prose-over-reliance bred drift. "Excel-sheet doctrine" mixes 2+3 only by exception; keep blocks fine-grained for auditability. Open seam: when must a record graduate to relational pseudocode (0099's trial)? |
 | [[0117-distill-vs-verbatim-tension]] | principle | conversation | **Resolved:** the *layer's contract* decides, not the operation. Rewrite belongs to the **curated layer** (sample book/texture bank — the feature) + needs an **explicit anchor** present; **copy-only** in the verbatim source (transcripts/memories — 0054's sin was rewriting the wrong layer). Dissolves the 0113↔0054/0094 tension; the anchor-presence is the whole 0113-vs-0054 difference. Open edge: a fine-tune *bakes* derived voice into weights (sidequest-gated). |
 | [[0116-lora-earns-its-keep]] | principle | conversation | The skeptic's gate: userstyle+few-shot ≈ 85% on capable models; a fine-tune earns its keep only where prompting can't reach — canonically, making a *small/local* model hold a register zero-shot can't. Keeps fine-tuning in its lane; feeds 0081 writer/planner split. Per-campaign hot-swap adapters (0091) = solution maybe ahead of its problem. |
 | [[0115-lora-idiom-lorebook-facts]] | principle | conversation | Single-source-of-truth applied to weights: fine-tune carries voice + setting-*idiom*; hard facts (numbers, named tech, who's-who) stay in the lorebook. Weights are the worst place to store a fact — unauditable, un-updatable, lossy. Extends 0011/0107: model weights are a substrate, and they're for idiom not data. |
@@ -132,14 +141,14 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0089-sealed-secrets-files]] | pattern | solorpg | Content hidden from the GM model until a declared trigger ("DO NOT READ until…") — prevents foreshadowing leak, enables big twists. Never opened early; sometimes needs prodding open. Railroads legitimate inside sealed bounded segments. |
 | [[0090-cherrypick-contract-three-layers]] | decision | new | T7 resolved — go. Working PoC (`experiments/cherrypick/`): dotted-path extraction from vanilla Obsidian pages. Contract: frontmatter = edges/scalars, json blocks = nested data, sections = prose. |
 | [[0091-one-vault-campaign-folder-entrypoints]] | decision | new/solorpg | Campaign isolation decided: one big vault, campaigns/ subfolders, session entrypoint = the campaign folder, boundaries enforced by tool. Isolation + info-boundaries become one guard. |
-| [[0092-weave-player-input-doctrine]] | pattern | conversation | GM must interleave-and-render player input, never echo-then-append. Fidelity hierarchy: intent sacred → voice corrected → inner life simulated → impossible actions error-corrected. Counter-trained vs AI-RP norms. |
+| [[0092-weave-player-input-doctrine]] | pattern | conversation | **adopt** (firm in spec, forgiving in judgement). GM must interleave-and-render player input, never echo-then-append. Fidelity hierarchy: intent sacred → voice corrected → inner life simulated → impossible actions error-corrected. Counter-trained vs AI-RP norms → keep the instruction firm. |
 | [[0093-novelization-as-output]] | idea | conversation | Optional output format: seamless novel render of a campaign for the user's own rereading. Sonnet 3.5 one-shot misplaced slices; modern retest + pipeline shape open. |
 | [[0094-save-everything-deferred-compute]] | principle | conversation | Raw session data hoarded losslessly as deferred compute — re-render stories when future models can handle it. Renders disposable, transcript layer permanent. (Self-labeled vanity project.) |
 | [[0095-two-repo-public-private-split]] | decision | conversation | Next-gen: public core repo (tools/skills/workflows) + private campaigns repo nested in campaigns/; research vault stays private too. Structural boundary now; publishing machinery (dev→public squash-snapshot mirror, denylist hooks) deferred until public is pursued. |
 | [[0096-enforcement-matches-reversibility]] | principle | conversation | Match enforcement to failure reversibility: campaign bleed is recoverable → tool-enforced (0091); public leak is irreversible → structural split (0095). Ladder: discipline → tool → gate → structurally impossible. |
 | [[0097-interleaved-checklist-thinking]] | pattern | conversation | Old experiment: per-paragraph think-blocks (pacing / stop-point / fact-check). Fact-check is *the* damning 0076 example — checked drift against its own prose, self-confirmed. Checklist-discipline is the keeper; modern Opus collapses it. Self-checks need an external reference. |
 | [[0098-vector-index-over-vault-not-store]] | question | conversation | Vector DB as a rebuildable *index over* the vault (vault = source of truth), not a store. Refines 0040's ownership. Multi-granularity (page+section+) with filters = E:\rpg chunking kept, store dropped. Sealed secrets must be hard-filtered or search blows the seal. |
-| [[0099-pseudocode-as-encoding]] | idea | conversation | Format prompts/lore as pseudocode, betting on LLM code-tuning for better thread-following. Two readings: lore-as-data-structures (safe) vs logic-as-control-flow (railroad risk). Likely fits structural lore, not voice. Early win: human auditability — caught a misunderstanding instantly that a prose blob hid. |
+| [[0099-pseudocode-as-encoding]] | idea | conversation | **undecided** (split the readings — see [[0118-encoding-by-data-type]]). Format prompts/lore as pseudocode, betting on LLM code-tuning for better thread-following. Reading 1 lore-as-data (relational, category 3) nearly decided; reading 2 logic-as-control-flow keeps it undecided — railroad risk is in encoding *behavior*, not pseudocode itself. Structured records (sheets) are category 2, already solved. Early win: human auditability. Gated on campaign trial. |
 | [[0100-fragment-library-prompt-assembly]] | pattern | new (ST presets) | ST preset architecture: fragment pool + ordered enable-manifest + marker/data-hole slots = a prompt compiler (library/linker/live-jacks). The wanted pattern for campaign-context assembly. ST's on/off-only manifest can't do mutual-exclusion/deps → it hacks with convention-as-UI; our custom toolchain should solve cardinality natively. |
 | [[0101-swappable-cot-modules]] | pattern | new (ST presets) | CoT as a hot-swappable fragment, per-model/per-genre (MAX+ ships 5 variants + a Claude/Gemini one). Shape: `<think>` bullets-only, 7-task numbered checklist, leak-gate. Echoes 0097 checklist-discipline — but self-checks need an *external* referent (banned list / state file) or they self-confirm. |
 | [[0102-catalogue-metadata-shape]] | idea | conversation | Cataloguing shape for KB entries: validated mandatory core + additive periphery. Reframe — "wrong schema" is cheap (additive), only *unstamped capture-time facts* are fatal; a session/provenance anchor makes the rest backfillable. Validation implies a registry → phase it in. template-version is the keystone. |
@@ -196,10 +205,10 @@ One line per note in `docs/notes/`. Newest at top. See `docs/README.md` for conv
 | [[0011-identity-pinned-state-evicted]] | pattern | sillytavern | Pin always-true identity in context; push time-bound state to an updatable/evictable layer. |
 | [[0010-docs-as-code-context-compiler]] | idea | sillytavern | Compile context per-beat from tagged frontmatter (build target), not fuzzy RAG over a pile. |
 | [[0009-jit-context-and-eviction]] | idea | sillytavern | Eviction (not retrieval) is the underbuilt half; beats are eviction boundaries; pacing=context. |
-| [[0008-form-is-the-lesson]] | pattern | sillytavern | An example teaches its method, not subject; plainness can only be keyed by plain text. |
-| [[0007-harvest-vs-workshop]] | pattern | sillytavern | Grow easy cells from clipped play, hand-seed hard ones (bootstrapping deadlock); findability first. |
-| [[0006-sample-book-grid]] | idea | sillytavern | A (scene-type × register) grid of worked voice exemplars; precompiled or JIT. |
-| [[0005-exemplars-over-instructions]] | pattern | sillytavern | Register is tacit; steer voice by demonstration, not specification — "like this" > rules. |
+| [[0008-form-is-the-lesson]] | pattern | sillytavern | **adopt.** An example teaches its method, not subject; plainness can only be keyed by plain text. Craft laws for valid sample-book cells. |
+| [[0007-harvest-vs-workshop]] | pattern | sillytavern | **adopt** (`proven` — already loadbearing in post-processing). Grow easy cells from clipped play, hand-seed hard ones (bootstrapping deadlock); findability/retrieval before generation. |
+| [[0006-sample-book-grid]] | idea | sillytavern | **adopt.** A (scene-type × register) grid of worked voice exemplars; precompiled or JIT. The category-1 (tacit/exemplar) store. |
+| [[0005-exemplars-over-instructions]] | pattern | sillytavern | **adopt.** Register is tacit; steer voice by demonstration, not specification — "like this" > rules. Works for Opus too (pattern-match, don't interpret). Ratio = per-register dial, no fixed target. |
 | [[0004-frontend-agnostic-core]] | idea | new/cross | North-star: a frontend-agnostic core that factors into Claude Desktop, Claude Code, reverse-mcp, SillyTavern… |
 | [[0003-scope-memories-to-context]] | pattern | solorpg | Scope every memory to campaign/branch/character or it degrades into soup at scale. |
 | [[0002-read-anywhere-write-canonical]] | pattern | rpg-tools | Tools read merged data from many locations, write only to a canonical path. |

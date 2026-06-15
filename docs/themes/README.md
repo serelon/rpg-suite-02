@@ -13,5 +13,11 @@ after the theme (`context-economy.md`) that gathers the thread, links its notes 
 ## Candidates still accumulating
 
 `context-economy` (0001·0009·0017·0030·0032·0040 — strong, likely next), `skill-authoring`
-(0013–0016·0019), `voice-register` (0005–0008), `failure-modes` (0014·0015). Promote when
-ready — not before.
+(0013–0016·0019), `failure-modes` (0014·0015). Promote when ready — not before.
+
+**Ready to graduate — `voice-register`** (0005–0008·0092·0099·0113–0117·0053–0055·0062):
+**fully appraised** 2026-06-13 (spine 0005–0008 + 0092 adopt, 0099 undecided). Its synthesis
+already half-exists as **[[0118-encoding-by-data-type]]** (the three-register encoding model) —
+the theme doc should pull that together with the Sample Book spine (exemplars-first, the
+grid, harvest/workshop/rewrite, craft laws), the weave doctrine, and the distill/LoRA cluster.
+This is the next theme-doc to write.

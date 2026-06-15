@@ -5,8 +5,9 @@ tags:
   - theme/context-architecture
   - theme/voice-register
   - maturity/experimental
-  - verdict/unevaluated
+  - verdict/undecided
 created: 2026-06-08
+appraised: 2026-06-13
 ---
 
 # Pseudocode as an encoding for prompts and lore
@@ -63,4 +64,13 @@ pseudocode-lore compose with the cherrypick contract
 ([[0090-cherrypick-contract-three-layers]]) — is a `json` block already "pseudocode
 enough"? Does it help small/local models more than frontier ones?
 
-**Verdict.** _(unevaluated.)_
+**Verdict.** _undecided — but split the readings._ Appraised 2026-06-13 inside the
+three-category encoding model ([[0118-encoding-by-data-type]]). The note's **reading 1**
+(lore-as-data: `vekris.knows = [secret_01]`) is the *relational* slice (category 3) and is
+nearly decided — it's the legibility win for the data hardest to keep straight. **Reading 2**
+(logic-as-control-flow) is what keeps the verdict `undecided`: the railroad risk lives *only*
+here — the danger is encoding **behavior** as code, not pseudocode-the-encoding itself
+(sharper guardrail than the note originally drew). Stays gated on the campaign trial. The
+tightened open question: not "prose vs pseudocode" but **"when must a category-2 fact-record
+graduate to category-3 relational pseudocode?"** Structured records (character sheets, stats)
+are category 2 and already solved — they don't need pseudocode at all.

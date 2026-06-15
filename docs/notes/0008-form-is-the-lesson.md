@@ -5,8 +5,9 @@ tags:
   - source/sillytavern
   - theme/voice-register
   - maturity/growing
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-03
+appraised: 2026-06-13
 ---
 
 # Form is the lesson — an example teaches its method, not its subject
@@ -42,3 +43,8 @@ harvested/workshopped cells silently teach the wrong thing (see the "blankets bu
 as [[0003-scope-memories-to-context]], applied to voice.
 
 **Open threads.** "Tag by register" needs a register vocabulary — who defines it, how stable?
+
+**Verdict.** _adopt._ The craft laws are load-bearing for the Sample Book spine — without
+them harvested/workshopped cells teach the wrong thing. Adopted together with
+[[0005-exemplars-over-instructions]]/[[0006-sample-book-grid]]/[[0007-harvest-vs-workshop]].
+Register-vocabulary stays an open build question.
