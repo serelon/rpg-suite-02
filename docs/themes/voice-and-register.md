@@ -34,7 +34,7 @@ synthesizes:
 > the normal life of a `growing` theme, not a reservation). **Scope of the adopt:** it
 > ratifies the *spine* — "this is the shape of how voice works for us" — and does **not**
 > promote the components underneath. Their own verdicts stand: Sample Book spine 0005–0008 +
-> 0092 **adopt**, 0099 **undecided**, distill cluster 0113/0114/0117 **adapt**, 0116 **adopt**,
+> 0092 **adopt**, 0099 **adopt** (scoped: reading 1; reading 2 gated), distill cluster 0113/0114/0117 **adapt**, 0116 **adopt**,
 > 0115 **undecided**. The open threads remain open.
 
 ## The thesis (adopted)
@@ -183,7 +183,8 @@ the verbatim mechanism from opposite ends. Upstream: [[modular-self-evolving-arc
 reservation raised — "I might think of more later that affects it" — was judged *not* a
 blocker: a `maturity/growing` theme is expected to absorb later refinement without losing its
 verdict (cf. [[0098-vector-index-over-vault-not-store]] refining adopted 0040). The adopt is
-scoped to the **spine**, not the components: it does not promote 0099 (stays `undecided`),
-0113/0114/0117 (stay `adapt`), or 0115 (`undecided`), and the open-threads list above stays
-live. What's settled is the *shape*: voice is tacit → demonstrate → harvest and preserve
+scoped to the **spine**, not the components: it does not promote
+0113/0114/0117 (stay `adapt`) or 0115 (`undecided`), and the open-threads list above stays
+live. (0099 was separately reappraised 2026-06-15 → **adopt scoped to reading 1**, reading 2
+still gated on the campaign trial.) What's settled is the *shape*: voice is tacit → demonstrate → harvest and preserve
 exemplars verbatim, encoded as category-1 prose ([[0118-encoding-by-data-type]]).

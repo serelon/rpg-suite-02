@@ -5,9 +5,10 @@ tags:
   - theme/context-architecture
   - theme/voice-register
   - maturity/experimental
-  - verdict/undecided
+  - verdict/adopt
 created: 2026-06-08
 appraised: 2026-06-13
+reappraised: 2026-06-15
 ---
 
 # Pseudocode as an encoding for prompts and lore
@@ -64,13 +65,24 @@ pseudocode-lore compose with the cherrypick contract
 ([[0090-cherrypick-contract-three-layers]]) — is a `json` block already "pseudocode
 enough"? Does it help small/local models more than frontier ones?
 
-**Verdict.** _undecided — but split the readings._ Appraised 2026-06-13 inside the
-three-category encoding model ([[0118-encoding-by-data-type]]). The note's **reading 1**
-(lore-as-data: `vekris.knows = [secret_01]`) is the *relational* slice (category 3) and is
-nearly decided — it's the legibility win for the data hardest to keep straight. **Reading 2**
-(logic-as-control-flow) is what keeps the verdict `undecided`: the railroad risk lives *only*
-here — the danger is encoding **behavior** as code, not pseudocode-the-encoding itself
-(sharper guardrail than the note originally drew). Stays gated on the campaign trial. The
-tightened open question: not "prose vs pseudocode" but **"when must a category-2 fact-record
-graduate to category-3 relational pseudocode?"** Structured records (character sheets, stats)
-are category 2 and already solved — they don't need pseudocode at all.
+**Verdict.** _adopt — scoped to reading 1; reading 2 stays gated (reappraised 2026-06-15)._
+First appraised 2026-06-13 (`undecided`) inside the three-category encoding model
+([[0118-encoding-by-data-type]]); reappraised 2026-06-15 → **adopt, scoped.**
+
+- **Reading 1 (lore-as-data: `vekris.knows = [secret_01]`) → adopt.** The relational slice
+  (category 3) — barely a stretch, since [[0118-encoding-by-data-type]] already commits to
+  pseudocode for relational lore. Low risk; the human-auditability win already landed in the
+  lore-as-code trial. *This is the direction, not yet the proof:* `maturity/experimental`
+  stays — adopt here means "our committed direction," not "tested in my workflow." Came from
+  outside (SillyTavern) and is the most experimental idea in the cluster, untested in the
+  user's own play — the verdict gate flagged this; the adopt is deliberate-direction, not
+  proven-result.
+- **Reading 2 (logic-as-control-flow: `if player.enters(temple): foreshadow(...)`) → stays
+  gated, NOT adopted.** This is where the railroad risk lives — encoding GM *behavior* as
+  code, the thing the engineer-and-gardener doctrine ([[0080-engineer-and-gardener]]) fights —
+  and where "untested in my workflow" actually bites. The campaign trial is the gate
+  *specifically for reading 2*, a sharper experiment than "test pseudocode" wholesale.
+
+Tightened open question (unchanged): not "prose vs pseudocode" but **"when must a category-2
+fact-record graduate to category-3 relational pseudocode?"** Structured records (sheets,
+stats) are category 2 and already solved — they don't need pseudocode at all.
