@@ -7,8 +7,8 @@
 > Synthesis: **[[0118-encoding-by-data-type]]** (new) — encode by data type, three registers
 > (tacit→exemplar/prose · factual→structured records · relational→pseudocode); prose for
 > pattern-matching *alone*; "Excel-sheet doctrine" mixes 2+3 only by exception. **Third theme
-> doc promoted: [[voice-and-register]]** (2026-06-15) — components appraised, but its
-> *overarching thesis is PROPOSED, pending the appraisal interview* (not self-stamped). **Local-finetuning cluster
+> doc promoted: [[voice-and-register]]** (2026-06-15) — **appraised, adopt**; spine ratified,
+> components keep their own verdicts (0099 undecided, 0113/0114/0117 adapt). **Local-finetuning cluster
 > (0113–0117) appraised**
 > (from the inbox LoRA conversation, [[Claude-export-custom-lora]] preserved as a source).
 > Reframe: the LoRA is a **sidequest** (play stays on Opus in Desktop) — the durable win is a
@@ -253,4 +253,4 @@ graduates into a synthesis doc in `docs/themes/`.
 |-----------|-------------|--------|
 | [[modular-self-evolving-architecture]] | 0034·0036·0024·0037·0038·0039·0040·0041·0042·0043 (+0010·0033·0026) | One home per concern; refer back & compose, don't fork; evolve by graduating campaign experiments into a versioned spec. |
 | [[knowledge-base-canonical-vault]] | 0067·0068·0069·0072·0073·0075·0076·0077·0082 (+0070·0071) | Every fact has one home: canonical linked vault; everything else is a rendered view; writes are operated mutations via librarians; truth defended structurally (provenance, precedence, write-time validation). |
-| [[voice-and-register]] | 0005–0008·0053–0055·0062·0092·0099·0113–0118 | Voice is *tacit* → demonstrate, never specify → harvest & preserve exemplars verbatim. Sample Book grid (scene-type × register, alive as texture banks); copy ≠ summarize; rewrite only in the curated layer with an anchor; characters first; fine-tune is a sidequest. **Thesis PROPOSED — components appraised, overarching synthesis owes its appraisal interview.** |
+| [[voice-and-register]] | 0005–0008·0053–0055·0062·0092·0099·0113–0118 | Voice is *tacit* → demonstrate, never specify → harvest & preserve exemplars verbatim. Sample Book grid (scene-type × register, alive as texture banks); copy ≠ summarize; rewrite only in the curated layer with an anchor; characters first; fine-tune is a sidequest. **Appraised 2026-06-15 — adopt** (spine ratified; components keep their own verdicts: 0099 undecided, 0113/0114/0117 adapt). |

@@ -5,8 +5,9 @@ tags:
   - theme/corpus-building
   - theme/context-economy
   - maturity/growing
-  - verdict/unevaluated
+  - verdict/adopt
 created: 2026-06-15
+appraised: 2026-06-15
 synthesizes:
   - "[[0005-exemplars-over-instructions]]"
   - "[[0006-sample-book-grid]]"
@@ -28,15 +29,15 @@ synthesizes:
 
 # Voice & Register — tacit, so demonstrated; demonstrated, so harvested
 
-> **Third synthesis doc — PROPOSED, pending appraisal (2026-06-15).** The component notes
-> are appraised (the Sample Book spine 0005–0008 + 0092 **adopt**, 0099 **undecided**, the
-> distill cluster 0113/0114/0117 **adapt**, 0116 **adopt**, 0115 **undecided**). The
-> *overarching thesis below is this doc's own construction and has not yet been ratified* —
-> it's born `verdict/unevaluated` and owes the same point-by-point pushback the
-> [[knowledge-base-canonical-vault]] thesis got before it earned `adopt`. Read it as the
-> claim on the table, not a settled belief.
+> **Third synthesis doc — appraised 2026-06-15, verdict: adopt.** The nine-move thesis below
+> was ratified by the user (with the explicit understanding that later material may refine it —
+> the normal life of a `growing` theme, not a reservation). **Scope of the adopt:** it
+> ratifies the *spine* — "this is the shape of how voice works for us" — and does **not**
+> promote the components underneath. Their own verdicts stand: Sample Book spine 0005–0008 +
+> 0092 **adopt**, 0099 **undecided**, distill cluster 0113/0114/0117 **adapt**, 0116 **adopt**,
+> 0115 **undecided**. The open threads remain open.
 
-## The thesis (proposed)
+## The thesis (adopted)
 
 **Register — voice, tone, texture — is *tacit*: it cannot be specified declaratively, only
 shown. So the next-gen system treats demonstrated voice as a first-class data type with its
@@ -178,7 +179,11 @@ the verbatim mechanism from opposite ends. Upstream: [[modular-self-evolving-arc
 
 ## Appraisal record
 
-*(Empty — thesis not yet appraised.)* The components carry their own verdicts (see the banner).
-The synthesis above is **proposed**; it owes a point-by-point appraisal interview before any
-`verdict/` upgrade, on the same protocol the KB and modular-architecture theses passed. Bring
-it back, push on it, then stamp.
+**Appraised 2026-06-15 — adopt.** The user ratified the nine-move thesis. The one
+reservation raised — "I might think of more later that affects it" — was judged *not* a
+blocker: a `maturity/growing` theme is expected to absorb later refinement without losing its
+verdict (cf. [[0098-vector-index-over-vault-not-store]] refining adopted 0040). The adopt is
+scoped to the **spine**, not the components: it does not promote 0099 (stays `undecided`),
+0113/0114/0117 (stay `adapt`), or 0115 (`undecided`), and the open-threads list above stays
+live. What's settled is the *shape*: voice is tacit → demonstrate → harvest and preserve
+exemplars verbatim, encoded as category-1 prose ([[0118-encoding-by-data-type]]).

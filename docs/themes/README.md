@@ -13,8 +13,8 @@ after the theme (`context-economy.md`) that gathers the thread, links its notes 
   writes; truth defended structurally. Second synthesis; **appraised, adopt**.
 - **[[voice-and-register]]** — voice is tacit → demonstrate → harvest/preserve exemplars; the
   Sample Book grid, verbatim-as-mechanism, the rewrite contract, fine-tune-as-sidequest. Third
-  synthesis; **components appraised, but the overarching thesis is PROPOSED, pending appraisal**
-  — owes the point-by-point interview before any verdict upgrade.
+  synthesis; **appraised, adopt** (2026-06-15) — spine ratified; components keep their own
+  verdicts (0099 undecided, 0113/0114/0117 adapt).
 
 ## Candidates still accumulating
 
