@@ -25,12 +25,18 @@ refinement comes from testing.
 1. **Lore-as-data-structures** — facts/relationships as declarations:
    `vekris.knows = [secret_01]`, `ashguard.disposition.party = hostile`. Legibility
    through structured state.
-2. **Logic-as-control-flow** — the GM's reasoning as pseudocode:
-   `if player.enters(temple) and not secret_01.revealed: foreshadow(...)`. Legibility
-   through executable-looking branching. **Carries a known risk:** this edges toward the
-   railroad / beat-by-beat-planning antipattern ([[0080-engineer-and-gardener]],
-   [[0089-sealed-secrets-files]]) — encoding *behavior* as code may invite the rigid
-   scripting the doctrine fights. Reading 1 is safer; reading 2 needs that guardrail.
+2. **Logic-as-control-flow** — the GM's *procedure* as pseudocode. The right example is
+   **procedural, not narrative**: `if new_scene: scene_header()` — where `scene_header()` is
+   defined elsewhere as the formatting to apply and/or the reasoning to do at a scene boundary.
+   This encodes the GM's **operating procedure** (formatting, what-to-think-about at structural
+   junctures), not the story's path. *(An earlier draft used
+   `if player.enters(temple): foreshadow(...)` — that's a **bad** example: it encodes narrative
+   **content**, which is exactly what would railroad. Discard it; it mischaracterizes the
+   idea.)* **The guardrail isn't "control-flow is risky" — it's a layer rule:** control-flow
+   belongs on **procedure**, never on **narrative content**. A railroad smell means you've
+   applied it to the wrong layer ([[0080-engineer-and-gardener]]: this is squarely the
+   *engineer's* side — scaffolding/process — not the gardener's emergent narrative). Used on
+   procedure, it doesn't fight the doctrine; it serves it.
 
 **First observed success — human auditability (not the original bet).** Early in the
 lore-as-code trial the payoff that actually landed was for the *human*: structured
@@ -77,11 +83,15 @@ First appraised 2026-06-13 (`undecided`) inside the three-category encoding mode
   outside (SillyTavern) and is the most experimental idea in the cluster, untested in the
   user's own play — the verdict gate flagged this; the adopt is deliberate-direction, not
   proven-result.
-- **Reading 2 (logic-as-control-flow: `if player.enters(temple): foreshadow(...)`) → stays
-  gated, NOT adopted.** This is where the railroad risk lives — encoding GM *behavior* as
-  code, the thing the engineer-and-gardener doctrine ([[0080-engineer-and-gardener]]) fights —
-  and where "untested in my workflow" actually bites. The campaign trial is the gate
-  *specifically for reading 2*, a sharper experiment than "test pseudocode" wholesale.
+- **Reading 2 (logic-as-control-flow, *procedural*: `if new_scene: scene_header()`) →
+  deferred, not adopted — and deferred by *phase*, not danger.** Encoding GM procedure as
+  control-flow is a **prompt-engineering** move, and we haven't reached the prompt-rebuild
+  stage (research/speculation phase, per CLAUDE.md). So it waits for that phase, not for a
+  hazard to clear. **Correction (2026-06-15, user):** there is *no* inherent railroad risk —
+  that fear came from a bad narrative example. The real guardrail is a layer rule: control-flow
+  on **procedure** (formatting, reasoning-at-junctures) is fine and is the engineer's job;
+  control-flow on **narrative content** is the wrong layer and the only thing that would
+  railroad ([[0080-engineer-and-gardener]]). Revisit when prompt rebuilding starts.
 
 Tightened open question (unchanged): not "prose vs pseudocode" but **"when must a category-2
 fact-record graduate to category-3 relational pseudocode?"** Structured records (sheets,

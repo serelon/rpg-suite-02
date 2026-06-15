@@ -27,10 +27,12 @@ fits:
    state. Declarative, schema'd, tabular/JSON. The *bulk* of the data and the **least exotic
    — already a solved shape** in `rpg-tools` loaders and savefiles. Needs no pseudocode.
 3. **Relational / conditional → pseudocode.** The "glue": relationship graphs, who-knows-what,
-   faction disposition, conditional foreshadowing — what a flat record can't express cleanly.
-   This is where structured data shades into *logic* ([[0099-pseudocode-as-encoding]] reading
-   1 = the data edge of this; reading 2 = the control-flow edge, which carries the railroad
-   risk).
+   faction disposition — what a flat record can't express cleanly. This is where structured
+   data shades into *logic* ([[0099-pseudocode-as-encoding]] reading 1 = the data edge of this,
+   **adopt**; reading 2 = control-flow over GM *procedure*, e.g. `if new_scene: scene_header()`,
+   a prompt-engineering move deferred to the prompt-rebuild phase). The layer rule on reading 2:
+   control-flow belongs on **procedure**, never on **narrative content** — the latter is the
+   only thing that would railroad ([[0080-engineer-and-gardener]]).
 
 **The disease it cures.** The old system **leaned on prose for far too much**, which bred
 confusing/weird data and **drift** ([[0072-schema-drift-tools-vs-hand-edited-json]],
