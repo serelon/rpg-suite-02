@@ -54,17 +54,22 @@ to **retire**, not just its outputs (it produced both 🔴 veins). Demand-driven
 - **D. Smart default aggregates** (keep *few* — owner's constraint): metropolitan
   (American-city ✅) · European-city · SE-Asian-city · global-diverse · multinational-military ·
   ancient-city/arena · modern-civilian.
-- **E. Generator toolkit** (procedural patterns, **not** cultural rosters): corporate/org
-  names · handles/callsigns · designations/serials (ships, specimens) · place names.
+- **E. Generators** (procedural patterns: corporate/org names · handles/callsigns ·
+  designations/serials (ships, specimens) · place names). **First-class namesets, co-equal
+  with person-rosters** (owner, 2026-06-18) — *not* a separate tool-type. Rationale: the
+  counter-default purpose ([[0013-counter-training-name-the-default]]) is **domain-general** —
+  places/ships/orgs collapse to the model's tiny default set ("…Meridian", Aurora, Nexus) as
+  hard as people collapse to "Marcus Chen", and arguably *louder* (fewer place-names per
+  campaign, so each cliché repeats). See [[0120-default-naming-is-domain-general]].
 
-Leaves/packs (A–C) combine freely → stock generously. D is curation → small. E is the open
-question (below).
+Leaves/packs (A–C) combine freely → stock generously. D is curation → small. E is co-equal
+with A–C and equally worth stocking.
 
 **Open threads.**
-- **E may not be "namesets" at all** — procedural-pattern generators (corp names, handles,
-  ship registries, designations) are a different tool-type from cultural person-rosters.
-  Might deserve its own home rather than living in the nameset core. Relates to
-  [[0087-spreadsheet-semantics-tool-data]] (tool-data sub-typing).
+- ~~E may not be "namesets" at all~~ **Resolved (owner):** generators *are* first-class
+  namesets, co-equal with person-rosters — see above + [[0120-default-naming-is-domain-general]].
+  (Procedural-pattern *mechanics* still relate to [[0087-spreadsheet-semantics-tool-data]], but
+  that's an implementation detail, not a typing split.)
 - Verify Lumina's SE-Asian leaves are real-world-generic and **not** Lumina-baked the way
   Emberfall's species turned out — same owner-validation gate.
 - Audit the core defaults' *own* coverage gaps (they're vouched for quality, not completeness).

@@ -163,9 +163,12 @@ supply-independent. Captured as [[0119-core-namesets-by-demand]].
 3. **Redundancy across the boundary** — radiance civilians ≈ core leaves; scottish-wartime ⊂
    1940s-british; gladiator real-culture leaves overlap potential ancient-era core. Promotion
    would need a dedupe pass.
-4. **Generators ≠ namesets-of-people** — lumina handles, asymptote corps, specimen-designations
-   are *procedural pattern* tools (random-pattern formats), a different sub-type from person-name
-   rosters. Relevant to [[0087-spreadsheet-semantics-tool-data]] / tool-data typing.
+4. **Generators are first-class namesets** (owner, 2026-06-18) — lumina handles, asymptote
+   corps, specimen-designations, place names use *procedural pattern* mechanics but serve the
+   same counter-default purpose as person-rosters, **co-equal not lesser**: places/ships/orgs
+   collapse to the model's defaults ("…Meridian") as hard as people collapse to "Marcus Chen".
+   See [[0120-default-naming-is-domain-general]]. (Pattern *mechanics* relate to
+   [[0087-spreadsheet-semantics-tool-data]] — implementation detail, not a typing split.)
 5. **Aggregate = campaign-flavored consumer of reusable leaves** — recurring shape: real-world
    leaves stay generic, the per-campaign aggregate (aegis-personnel, gladiator-street,
    berlin-names, heliodyne-general, civilian-names) does the local demographic weighting. Clean
