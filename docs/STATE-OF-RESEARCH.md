@@ -7,29 +7,35 @@ created: 2026-06-06
 
 # State of the Research — the whole board
 
-> **What this is.** A synthesis-of-everything map: all 89 notes digested, grouped under the
-> four pillars of the vision ("next-gen RPG workflows, backends, and frontend — reimagining
+> **What this is.** A synthesis-of-everything map: all notes digested, grouped under the
+> pillars of the vision ("next-gen RPG workflows, backends, and frontend — reimagining
 > the whole loop and datastorage") plus a meta bucket. One line per note; tensions and gaps
 > surfaced centrally. **This doc does not appraise** — verdicts stay in the notes. It exists
 > to answer "what have we got?" and to make "what next?" mechanical.
 >
 > Pillars are an *overlay* for orientation; tags remain the source of truth. Many notes
 > belong to several pillars — each is listed where it carries the most weight.
+>
+> **Frame update (2026-06-20):** grown from four pillars to **six**. The 0092–0123 fold-in
+> surfaced two axes the original four couldn't house: **P5 Progression / rules-engine** (the
+> "system as code" axis `aegis-tools` embodies) and **P6 Model layer / fine-tuning** (a
+> deliberately sidequest-quarantined bucket). A third, **encoding/representation**, is a
+> cross-cutting spine folded into P1, not a pillar.
 
-## Census (2026-06-06)
+## Census (2026-06-20)
 
 | | |
 |---|---|
-| Notes | 91 (+ template) |
-| Appraised | 25 — 21 adopt, 2 adapt (0049, 0077), 2 undecided (0038, 0072), 0 reject |
-| Unevaluated | 66 |
+| Notes | 123 (0001–0123; + template) |
+| Appraised | ~35 — bulk **adopt**, adapt: 0049/0077/0113/0114/0117/0122, undecided: 0038/0072/0115, 0 reject |
+| Unevaluated | ~88 — incl. most of the corpus-routing (0108–0111), catalogue (0102–0103), SSOT (0093/0094/0098), progression (0104–0107) clusters |
 | Theme docs graduated | 2 — [[modular-self-evolving-architecture]], [[knowledge-base-canonical-vault]] |
-| Inbox | 1 item |
+| Pillars | 6 (+ Meta) — P5/P6 added 2026-06-20 |
+| Inbox | being mined down |
 
-> **Census is stale (as of 2026-06-20 the vault is at 123 notes).** Notes 0092–0123 are not
-> yet folded into the pillar digests above, except the narrative-structure cluster
-> (0121–0123, added below under Pillar 2). A full re-census is owed. Recent appraisals not
-> reflected in the table: 0121 **adopt**, 0123 **adopt**, 0122 **adapt**.
+> **Counts are approximate** — the 0092–0123 fold-in (2026-06-20) digested 32 notes into the
+> pillars below and added P5/P6; an exact verdict tally hasn't been recomputed. Notes 0001–0091
+> retain their 2026-06-06 digest; spot-check before quoting a number as fact.
 
 **Appraisal lens going forward (agreed 2026-06-06):** we are auditing our own previous
 gen, not gatekeeping a stranger's patterns. The question is not "adopt/reject?" but
@@ -72,11 +78,68 @@ librarianship; widget lane exempt from gates).
 - 0002 — read-anywhere/write-canonical (proven, but see Tension T1).
 - 0003 — scope everything or soup; 0029 — information boundaries are declared-nowhere, enforced-by-luck (unmet need); 0030 — summary as compression ("will this matter in 10 sessions?").
 
+### Single-source-of-truth: canonical raw vs derived renders (cluster, ripe — folded in 2026-06-20)
+The densest new cluster; `theme/single-source-of-truth` is now one of the most populated themes.
+One spine: **the raw layer is permanent, everything else is a regenerable render.**
+- 0094 — **save-everything, deferred compute** (the rationale): hoard raw session data losslessly;
+  derived artifacts are disposable renders, re-render when models improve. (Tension with 0032
+  preprocessing: preprocessing must *fork*, never replace the raw export.)
+- 0093 — **novelization as output**: render a campaign as one seam-free novel; a presentation
+  layer over the canonical record, pipelined chapter-by-chapter. (Also a P2 postprocessing artifact.)
+- 0098 — **vector index over the vault, not the store**: the vector DB is a derived, rebuildable
+  index *over* the `.md` vault; vault stays SSOT; sealed/isolation as hard filters. **Inverts
+  0040** (see Tension T8).
+- Joins existing 0056 files-as-build-products, 0069 one-KB-many-layers, 0002 write-canonical, 0040.
+
+### Catalogue & versioning shape (cluster — folded in 2026-06-20, corroborated by import-design-brief)
+- 0102 — **catalogue metadata shape**: small mandatory core + additive periphery; the only
+  irreversible birth decision is which lossy capture-time slots exist; provenance anchor makes
+  the rest backfillable.
+- 0103 — **bitemporal subentry versioning**: a KB item = stable identity holding versioned,
+  provenanced subentries on two time axes (transaction vs valid); one mechanism yields
+  history/audit/retcon/time-travel. (Now also the backbone of 0121's narrative axes.)
+
+### Corpus-routing / import (cluster, RIPE — folded in 2026-06-20; one source: solorpg IMPORT-DESIGN-BRIEF)
+A tight five-note spine for the export→import pipeline (Roadmap candidate, below).
+- 0108 — **multi-label relational routing**: route material as a set of *typed edges*
+  (belongs-to/crossover/seed-of/variant-of), each with confidence + decision-provenance; one
+  folder is lossy by construction.
+- 0109 — **k-NN, not centroids**: classify orphans by k-NN majority over labeled points;
+  contested top-2 neighbours *is* the crossover detector (campaigns drift, centroids lie).
+- 0110 — **wilderness survey**: two spines on one embed pass — supervised routing + unsupervised
+  survey of the remainder; the survey (recovering lost seeds) is the higher-value, *standing* half.
+- 0111 — **provenance graph as secret history**: the routing edges reconstruct how settings
+  actually evolved — lineage as a first-class artifact, not routing residue.
+- (0112 — the "design now, wait for the refactor" posture — filed under Meta.)
+
+### Encoding / representation (cross-cutting spine — NOT a pillar; folded in 2026-06-20)
+How to encode meaning per data-type; governs substrate choice across P1/P3/P5.
+- 0118 — **encoding-by-data-type** (adopt, maturity/growing — the headline): three encodings by
+  tacitness — tacit→exemplar (prose), explicit→structured records, relational→pseudocode; the old
+  system over-leaned on prose and drifted.
+- 0099 — **pseudocode as encoding** (adopt, scoped): structural/relational lore as pseudocode for
+  legibility+audit; control-flow on *procedure*, never narrative; voice stays prose.
+- 0107 — **prose-deprecation doctrine**: deprecate prose by default; keep it only where it *is*
+  the payload (voice/texture). The payload/carrier split. (Tension with 0094's hoard-raw-prose.)
+
+### Voice-as-corpus & namesets (folded in 2026-06-20 — the non-training halves of the LoRA cluster)
+- 0113 — **distill, don't imitate** (adapt): a strong model rewrites scenes toward a canonical-voice
+  spec anchored on best scenes — consistency by construction, *no training required*.
+- 0114 — **voice vs setting-fidelity** (adapt): two error classes, two fixes — voice (taught by
+  demonstration) vs idiom/"sails on a starship" default-association; discover registers by clustering.
+- 0117 — **distill-vs-verbatim tension** (adapt): the layer's *contract* decides — rewrite into
+  curated renders, copy-only into the verbatim source, never up the canon chain; safe only with an anchor.
+- 0119/0120 — **namesets by demand**: grow the core nameset library by demand not harvest (0119);
+  the "Marcus Chen" default-pull is **domain-general** — generators are first-class namesets (0120).
+  Join 0013 counter-default, 0087 spreadsheet-semantics, census-namesets.
+
 ### What this pillar still owes
 The KB theme doc's soft list stands: cherrypick contract, campaign isolation design,
 provenance granularity, migration path, custodian shape. Plus, newer: does 0085's two-kind
 cut hold against all ~50 census types? What happens to the savefile (0073 asks: survive, or
-dissolve into threads-like structured state + memories)?
+dissolve into threads-like structured state + memories)? And the new fold-in adds: resolve the
+**0040↔0098 ownership inversion** (T8); decide the **encoding floor** (0107 — where over-structuring
+starts killing what LLMs are good at); appraise the corpus-routing and catalogue clusters (all unevaluated).
 
 ---
 
@@ -94,13 +157,17 @@ Exemplars over instructions (0005) · form is the lesson + craft laws (0008) · 
 grid, scene-type × register (0006) · harvest vs workshop fill paths, findability first
 (0007) · intelligence into the scaffolding; the blankets bug; per-model calibration (0012)
 · voice samples are the keystone anchor — description alone empirically failed (0053) ·
-texture banks & living dictionary already work in production (0055).
+texture banks & living dictionary already work in production (0055) · **weave player input**
+into the GM's own prose — echo-then-append is the counter-trained failure; fidelity hierarchy
+intent>voice>inner-life (0092, proven, **adopt**).
 
 ### Craft-skill authoring (cluster ripe for graduation — 0013–0017, 0066)
 Counter-training: name the default, correct, explain why (0013) · scope-stripping failure
 family (0014) · compounding loops failure family (0015) · thinking block as enforcement
 surface (0016) · recap as verification, not "previously on" (0017) · **mandatory presence,
-not length** — attention is the scarce resource (0066).
+not length** — attention is the scarce resource (0066) · **interleaved checklist thinking** —
+per-paragraph think-block (pacing/stop/fact-check); modern Opuses collapse the walk so it needs
+forced structure, and a self-fed fact-check self-canonizes unless given an external referent (0097).
 
 ### Context delivery in play
 - 0009/0010/0011 — JIT + eviction at beat boundaries; docs-as-code context compiling; identity pinned, state evicted.
@@ -163,6 +230,12 @@ the refer-back mechanism (0044) — all **adopt**.*
 - 0065 — oneshots as spawning pool: incubation tier with three graduation paths; the minimal compile target; data model currently ignores them.
 - 0040 — vector-DB reframed as the lore-search *module* — centralization as a module's internal implementation.
 
+#### Folded in 2026-06-20
+- 0100 — **fragment-library prompt assembly** (proven): prompt = decoupled fragment pool + ordered enable-manifest + marker/data-hole slots; a custom framework should add cardinality/dependency/conflict natively (SillyTavern does on/off only). The compiler's fragment model.
+- 0101 — **swappable CoT modules** (proven): CoT is a hot-swappable fragment selected per (campaign × model × genre); checklist-discipline is the keeper but every check needs an external referent or it's theater. (Pairs with 0097, P2.)
+- 0095 — **two-repo public/private split** (seed): next-gen = public core repo + private campaigns repo nested in `campaigns/`; the nested-repo boundary is *simultaneously* campaign-isolation and public/private; core never wikilinks into campaign data.
+- 0096 — **enforcement matches reversibility** (principle, seed): match enforcement strength to failure reversibility — discipline → tool-enforced → mechanically-gated → structurally-impossible; climb the ladder as reversibility drops (campaign bleed = soft; public leak = structural). Written to reconcile 0095 with 0091.
+
 ### What this pillar still owes
 The module contract (what a module exposes; how versions bind) is still abstract. The
 compiler's build path (evolve bundle.py vs greenfield) is deliberately undecided pending a
@@ -197,7 +270,54 @@ mined only conceptually), UI shape of Unicorn, how a non-executing frontend degr
 - 0028/0035 — checkpointed human gates ("agents propose, gates dispose"); surgical git staging, branch-per-run.
 - 0019 — companion rationale docs as anti-regression.
 - 0043 + appraisal protocol — graduation gates for experiments and notes alike.
+- 0112 — **design now, build into the frame** (folded in 2026-06-20): when a needed thing is really a data-model decision (semantic index, provenance graph, UUID merge), capture the design and *wait for the refactor*; the test is "native capability vs bolt-on script." The discipline that keeps the corpus-routing cluster (0108–0111) parked instead of hacked in now.
 - This vault's own conventions (tags as truth, verdict gate, mine→report→appraise→commit) are themselves a prototype of the spec discipline 0041 wants.
+
+---
+
+## Pillar 5 — Progression / rules-engine (the "system as code" axis)
+
+*New pillar, stood up 2026-06-20. The axis CLAUDE.md names as a core tension: `aegis-tools`
+embodies enforced rules-as-code; `rpg-tools`/`solorpg` deliberately avoid it. The four original
+pillars had no home for it. Already gestured at from P3 (0024 pluggable-up-to-a-rules-engine,
+0023 event-bus, 0020–0022 aegis data) — this pillar is where the **progression/mechanics content**
+lives, distinct from P3's plumbing for *how* modules plug in.*
+
+- 0104 — **progression as a pluggable layer** (seed): progression isn't a sequence of systems but
+  one **dial** — off (freeform) → light kit → heavy (Aegis); next-gen owns the *axis*, not one point.
+- 0105 — **tarot progression, a unifying failure** (proven): Tarot's four gears all died of one
+  flaw — under-specified symbolic markers with no semantic layer decayed into prose flavor; plus
+  token cost (⭐-strings) and rewrite-only updates. The negative case that defines the requirement.
+- 0106 — **three-layer character record** (seed): mechanical (statblock/JSON) + semantic
+  (interpretation contract) + prose (only where prose is payload); the **semantic layer is exactly
+  what Tarot fatally lacked**. Bridges to P1's type system (0085) and encoding spine (0118).
+- 0107 — **prose-deprecation doctrine** — also listed under P1's encoding spine; it's the doctrine
+  that governs which progression data is structured vs prose.
+
+**What this pillar owes:** all four notes are `verdict/unevaluated` — the most architecturally
+consequential unjudged cluster. The dial's *interface* (how off/light/heavy bind to the same KB),
+and how the semantic layer is actually authored, are open. Appraise before graduating.
+
+---
+
+## Pillar 6 — Model layer / fine-tuning (sidequest, quarantined)
+
+*New pillar, stood up 2026-06-20 — deliberately **thin and out-of-mainline**. Exists mostly to
+quarantine model-training as a sidequest: default play stays Opus/Desktop. The corpus/exemplar
+techniques that pay off **without** training were evacuated to P1 (0113/0114/0117); only the
+genuine "make and use a trained adapter" material lives here.*
+
+- 0116 — **a fine-tune earns its keep** (adopt): only where prompting can't reach — canonically,
+  making a small/local model hold a register zero-shot. Explicitly scoped as a *sidequest*; flags
+  per-campaign hot-swap adapters as possibly premature (0031/0112).
+- 0115 (weights-half) — **LoRA carries idiom, lorebook carries facts** (undecided): weights hold
+  voice + setting-idiom; hard facts must stay in the auditable lorebook — *SSoT applied to a trained
+  model* (weights are the worst place to store a fact). The facts-half is P1; the weights-half is here.
+- Natural pairing: 0081 (writer/planner split — local RP-finetune writes prose, Opus guards canon)
+  is the P4/P6 bridge; whether that split is durable or model-era economics is an open T6 question.
+
+**What this pillar owes:** almost everything beyond the scoping decision — it's intentionally
+under-built. Revisit only if a concrete register-holding need appears that prompting can't meet.
 
 ---
 
@@ -210,6 +330,9 @@ mined only conceptually), UI shape of Unicorn, how a non-executing frontend degr
 - **T5 — enforcement cost vs context economy.** 0013/0016's explained-counter-training and thinking-block enforcement are token-expensive every turn; 0066 reframes (attention, not length, is scarce; mandatory presence). 0081's two-attention split is one structural answer. No synthesis yet.
 - **T6 — transient or durable?** 0031's lens has confirmed kills (Lead+Lorekeeper, chunking, campaign.py) and live suspects: infodump-by-default (0060 wants the JIT retry), cache-economics scheduling (0077 — provider-variable, pushed consumer-side), writer/planner split (model-era economics?). Each design element owes a core-or-shell tag.
 - **T7 — markdown vault vs real database. RESOLVED 2026-06-06: go.** The cherrypick PoC ([[0090-cherrypick-contract-three-layers]], `experiments/cherrypick/`) demonstrated targeted sub-data extraction from fully Obsidian-compliant pages. Binding constraint shifts to template discipline (stable keys + controlled section vocabulary per page-type).
+- **T8 — who owns the search truth? (new, 2026-06-20).** 0040 (**adopt**) called the vector store "the searchable *source-of-truth*"; 0098 (unevaluated) inverts it — the vault `.md` is SSoT, the index is a rebuildable *view* over it. An adopted note now has a contradicting refinement sitting unjudged. Appraising 0098 must decide whether it amends 0040. (Leaning 0098, per the whole SSoT cluster — but it's a verdict, not a default.)
+- **T9 — the encoding floor (new, 2026-06-20).** 0118/0099/0107 push toward structured/pseudocode encoding to stop prose-drift; 0107 itself asks where the floor is — over-structuring kills what LLMs are actually good at (tacit pattern-matching from exemplars, 0005/0008). The payload/carrier split is the proposed rule; the floor is unset.
+- **Counter-default needs an external referent, *everywhere* (cross-cluster thread).** 0113's voice-rewrite can launder the strong model's own clichés (0114 "sails on a starship"); 0120's name generators hit the identical default-pull on the non-person axis. Same fix both places: an explicit banned/overused list as external referent (cf. 0076). Ties the voice cluster (P1) to namesets (P1) to 0097's self-canonization problem (P2).
 
 ## Coverage gaps (vision says it; vault barely does)
 
@@ -218,6 +341,7 @@ mined only conceptually), UI shape of Unicorn, how a non-executing frontend degr
 3. **Campaign isolation** — ~~no design note owns it~~ structural decision made 2026-06-06 ([[0091-one-vault-campaign-folder-entrypoints]]): one vault, campaign-folder entrypoints, tool-enforced boundaries. Remaining gap: the enforcement tool's design.
 4. **Migration** — 0042 gives the *policy* (async, declared versions); nothing on the actual path from today's 19 live campaigns.
 5. **An end-to-end session walkthrough** — no artifact shows the reimagined loop as one story: workshop → compile → play → harvest → vault.
+6. **Progression interface** (P5, new) — the *content* is now mapped (the dial, three-layer record, the Tarot autopsy) but how off/light/heavy bind to one KB, and how the semantic layer is authored, are open. All unevaluated.
 
 ## Standing mining leads (named in notes, never executed)
 
@@ -232,6 +356,18 @@ E:\rpg entity-registry & disambiguation (0040) · deeper rpg-tools structural mi
 5. **Narrative structure — units & axes** (0121–0123) — small but already 2-of-3 adopted and
    owner-ratified as foundation; would graduate fast once branch mechanics + season's fate
    settle. The cleanest candidate to *start* a theme doc from since its spine is already fixed.
+6. **Import / corpus-routing** (0108–0111 + 0112) — RIPE: five coherent notes, one authoritative
+   source (solorpg IMPORT-DESIGN-BRIEF), clear spine (edges → k-NN → survey → provenance). All
+   `unevaluated` — appraise first, then graduate. Pairs with the roadmap candidate below.
+7. **Progression / rules-engine** (0104–0107, the new P5) — coherent arc (axis → failure → fix →
+   doctrine) and surfaces the new pillar; **all unevaluated**, the gate must clear first.
+8. **SSoT: canonical-raw vs derived renders** (0093/0094/0098 + 0056/0069/0002/0040) — now one of
+   the densest themes; one sharp blocking decision (T8, the 0040↔0098 inversion) before it graduates.
+9. **Namesets** (0119/0120 + 0013/0087/census-namesets) — nearly ripe; 0119/0120 await formal verdict.
+
+*(Reordering note: 0092–0123 added four new graduation candidates. Voice & register and
+craft-skill authoring remain the two most ready; import/corpus-routing is the strongest of the
+newcomers because it has a single source and a roadmap consumer waiting on it.)*
 
 ## Roadmap candidates (concrete enough to sequence once the frame exists)
 
