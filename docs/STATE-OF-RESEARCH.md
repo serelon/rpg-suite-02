@@ -26,6 +26,11 @@ created: 2026-06-06
 | Theme docs graduated | 2 — [[modular-self-evolving-architecture]], [[knowledge-base-canonical-vault]] |
 | Inbox | 1 item |
 
+> **Census is stale (as of 2026-06-20 the vault is at 123 notes).** Notes 0092–0123 are not
+> yet folded into the pillar digests above, except the narrative-structure cluster
+> (0121–0123, added below under Pillar 2). A full re-census is owed. Recent appraisals not
+> reflected in the table: 0121 **adopt**, 0123 **adopt**, 0122 **adapt**.
+
 **Appraisal lens going forward (agreed 2026-06-06):** we are auditing our own previous
 gen, not gatekeeping a stranger's patterns. The question is not "adopt/reject?" but
 **"what's the next-gen delta?"** — *carry as-is / carry with this evolution / superseded
@@ -105,11 +110,35 @@ not length** — attention is the scarce resource (0066).
 - 0051 — live context delta: mid-session patches as diffs, never reloads.
 - 0054 — verbatim capture, lost intent: the pipeline drifted from its own spec (rewrite instead of copy).
 
+### Narrative structure — the units & axes of play (new cluster, 2026-06-20)
+The first notes to name the *temporal/narrative units themselves* (all prior ~120 are
+data/context/tooling). Cross-cuts Pillars 1 and 2.
+- 0121 — **the granularity ladder** (**adopt**, owner-ratified *foundation*, maturity/proven):
+  `update < scene < act? < session < arc? < season < campaign` (session = the numbered,
+  load-bearing unit, fka *episode*). It *isn't a tree*: a session sorts on two **time-axes**
+  (telling-order = session #, the monotonic spine; story-time = timeline, jumps when non-linear
+  → bitemporal, cf. 0103) plus a separate **organizational** cross-cut (branch, below). Three
+  axes are **capacity, not mandatory population** — linear/single-branch is the cheap default;
+  the model just must not *preclude* complexity (guards the 0031 / `E:\rpg` over-build trap).
+- 0123 — **branch is the organizational POV axis** (**adopt**, proven in solorpg). A branch is a
+  parallel protagonist *workspace* in one shared world+timeline (Long Watch: Val/Lyra/Rosa/…),
+  **not** a canon fork; owns the folder/savefiles/bundle-template; nests for *shared-state*
+  reasons (Leviathan parent = fleet-save container). **Hard rule: organization (branch) ≠
+  narrative structure (arc); track separately** — conflating breaks things. This is the branch
+  half of 0047's "campaign/branch/subsetting as composable axes" (Pillar 3), now with the
+  separate-from-narrative constraint made explicit.
+- 0122 — **the compaction boundary is descending** (**adapt**). Season was a *coupled*
+  context-window/narrative constraint (summaries accreted → forced compaction = season break,
+  which *pushed* the story toward a finale). Compaction granularity → a finer **tunable** is a
+  next-gen commitment (cf. 0009/0051/0094); season-the-unit is **on probation** (legacy-only
+  since the current system) — kept optional, settled neither way. A clean 0031 instance.
+
 ### What this pillar still owes
 No end-to-end picture of *a next-gen session* exists — prep → play → harvest as one
 walkthrough. Voice/register and craft-skill clusters each have enough notes to graduate.
 Scene-boundary detection is flagged "genuinely unsolved" (0075) and three threads depend on
-it (streamed librarian, cache flush points, eviction boundaries).
+it (streamed librarian, cache flush points, eviction boundaries) — and it now also blocks
+0122's per-scene/per-arc compaction tunability and 0121's scene/act boundary recognition.
 
 ---
 
@@ -200,6 +229,9 @@ E:\rpg entity-registry & disambiguation (0040) · deeper rpg-tools structural mi
 2. **Craft-skill authoring** (0013–0017, 0066) — proven in gm-skill, clean failure taxonomies.
 3. **The compiler / composition stack** (0010, 0039, 0044, 0045, 0051, 0056–0058, 0063) — blocked partly on the bundle.py audit.
 4. **The play-loop doctrine** (0080, 0078/0079, 0089, 0048/0052, 0060) — newest, still settling.
+5. **Narrative structure — units & axes** (0121–0123) — small but already 2-of-3 adopted and
+   owner-ratified as foundation; would graduate fast once branch mechanics + season's fate
+   settle. The cleanest candidate to *start* a theme doc from since its spine is already fixed.
 
 ## Roadmap candidates (concrete enough to sequence once the frame exists)
 
