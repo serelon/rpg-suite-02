@@ -44,6 +44,51 @@ by [x]*. Zero rejects is the expected outcome, and the deltas are design input.
 
 ---
 
+## The loop as spine (2026-06-23)
+
+The pillars are a *what-have-we-got* overlay; **the grand loop**
+([[0124-the-grand-loop]]) is the *what-does-it-all-add-up-to* overlay. They cross-reference:
+every pillar hangs off one or more **stages** of the loop, so "which pillar to advance" and
+"which stage to design" become the same question.
+
+```
+ claude.ai dump ─► [bulk ingest] ─► sessions ─► import ─► [postprocess] ─► 〈campaign vault〉
+   workshop ─┬─► bootstrap ─► session-prep ─► bundle ─► play ─► export ──┘
+             ├─► reference ─► 〈vault〉            〈vault〉 ─► [archive old data] ─► 〈cold storage〉
+             └─► scratch / quarantine
+```
+
+| Loop stage | Owner pillar(s) | Anchors |
+|---|---|---|
+| bulk ingest / corpus-routing | **P1** (import cluster) | 0108–0112, [[import-design-brief]] |
+| per-session import (chunk) | **P1** | 0032, 0094 |
+| **`[postprocess]`** ⬛ *black box* | **P1** librarian · **P2** summaries · **P5** record updates | 0075, 0122, 0106 |
+| **`〈campaign vault〉`** ⬛ *black box* | **P1** — the whole pillar *is* the vault | 0093/4/8, 0085, 0102/3, [[knowledge-base-canonical-vault]] |
+| session-prep | **P3** compose · **P1** selective read | 0039, 0100 |
+| bundle | **P3** · **P4** (portable) | 0044/0056, 0063 |
+| play | **P2** loop · **P5** progression · **P6** writer · **P4** surface | 0080, 0104, 0081 |
+| export | **P2 / P3** | [[export-structure-map]] |
+| workshop inlet | **P2** engineer/gardener · **Meta** | 0080 (seeds); reference→vault = P1; scratch = quarantine |
+| archive / drain | **P1** lifecycle | 0046 |
+| branch (*selector, not a stage*) | **P3** composable axes | 0047, 0123 |
+
+**What the mapping reveals** (the reason to keep this overlay):
+
+1. **P1 owns the entire bottom arc** — import → postprocess → vault → drain (four stages), and
+   *both black boxes are P1*. The next design drill-down (postprocess internals or vault
+   internals) is unambiguously a **Pillar-1 dive**, established structurally, not by gut.
+2. **P3 and `branch` are the same kind of thing** — neither is a *stage*; both are *how stages
+   compose/run*. P3 is connective tissue threaded through session-prep/bundle/export; branch is a
+   selector over reads. The flow is the loop; composition is orthogonal to it. (Generalizes 0123's
+   "branch isn't narrative structure": *composition isn't flow* either.)
+3. **P4 maps to a single, thin stage (`play`)** — which makes the long-flagged frontend gap
+   *spatial*: one box with almost nothing behind it.
+
+This is the seed of the roadmap spine (step 1): sequence work by walking the loop, with P1's
+bottom-arc as the natural first object of design.
+
+---
+
 ## Pillar 1 — Data storage & the Knowledge Base
 
 *The most mature pillar. Largely synthesized already in [[knowledge-base-canonical-vault]]
