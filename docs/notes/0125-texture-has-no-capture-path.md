@@ -44,16 +44,27 @@ through.
 So the axis the system is missing isn't fact-vs-feeling — it's **load-bearing-for-plot vs
 load-bearing-for-world**. Both deserve capture; only the first has a path.
 
+**Owner notes (2026-06-24).** Two clarifications that sharpen the gap:
+- This isn't a *theoretical* gap — **memories are *supposed* to catch this texture and in
+  practice aren't.** So [[0030]]'s "texture evicted to memories" isn't wrong in *intent*;
+  the escape valve exists but **leaks** — the design says memories hold texture, the prompt
+  doesn't actually pull it. A live failure, not a missing-by-design hole.
+- The texture-bank link ([[0055]]) is **very close** — *"bigger chunks of the same thing."*
+  The line between *memory* and *texture bank* is **expected to be blurry**, and that
+  blur is itself a **design-time** question (flagged, not resolved here). Working
+  distinction: **memory-texture = larger, more specific chunks**; texture-bank entries =
+  smaller. Same substance, different granularity — likely one spectrum, not two artifacts.
+
 **Open threads.**
-- **[[0030-summary-as-compression]]** claims *"texture evicted to memories"* — but the
-  extractor doesn't catch *this* texture, so 0030's escape valve has a hole. Reconcile: is
-  texture a *memory* at all, or its own thing?
-- Strong pull toward **[[0055-register-anchor-banks]]** (the *texture bank* — harvested
-  world-voice) and **[[0107-prose-deprecation-doctrine]]** (keep prose where it's the
-  *payload*: voice/appearance/texture). Is "low-weight texture" the **same** artifact as the
-  texture bank, or a sibling? The texture bank is about *voice*; this is about *world facts*
-  (a uniform's cut is a fact, not a register). Possibly: texture bank = how the world
-  *sounds*; this = how the world *looks/works in small*.
+- **[[0030-summary-as-compression]]**: the valve leaks (above) — reconcile at design time
+  whether texture *is* a memory, a texture-bank entry, or a point on a shared granularity
+  spectrum spanning both.
+- **[[0055-register-anchor-banks]]** / **[[0107-prose-deprecation-doctrine]]** (keep prose
+  where it's the *payload*: voice/appearance/texture): if memory-texture and texture-bank
+  are the same substance at different sizes, the open question flips from *"same or
+  sibling?"* to *"where's the granularity cut, and is it even a hard line?"* (Earlier guess
+  — bank = how the world *sounds*, memory = how it *looks/works in small* — may be too
+  clean; the blur suggests one continuum.)
 - Does this want a **new memory type** (`texture`?), a **separate store**, or a **second
   extraction pass** that explicitly hunts the minor? (A weight-selecting pass and a
   texture-sweeping pass have opposite instincts — hard to do well in one prompt. Echoes the
