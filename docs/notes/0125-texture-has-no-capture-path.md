@@ -24,6 +24,17 @@ hold these fine. But the extraction *prompt* asks "what mattered **most**?" — 
 never gets surfaced. We prompt for the peaks; texture is the grain, and the grain falls
 through.
 
+**Two kinds of texture, same gap.** Not just *world* texture (how a uniform looks, a
+dead-drop procedure) but **mechanical texture** — the *rendering contract* for a mechanical
+object. A specific weapon has a mechanical layer (stats), but *"how this weapon should be
+**written** when it's used"* is a distinct, capturable thing. Without it, the GM
+re-improvises an interpretation every time the weapon appears → exactly the drift the system
+exists to prevent. This is the **prose layer of [[0106-three-layer-character-record]]**
+applied beyond characters: mechanical (stats) + semantic (interpretation contract) + prose
+(how it reads). Leaving the prose layer to live-improv is the same failure mode as Tarot's
+missing semantic layer ([[0105]]) — under-specified, so it decays into whatever the GM
+guesses that session.
+
 **Where it comes from.** Confirmed against the live prompts:
 - `solorpg/prompts/memory-extraction-guide.md` — *"Focus on what has weight/resonance"*;
   *"Memories should be selective, not comprehensive"*; substance floor *"usually 100+
