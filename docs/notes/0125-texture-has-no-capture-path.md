@@ -35,6 +35,14 @@ applied beyond characters: mechanical (stats) + semantic (interpretation contrac
 missing semantic layer ([[0105]]) — under-specified, so it decays into whatever the GM
 guesses that session.
 
+*Selection rule (owner):* mechanical texture is needed **in proportion to how invented the
+thing is.** Contemporary/known objects (a Glock, a leather jacket) carry a stable shared
+referent in the model — leave them as-is, the renders already converge. **Fantasy/sci-fi**
+objects have *no external anchor*, so every appearance re-invents look-and-feel → drift.
+The fictional-er the object, the more it needs a captured rendering contract. (Same logic
+as [[0013]] name-the-default: where the model has no strong shared prior, you must supply
+the anchor or it improvises one and wanders.)
+
 **Where it comes from.** Confirmed against the live prompts:
 - `solorpg/prompts/memory-extraction-guide.md` — *"Focus on what has weight/resonance"*;
   *"Memories should be selective, not comprehensive"*; substance floor *"usually 100+
